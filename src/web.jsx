@@ -3,7 +3,7 @@ function Web() {
 
   return (
     <main>
-      <h1>Teléfonoaudiolibro.es</h1>
+      <h1 className="text-5xl font-bold">Teléfonoaudiolibro.es</h1>
     </main>
   )
 }
