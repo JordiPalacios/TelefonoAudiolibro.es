@@ -17,9 +17,12 @@
 
   /** Variables globales */
   /*! Cambiar color primario */
-  --primary-color: #6200ea; 
+  --primary-color: #ffb3e3; 
   /*! Cambiar color secundario */
-  --secondary-color: #03dac6; 
+  --secondary-color: #f5f5f5; 
+  --white: #f5f5f5;
+  --black: #141414;;
+  --accent-color: #e1fe6a;
   --font-size-base: 16px;
   --spacing-base: 1rem;
 }
@@ -28,7 +31,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  scrollbar-color: purple gray;
+  scrollbar-color: #ffb3e3 rgb(20, 20, 20);
   scrollbar-width: thin;
 }
 
