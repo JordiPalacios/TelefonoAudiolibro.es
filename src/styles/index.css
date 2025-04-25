@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   /** Tipografia y diseño */
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -21,7 +23,7 @@
   /*! Cambiar color secundario */
   --secondary-color: #f5f5f5; 
   --white: #f5f5f5;
-  --black: #141414;;
+  --black: #141414;
   --accent-color: #e1fe6a;
   --font-size-base: 16px;
   --spacing-base: 1rem;
