@@ -1,58 +1,59 @@
 @import "tailwindcss";
 
 :root {
-  /** Tipografia y diseño */
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+    /** Tipografia y diseño */
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
 
-  /** Esquema de colores */
-  color-scheme: light dark;
-  color: var(--black);
-  background-color: var(--white);
+    /** Esquema de colores */
+    color-scheme: light dark;
+    color: var(--black);
+    background-color: var(--white);
 
-  /** Optimización de fuentes */
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    /** Optimización de fuentes */
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
-  /** Variables globales */
-  /*! Cambiar color primario */
-  --primary-color: #ff80c0; 
-  /*! Cambiar color secundario */
-  --secondary-color: #f5f5f5; 
-  --white: #f5f5f5;
-  --black: #141414;
-  --accent-color: #e1fe6a;
-  --font-size-base: 16px;
-  --spacing-base: 1rem;
+    /** Variables globales */
+    /*! Cambiar color primario */
+    --primary-color: #ff80c0;
+    /*! Cambiar color secundario */
+    --secondary-color: #f5f5f5;
+    --white: #f5f5f5;
+    --black: #141414;
+    --accent-color: #e1fe6a;
+    --font-size-base: 16px;
+    --spacing-base: 1rem;
 }
 
-*, 
-*::before, 
+*,
+*::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  scrollbar-color: #ffb3e3 rgb(20, 20, 20);
-  scrollbar-width: thin;
+    margin: 0;
+    padding: 0;
+    scrollbar-color: #ffb3e3 rgb(20, 20, 20);
+    scrollbar-width: thin;
 }
 
-html, body {
-  scroll-behavior: smooth;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
+html,
+body {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
