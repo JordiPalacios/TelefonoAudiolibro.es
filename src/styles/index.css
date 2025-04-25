@@ -6,8 +6,8 @@
 
   /** Esquema de colores */
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--black);
+  background-color: var(--white);
 
   /** Optimización de fuentes */
   font-synthesis: none;
@@ -17,7 +17,7 @@
 
   /** Variables globales */
   /*! Cambiar color primario */
-  --primary-color: #ffb3e3; 
+  --primary-color: #ff80c0; 
   /*! Cambiar color secundario */
   --secondary-color: #f5f5f5; 
   --white: #f5f5f5;
