@@ -1,13 +1,14 @@
 import React from 'react'
 import { Outlet } from 'react-router'
+import { Footer, NavMenu } from '../components'
 
 export const Layout = () => {
     return (
         <>
-            <section>Navbar</section>
+            <NavMenu />
             {/* Aquí renderizo los componentes de forma dinámica */}
             <Outlet />
-            <section>Footer</section>
+            <Footer />
         </>
     )
 }
