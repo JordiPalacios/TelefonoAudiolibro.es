@@ -4,6 +4,7 @@
 
 .hamburger {
     cursor: pointer;
+    display: inline-block;
 }
 
 .hamburger input {
