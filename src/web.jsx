@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router";
+import { Navigate, Route, Routes } from "react-router";
 import { AvisoLegal, PoliticaPrivacidad, TelefonoAudiolibro, TerminosCondiciones } from "./page";
 import { Layout } from "./page/layout";
 
@@ -11,7 +11,7 @@ function Web() {
                 <Route path="terminos-condiciones" element={<TerminosCondiciones />} />
                 <Route path="politica-privacidad" element={<PoliticaPrivacidad />} />
             </Route>
-            <Route path='*' element={<TelefonoAudiolibro />} />
+            <Route path='*'  element={<Navigate to="/" replace />} />
         </Routes>
     );
 }
