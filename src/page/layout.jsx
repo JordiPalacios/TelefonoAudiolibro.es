@@ -1,11 +1,12 @@
 import React from 'react'
+import { Outlet } from 'react-router'
 
 export const Layout = () => {
-    // ? Pensar bien en hacer el layout porque sera compartido para todas las páginas que se creen
     return (
         <>
             <section>Navbar</section>
-            
+            {/* Aquí renderizo los componentes de forma dinámica */}
+            <Outlet />
             <section>Footer</section>
         </>
     )
