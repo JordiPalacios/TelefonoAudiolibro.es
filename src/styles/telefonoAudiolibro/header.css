@@ -1,0 +1,33 @@
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--primary-color);
+    min-width: 100dvh;
+    min-height: 100dvh;
+}
+
+.headerContainer img {
+    border-radius: 50%;
+    width: 100dvh;
+    height: 70dvh;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.headerDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+@media (max-width: 1199px) {
+    .headerContainer img {
+        display: none;
+    }
+}
