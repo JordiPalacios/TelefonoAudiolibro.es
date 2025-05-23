@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
     background: url('./public/media/header/telf04.webp') center/cover no-repeat;
-    height: calc(100vh - 50px);
+    height: 100vh;
 }
 
 .headerContainer img {
@@ -50,7 +50,7 @@
         border-radius: 50%;
         box-shadow: #f5f5f5 0px 0px 10px 0px;
         width: 70dvh;
-        height: 65dvh;
+        height: 70dvh;
         object-fit: cover;
         padding: 10px;
     }
