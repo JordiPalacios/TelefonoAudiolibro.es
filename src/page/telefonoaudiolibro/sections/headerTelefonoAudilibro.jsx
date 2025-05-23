@@ -17,8 +17,6 @@ export const HeaderTelefonoAudilibro = () => {
                     <p className="font-bold text-white md:text-xl xl:text-xl">El 99% de las personas que no lo tienen en su boda se arrepienten...</p>
                 </div>
             </section>
-            {/* Importar el hook useWorkingMode de otro proyecto para seleccionar que imagen pongo o hacerlo con un class personalizado      */}
-            {/* <img src="./public/media/header/telf04.webp" alt="telefonoaudiolibro.es"/> */}
             <img src="./public/media/header/telf07.webp" alt="telefonoaudiolibro.es"/>
         </>
     )
