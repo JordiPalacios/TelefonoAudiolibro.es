@@ -2,7 +2,7 @@
 export const Section = ({ children, className = '', as = 'section' }) => {
     const Tag = as
     return (
-        <Tag className= {`w-full h-auto px-6 py-2 my-2 select-none ${className}`}>
+        <Tag className= {`w-full h-auto px-6 select-none ${className}`}>
             {children}
         </Tag>
     )
