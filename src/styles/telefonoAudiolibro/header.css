@@ -43,7 +43,7 @@
 
 @media (min-width: 1200px) {
     .headerContainer {
-    background: url('./public/media/header/telf07.webp') center/cover no-repeat;
+    background: url('./media/header/telf07.webp') center/cover no-repeat;
     }
     .headerContainer img {
         display: flex;
