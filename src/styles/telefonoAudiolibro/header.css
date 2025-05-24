@@ -5,7 +5,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background: url('./public/media/header/telf04.webp') center/cover no-repeat;
+    background: url('./media/header/telf04.webp') center/cover no-repeat;
     height: 100vh;
 }
 
