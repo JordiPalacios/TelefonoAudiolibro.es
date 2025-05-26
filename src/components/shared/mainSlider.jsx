@@ -59,14 +59,16 @@ export const MainSlider = ({type, draggable, swipe, touchMove , dots, arrows, in
             if (document.hidden) {
                 sliderRef.current && sliderRef.current.slickPause();
             } else {
-                sliderRef.current && sliderRef.current.slickPlay();
+                if (autoplay) {
+                    sliderRef.current && sliderRef.current.slickPlay();
+                }
             }
         };
         document.addEventListener("visibilitychange", handleVisibilityChange);
         return () => {
             document.removeEventListener("visibilitychange", handleVisibilityChange);
         };
-    }, [])
+    }, [autoplay])
 
     const getSlideProps = (data) => {
         switch (type) {
