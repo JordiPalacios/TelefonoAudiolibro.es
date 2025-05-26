@@ -18,8 +18,6 @@ export const NavMenu = () => {
         setIsOpen(!isOpen);
     }
 
-    console.log(isOpen)
-
     return (
         <>
         <nav 
