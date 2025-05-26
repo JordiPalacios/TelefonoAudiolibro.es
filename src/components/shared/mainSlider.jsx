@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react"
 import FrasesData from '../../assets/mocks/frases.json'
 import VideoData from '../../assets/mocks/video.json'
+import ImagenesData from '../../assets/mocks/imagenes.json'
 import Slider from "react-slick"
 import { SliderMedia } from "./sliderMedia"
 
@@ -16,6 +17,9 @@ export const MainSlider = ({type, draggable, swipe, touchMove , dots, arrows, in
             break; 
         case 'videos':
             sliderData = VideoData
+            break;
+        case 'imagenes':
+            sliderData = ImagenesData
             break;
         default:
             sliderData = []
@@ -69,14 +73,20 @@ export const MainSlider = ({type, draggable, swipe, touchMove , dots, arrows, in
             case 'frases':
                 return {
                     frase: data.frase,
-                    typeMedia: "frases"
+                    typeMedia: type
                 }
             case 'videos':
                 return {
                     url: data.url,
                     name: data.name,
                     poster: data.poster,
-                    typeMedia: "videos",
+                    typeMedia: type,
+                }
+            case 'imagenes':
+                return {
+                    url: data.url,
+                    name: data.name,
+                    typeMedia: type,
                 }
             default:
                 return {};
