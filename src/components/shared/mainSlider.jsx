@@ -8,6 +8,7 @@ import { SliderMedia } from "./sliderMedia"
 export const MainSlider = ({type, draggable, swipe, touchMove , dots, arrows, infinite, speed, slidesToShow, slidesToScroll, autoplay, autoplaySpeed }) => {
     let sliderData
     const sliderRef = useRef(null)
+    const isVideo = type === 'videos'
 
     switch (type) {
         case 'frases':
@@ -35,6 +36,17 @@ export const MainSlider = ({type, draggable, swipe, touchMove , dots, arrows, in
             speed,
             autoplaySpeed,
             cssEase: 'ease',
+            ...(isVideo && 
+                {
+                    afterChange: () => {
+                        // Pausa todos los videos antes de cambiar de slide
+                        const videos = document.querySelectorAll('video');
+                        videos.forEach((video) => {
+                            video.pause();
+                        })
+                    }
+                }
+            )
         }        
         
 
@@ -57,7 +69,6 @@ export const MainSlider = ({type, draggable, swipe, touchMove , dots, arrows, in
             case 'frases':
                 return {
                     frase: data.frase,
-                    styleType: "frases",
                     typeMedia: "frases"
                 }
             case 'videos':
@@ -65,7 +76,6 @@ export const MainSlider = ({type, draggable, swipe, touchMove , dots, arrows, in
                     url: data.url,
                     name: data.name,
                     poster: data.poster,
-                    styleType: "videos",
                     typeMedia: "videos",
                 }
             default:
