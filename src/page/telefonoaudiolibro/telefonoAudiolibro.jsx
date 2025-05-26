@@ -2,6 +2,7 @@ import { Section } from '../../components/shared/section'
 import { HeaderTelefonoAudilibro } from './sections/headerTelefonoAudilibro'
 import { MainSlider } from '../../components/shared/mainSlider'
 import { useWorkingMode } from '../../assets/customHooks/useWorkingMode'
+import { Seccion1Video, Seccion2Audios, Seccion3Guia, Seccion4Conclusion, Seccion5ProsContras } from './sections'
 
 export const TelefonoAudiolibro = () => {
     const workingMode = useWorkingMode('Mobile')
@@ -13,7 +14,8 @@ export const TelefonoAudiolibro = () => {
             <Section as="header" className="headerContainer">
                 <HeaderTelefonoAudilibro />
             </Section>
-            <main>                
+            <main>              
+                <div className='w-full bg-gray-300' style={{ height:"8px" }}></div>
                 <Section as="section" className="bg-gray-100">
                     <MainSlider
                     type="frases"
@@ -30,7 +32,8 @@ export const TelefonoAudiolibro = () => {
                     autoplaySpeed={10000}
                     />
                 </Section>
-                <Section as="section" className="bg-pink-300/80 py-10">
+                <div className='w-full bg-gray-300' style={{ height:"8px" }}></div>
+                <Section as="section" className="bg-gray-100 py-10">
                     <MainSlider
                     type="videos"
                     draggable={true}
@@ -48,6 +51,21 @@ export const TelefonoAudiolibro = () => {
                     autoplay={false}
                     autoplaySpeed={0}
                     />
+                </Section>
+                <Section as="section" className="bg-pink-300">
+                    <Seccion1Video />
+                </Section>
+                <Section as="section" className="bg-gray-100">
+                    <Seccion2Audios />
+                </Section>
+                <Section as="section" className="bg-pink-300">
+                    <Seccion3Guia />
+                </Section>
+                <Section as="section" className="bg-gray-100">
+                    <Seccion4Conclusion />
+                </Section>
+                <Section as="section" className="bg-pink-300">
+                    <Seccion5ProsContras />
                 </Section>
             </main>
         </>

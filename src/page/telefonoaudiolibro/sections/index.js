@@ -1,1 +1,7 @@
 export * from './headerTelefonoAudilibro'
+export * from './seccion1Video'
+export * from './seccion2Audios'
+export * from './seccion3Guia'
+export * from './seccion4Conclusion'
+export * from './seccion5ProsContras'
+export * from './reviews'

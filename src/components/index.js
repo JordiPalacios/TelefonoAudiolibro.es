@@ -5,3 +5,4 @@ export * from "./shared/footer.jsx";
 
 //* Components
 export * from "./hamburger.jsx";
+export * from "./card.jsx";
