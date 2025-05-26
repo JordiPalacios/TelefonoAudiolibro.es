@@ -2,7 +2,9 @@
 /* **************************** */
 /* ***    Slider General    *** */
 /* **************************** */
-
+.slick-prev:before, .slick-next:before {
+    color: var(--primary-color);
+}
 
 /* **************************** */
 /* ******    Frases    ****** */
