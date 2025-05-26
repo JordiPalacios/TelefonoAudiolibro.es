@@ -1,8 +1,11 @@
 import { Section } from '../../components/shared/section'
 import { HeaderTelefonoAudilibro } from './sections/headerTelefonoAudilibro'
 import { MainSlider } from '../../components/shared/mainSlider'
+import { useWorkingMode } from '../../assets/customHooks/useWorkingMode'
 
 export const TelefonoAudiolibro = () => {
+    const workingMode = useWorkingMode('Mobile')
+
     
 
     return (
@@ -20,27 +23,30 @@ export const TelefonoAudiolibro = () => {
                     dots={false}
                     arrows={false}
                     infinite={true}
+                    speed={5000}
                     slidesToShow={1}
                     slidesToScroll={1}
                     autoplay={true}
-                    speed={5000}
                     autoplaySpeed={10000}
                     />
                 </Section>
-                {/* AQUÍ ESTA EL PROBLEMA DEL PADDING O EL EXTRA DE ANCHO EN EL VÍDEO */}
-                <Section as="section" className="bg-gray-900 p-2 m-0">
+                <Section as="section" className="bg-pink-300/80 py-10">
                     <MainSlider
                     type="videos"
                     draggable={true}
                     swipe={true}
                     touchMove={true}
-                    dots={true}
+                    dots={false}
                     arrows={true}
                     infinite={true}
-                    slidesToShow={1}
+                    speed={500}
+                    {...(workingMode === "PC" 
+                        ? {slidesToShow: 3} 
+                        : {slidesToShow: 1}
+                    )}
                     slidesToScroll={1}
                     autoplay={false}
-                    speed={500}
+                    autoplaySpeed={0}
                     />
                 </Section>
             </main>

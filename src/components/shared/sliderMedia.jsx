@@ -1,11 +1,11 @@
 
 import PropTypes from 'prop-types'
 
-export const SliderMedia = ({styleType, typeMedia, url, name , poster, frase}) => {
+export const SliderMedia = ({typeMedia, url, name , poster, frase}) => {
       //Decido con la clase a trabajar en el slider
     let className
 
-    switch (styleType) {
+    switch (typeMedia) {
         case 'frases':
             className = 'frasesSlider'
             break;
@@ -44,6 +44,7 @@ export const SliderMedia = ({styleType, typeMedia, url, name , poster, frase}) =
                     controlsList='nodownload' 
                     poster={poster}  
                     playsInline
+                    className='rounded-2xl'
                 />
             )}
         </div>
