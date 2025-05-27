@@ -52,7 +52,7 @@ export const TelefonoAudiolibro = () => {
                     autoplaySpeed={0}
                     />
                 </Section>
-                <Section as="section" className="bg-pink-300">
+                <Section as="section" className="bg-pink-500/50 flex flex-col lg:flex-row gap-4 items-start justify-between text-start overflow-hidden">
                     <Seccion1Video />
                 </Section>
                 <Section as="section" className="bg-gray-100">
