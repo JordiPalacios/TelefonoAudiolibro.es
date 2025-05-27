@@ -21,25 +21,31 @@ export const NavMenu = () => {
     return (
         <>
         <nav 
-            className={`navContainer fixed top-0 left-0 w-full z-50 flex items-center justify-between p-4 transition-all duration-300
+            className={`navContainer fixed top-0 left-0 w-full z-50 flex flex-row-reverse items-center justify-between lg:justify-center lg:gap-0 p-4 transition-all duration-300
                 ${scrolled
                     ? "bg-white/60 backdrop-blur-md shadow"
                     : "bg-transparent"
                 }`}
                 >
             <Hamburger onChange={toggleMenu} />
-            <h1 className="hidden lg:block">Solo pc</h1>
-            <h1 className="text-md text-white/90 font-serif font-bold truncate hover:text-white/70 transition-colors duration-300">
+            <div className="w-full flex flex-row items-start justify-end lg:gap-10 px-6">
+                <a 
+                    href="/"
+                    className="hidden lg:block text-white hover:text-white/70 transition-colors duration-300" >
+                    Inicio
+                </a>
+                <a
+                    href="/contacto"
+                    className="hidden lg:block text-white hover:text-white/70 transition-colors duration-300"
+                    >
+                    Contacto
+                </a>
+            </div>
+            <h1 className="w-full text-md text-white/90 font-serif font-bold truncate hover:text-white/70 transition-colors duration-300">
                 <a href="/">                    
                     telefonoaudiolibro.es
                 </a>
             </h1>
-            <a
-                href="/contacto"
-                className="text-white hover:text-white/70 transition-colors duration-300"
-                >
-                Contacto
-            </a>
         </nav>
         {isOpen && (
             <aside className="fixed top-18 left-0 w-fit h-full z-50  flex flex-col items-start py-2 px-6 bg-white/20 backdrop-blur-md shadow">
