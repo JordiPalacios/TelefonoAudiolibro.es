@@ -1,8 +1,7 @@
 
 export const Seccion4Conclusion = () => {
     return (
-        <>
-            <img src="/media/header/telf07.webp" alt="telefonoaudiolibro.es" width="150px" height="150px"/>
+        <div className="flex flex-col lg:flex-row items-center justify-between bg-gray-100">
             <div>
                 <h2 className="font-bold text-3xl">
                     VALE, PERO...
@@ -33,6 +32,7 @@ export const Seccion4Conclusion = () => {
                     COMPROBAR DISPINIBILIDAD
                 </button>
             </div>
-        </>
+            <img src="/media/header/telf07.webp" alt="telefonoaudiolibro.es" width="150px" height="150px"/>
+        </div>
     )
 }
