@@ -58,7 +58,7 @@ export const TelefonoAudiolibro = () => {
                 <Section as="section" className="bg-gray-100">
                     <Seccion2Audios />
                 </Section>
-                <Section as="section" className="bg-pink-300">
+                <Section as="section" className="bg-pink-300 my-10">
                     <Seccion3Guia />
                 </Section>
                 <Section as="section" className="bg-gray-100">
