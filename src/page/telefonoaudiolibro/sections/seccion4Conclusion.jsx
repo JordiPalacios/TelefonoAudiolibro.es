@@ -1,7 +1,7 @@
 
 export const Seccion4Conclusion = () => {
     return (
-        <div className="flex flex-col lg:flex-row items-center justify-between bg-gray-100">
+        <div className="flex flex-col lg:flex-row items-center justify-between text-center overflow-hidden gap-4">
             <div>
                 <h2 className="font-bold text-3xl">
                     VALE, PERO...

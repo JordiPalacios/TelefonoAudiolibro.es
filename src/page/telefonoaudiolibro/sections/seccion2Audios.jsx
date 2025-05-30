@@ -3,7 +3,7 @@ import { MainSlider } from "../../../components/shared/mainSlider"
 export const Seccion2Audios = () => {
     return (
         <>
-            <div className="flex flex-col items-stretch justify-center">
+            <div className="flex flex-col items-center justify-center">
                 <h2 className="text-center text-xl font-bold font-serif">
                     NO TODO EL MUNDO TIENE LA VOZ DE SU ABUELA GUARDADA PARA SIEMPRE
                 </h2>
