@@ -48,7 +48,7 @@ export const NavMenu = () => {
             </h1>
         </nav>
         {isOpen && (
-            <aside className="fixed top-18 right-0 w-fit h-full z-50  flex flex-col items-start py-2 px-6 bg-white/20 backdrop-blur-md shadow">
+            <aside className="fixed top-18 right-0 w-fit h-full z-50  flex flex-col items-start py-2 px-6 bg-black/20 backdrop-blur-md shadow">
                 <a href="/" className="mb-4 text-lg font-bold text-white">Inicio</a>
                 <a href="/contacto" className="mb-4 text-lg font-bold text-white">Contacto</a>
                 {/* Añadir más enlaces o contenido aquí */}
