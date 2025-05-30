@@ -15,8 +15,8 @@ export const TelefonoAudiolibro = () => {
                 <HeaderTelefonoAudilibro />
             </Section>
             <main>              
-                <div className='w-full bg-gray-300' style={{ height:"8px" }}></div>
-                <Section as="section" className="bg-gray-100">
+                <div className='w-full bg-gray-300' style={{ height:"8px" }} />
+                <Section as="section" className='my-20'>
                     <MainSlider
                     type="frases"
                     draggable={false}
@@ -32,8 +32,8 @@ export const TelefonoAudiolibro = () => {
                     autoplaySpeed={10000}
                     />
                 </Section>
-                <div className='w-full bg-gray-300' style={{ height:"8px" }}></div>
-                <Section as="section" className="bg-gray-100 py-10">
+                <div className='w-full bg-gray-300' style={{ height:"8px" }} />
+                <Section as="section" className='my-20'>
                     <MainSlider
                     type="videos"
                     draggable={true}
@@ -52,19 +52,20 @@ export const TelefonoAudiolibro = () => {
                     autoplaySpeed={0}
                     />
                 </Section>
-                <Section as="section" className="bg-pink-500/50 flex flex-col lg:flex-row gap-4 items-start justify-between text-start overflow-hidden">
+                <div className='w-full bg-gray-300' style={{ height:"8px" }} />
+                <Section as="section" className=" flex flex-col lg:flex-row my-20 gap-4 items-center justify-between text-center overflow-hidden">
                     <Seccion1Video />
                 </Section>
-                <Section as="section" className="bg-gray-100">
+                <Section as="section" className=" flex flex-col lg:flex-row my-20 gap-4 items-center justify-between text-center overflow-hidden">
                     <Seccion2Audios />
                 </Section>
-                <Section as="section" className="bg-pink-300 my-10">
+                <Section as="section" className="my-20">
                     <Seccion3Guia />
                 </Section>
-                <Section as="section" className="bg-gray-100">
+                <Section as="section" className="my-20">
                     <Seccion4Conclusion />
                 </Section>
-                <Section as="section" className="bg-pink-300">
+                <Section as="section" className="my-20">
                     <Seccion5ProsContras />
                 </Section>
             </main>
