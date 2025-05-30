@@ -2,7 +2,7 @@
 export const Seccion1Video = () => {
     return (
         <>
-            <div className="flex flex-col items-center justify-center text-center pt-5">
+            <div className="lg:flex lg:flex-col lg:items-center lg:justify-center lg:text-start pt-5">
                 <h2 className="text-3xl font-serif font-bold mb-3">
                     ESTOS PRODRÍAIS SER VOSOTROS
                 </h2>
@@ -14,7 +14,7 @@ export const Seccion1Video = () => {
                 </button>
             </div>
             <video 
-                className="mb-5 rounded-lg"
+                className="mb-5 rounded-2xl md:max-w-lg lg:max-w-7xl object-cover"
                 src="/video/videoMobile.mov" 
                 itemType='video/mov' 
                 preload='metadata' 
