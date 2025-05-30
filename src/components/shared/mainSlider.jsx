@@ -96,7 +96,7 @@ export const MainSlider = ({type, draggable, swipe, touchMove , dots, arrows, in
     }
 
     return (
-        <Slider ref={sliderRef} {...sliderSettings}>
+        <Slider ref={sliderRef} {...sliderSettings} className="max-w-full md:max-w-lg lg:max-w-7xl mx-auto">
             {sliderData.map((data) => (
                 <SliderMedia 
                 key={data.id}
