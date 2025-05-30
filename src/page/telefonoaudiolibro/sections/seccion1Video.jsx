@@ -20,10 +20,10 @@ export const Seccion1Video = () => {
                 preload='metadata' 
                 controls 
                 controlsList='nodownload' 
-                poster='/media/header/telf07.webp' 
+                poster='/img/telf24.webp' 
                 playsInline 
             />
-            <button className='block lg:hidden mt-0 bg-lime-300 rounded-2xl border-1 border-black py-2 px-3.5 font-bold md:text-xl hover:scale-105 transition-transform duration-200'>
+            <button className='block lg:hidden mt-0 bg-lime-200 rounded-2xl border-1 border-black py-2 px-3.5 font-bold md:text-xl hover:scale-105 transition-transform duration-200'>
                     LO QUIERO EN MI BODA
                 </button>
         </>
