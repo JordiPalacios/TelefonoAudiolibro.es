@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "isCrossLeft": true,
+        "tittle": "Experiencia post-boda",
+        "isCrossRight": false
+    },
+    {
+        "id": 1,
+        "isCrossLeft": false,
+        "tittle": "Experiencia divertida para tus invitados",
+        "isCrossRight": false
+    },
+    {
+        "id": 2,
+        "isCrossLeft": false,
+        "tittle": "Captura emociones en vivo",
+        "isCrossRight": true
+    },
+    {
+        "id": 3,
+        "isCrossLeft": false,
+        "tittle": "Opcion mensajes grupales",
+        "isCrossRight": true
+    },
+    {
+        "id": 4,
+        "isCrossLeft": true,
+        "tittle": "Úsalo todo el día",
+        "isCrossRight": false
+    },
+    {
+        "id": 5,
+        "isCrossLeft": true,
+        "tittle": "Adaptado a peques y mayores",
+        "isCrossRight": false
+    }
+]

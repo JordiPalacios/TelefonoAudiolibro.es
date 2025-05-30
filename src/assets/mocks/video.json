@@ -1,32 +1,44 @@
 [
     {
+        "id": "0",
+        "url" : "/video/videoTelf00.mov",
+        "name" : "video telefono audilibro 00",
+        "poster" : "/img/telf00.webp"
+    },
+    {
         "id": "1",
-        "url" : "/video/videoMobile.mov",
-        "name" : "tatuajeVideo_01",
-        "poster" : "/media/header/telf04.webp"
+        "url" : "/video/videoTelf01.mov",
+        "name" : "video telefono audilibro 01",
+        "poster" : "/img/telf01.webp"
     },
     {
         "id": "2",
-        "url" : "/video/videoMobile.mov",
-        "name" : "tatuajeVideo_02",
-        "poster" : "/media/header/telf04.webp"
+        "url" : "/video/videoTelf02.mov",
+        "name" : "video telefono audilibro 02",
+        "poster" : "/img/telf02.webp"
     },
     {
         "id": "3",
-        "url" : "/video/videoMobile.mov",
-        "name" : "tatuajeVideo_03",
-        "poster" : "/media/header/telf04.webp"
+        "url" : "/video/videoTelf03.mov",
+        "name" : "video telefono audilibro 03",
+        "poster" : "/img/telf03.webp"
     },
     {
         "id": "4",
-        "url" : "/video/videoMobile.mov",
-        "name" : "tatuajeVideo_04",
-        "poster" : "/media/header/telf04.webp"
+        "url" : "/video/videoTelf04.mov",
+        "name" : "video telefono audilibro 04",
+        "poster" : "/img/telf04.webp"
     },
     {
         "id": "5",
-        "url" : "/video/videoMobile.mov",
-        "name" : "tatuajeVideo_05",
-        "poster" : "/media/header/telf04.webp"
+        "url" : "/video/videoTelf05.mov",
+        "name" : "video telefono audilibro 05",
+        "poster" : "/img/telf07.webp"
+    },
+    {
+        "id": "6",
+        "url" : "/video/videoTelf06.mov",
+        "name" : "video telefono audilibro 06",
+        "poster" : "/img/telf08.webp"
     }
 ]

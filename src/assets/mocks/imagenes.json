@@ -1,32 +1,92 @@
 [
     {
+        "id": "0",
+        "url" : "/img/telf00.webp",
+        "name" : "telefono 00"
+    },
+    {
         "id": "1",
-        "url" : "/media/header/telf07.webp",
-        "name" : "test01"
+        "url" : "/img/telf01.webp",
+        "name" : "telefono 01"
     },
     {
         "id": "2",
-        "url" : "/media/header/telf04.webp",
-        "name" : "test02"
+        "url" : "/img/telf02.webp",
+        "name" : "telefono 02"
     },
     {
         "id": "3",
-        "url" : "/media/header/telf07.webp",
-        "name" : "test03"
+        "url" : "/img/telf03.webp",
+        "name" : "telefono 03"
     },
     {
         "id": "4",
-        "url" : "/media/header/telf04.webp",
-        "name" : "test04"
+        "url" : "/img/telf04.webp",
+        "name" : "telefono 05"
     },
     {
         "id": "5",
-        "url" : "/media/header/telf07.webp",
-        "name" : "test05"
+        "url" : "/img/telf05.webp",
+        "name" : "telefono 06"
     },
     {
         "id": "6",
-        "url" : "/media/header/telf04.webp",
-        "name" : "test06"
+        "url" : "/img/telf06.webp",
+        "name" : "telefono 07"
+    },
+    {
+        "id": "7",
+        "url" : "/img/telf07.webp",
+        "name" : "telefono 08"
+    },
+    {
+        "id": "8",
+        "url" : "/img/telf08.webp",
+        "name" : "telefono 09"
+    },
+    {
+        "id": "9",
+        "url" : "/img/telf09.webp",
+        "name" : "telefono 10"
+    },
+    {
+        "id": "10",
+        "url" : "/img/telf10.webp",
+        "name" : "telefono 11"
+    },
+    {
+        "id": "11",
+        "url" : "/img/telf11.webp",
+        "name" : "telefono 12"
+    },
+    {
+        "id": "12",
+        "url" : "/img/telf12.webp",
+        "name" : "telefono 13"
+    },
+    {
+        "id": "13",
+        "url" : "/img/telf13.webp",
+        "name" : "telefono 14"
+    }, 
+    {
+        "id": "14",
+        "url" : "/img/telf14.webp",
+        "name" : "telefono 15"
+    },
+    {
+        "id": "15",
+        "url" : "/img/telf15.webp",
+        "name" : "telefono 16"
+    },
+    {
+        "id": "16",
+        "url" : "/img/telf16.webp",
+        "name" : "telefono 17"
+    },
+    {
+        "id": "17",
+        "url" : "/img/telf17.webp",
+        "name" : "telefono 18"
     }
 ]
