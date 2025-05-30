@@ -5,7 +5,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background: url('/media/header/telf04.webp') center/cover no-repeat;
+    background: url('/img/telf14.webp') center/cover no-repeat;
     height: 100vh;
 }
 
@@ -43,7 +43,7 @@
 
 @media (min-width: 1200px) {
     .headerContainer {
-    background: url('/media/header/telf07.webp') center/cover no-repeat;
+    background: url('/img/telf24.webp') center/cover no-repeat;
     }
     .headerContainer img {
         display: flex;
