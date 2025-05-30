@@ -27,12 +27,12 @@ export const SliderMedia = ({typeMedia, url, name , poster, frase}) => {
         
         <div className={className}>
             {typeMedia === 'frases' && (
-                <p className='text-balance break-words text-lg lg:text-2xl text-center font-bold py-10 my-20'>
+                <p className='text-balance break-words text-lg lg:text-2xl text-center font-bold py-30'>
                     {frase}
                 </p>
             )}
             {typeMedia === 'imagenes' && (
-                <img src={url} alt={name} />
+                <img src={url} alt={name} className='aspect-[3/4] max-w-full h-auto object-cover rounded-2xl py-4' />
             )}
             {typeMedia === 'videos' && (
                 <video 
@@ -44,7 +44,7 @@ export const SliderMedia = ({typeMedia, url, name , poster, frase}) => {
                     controlsList='nodownload' 
                     poster={poster}  
                     playsInline
-                    className='rounded-2xl'
+                    className='w-full h-auto md:max-w-lg lg:max-w-xl object-cover rounded-2xl '
                 />
             )}
         </div>
