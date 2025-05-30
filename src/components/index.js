@@ -6,3 +6,5 @@ export * from "./shared/footer.jsx";
 //* Components
 export * from "./hamburger.jsx";
 export * from "./card.jsx";
+export * from "./icons/crossIcon.jsx";
+export * from "./icons/tickIcon.jsx";
