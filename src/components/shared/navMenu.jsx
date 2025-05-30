@@ -18,8 +18,6 @@ export const NavMenu = () => {
         setIsOpen(!isOpen);
     }
 
-    console.log("isScrolled:", scrolled);
-
     return (
         <>
         <nav 
