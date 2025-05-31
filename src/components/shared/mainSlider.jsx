@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react"
 import FrasesData from '../../assets/mocks/frases.json'
 import VideoData from '../../assets/mocks/video.json'
 import ImagenesData from '../../assets/mocks/imagenes.json'
+import ReviewsData from '../../assets/mocks/reviews.json'
 import Slider from "react-slick"
 import { SliderMedia } from "./sliderMedia"
 
@@ -20,6 +21,9 @@ export const MainSlider = ({type, draggable, swipe, touchMove , dots, arrows, in
             break;
         case 'imagenes':
             sliderData = ImagenesData
+            break;
+        case 'reviews':
+            sliderData = ReviewsData
             break;
         default:
             sliderData = []
@@ -90,13 +94,32 @@ export const MainSlider = ({type, draggable, swipe, touchMove , dots, arrows, in
                     name: data.name,
                     typeMedia: type,
                 }
+            case 'reviews':
+                return {
+                    stars: data.stars,
+                    name: data.nombre,
+                    description: data.descripcion,
+                    typeMedia: type
+                }
             default:
                 return {};
         }
     }
 
     return (
-        <Slider ref={sliderRef} {...sliderSettings} className="max-w-full md:max-w-lg lg:max-w-7xl mx-auto">
+        <Slider ref={sliderRef} {...sliderSettings} 
+        className={`max-w-full md:max-w-lg lg:max-w-7xl mx-auto
+        ${type === 'frases' 
+            ? '' 
+            : type === 'imagenes'
+            ? ''
+            : type === 'videos'
+            ? ''
+            : type === 'reviews'
+            ? 'bg-white/20 shadow-md rounded-xl '
+            : ''
+        }
+        `}>
             {sliderData.map((data) => (
                 <SliderMedia 
                 key={data.id}

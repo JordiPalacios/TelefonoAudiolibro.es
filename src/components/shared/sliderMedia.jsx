@@ -1,7 +1,7 @@
 
 import PropTypes from 'prop-types'
 
-export const SliderMedia = ({typeMedia, url, name , poster, frase}) => {
+export const SliderMedia = ({typeMedia, url, name , poster, frase, stars, description}) => {
       //Decido con la clase a trabajar en el slider
     let className
 
@@ -18,6 +18,10 @@ export const SliderMedia = ({typeMedia, url, name , poster, frase}) => {
             className = 'videosSlider'
             break;
 
+        case 'reviews':
+            className = 'reviewsSlider'
+            break;
+
         default:
             className = 'standardSlider'
             break;
@@ -32,7 +36,7 @@ export const SliderMedia = ({typeMedia, url, name , poster, frase}) => {
                 </p>
             )}
             {typeMedia === 'imagenes' && (
-                <img src={url} alt={name} className='aspect-[3/4] max-w-full h-auto object-cover rounded-2xl py-4' />
+                <img src={url} alt={name} loading='lazy' className='aspect-[3/4] max-w-full h-auto object-cover rounded-2xl py-4' />
             )}
             {typeMedia === 'videos' && (
                 <video 
@@ -46,6 +50,19 @@ export const SliderMedia = ({typeMedia, url, name , poster, frase}) => {
                     playsInline
                     className='w-full h-auto md:max-w-lg lg:max-w-xl object-cover rounded-2xl '
                 />
+            )}
+            {typeMedia === 'reviews' && (
+                <div className='flex flex-col items-center h-72 text-balance justify-center gap-4'>
+                    <h4 className='text-xl md:text-2xl lg:text-3xl font-bold'>
+                        {stars}
+                    </h4>
+                    <p className='text-lg md:text-xl lg:text-2xl px-5 py-10'>
+                        {description}
+                    </p>
+                    <p className='text-lg md:text-xl lg:text-2xl font-bold'>
+                        {name}
+                    </p>
+                </div>
             )}
         </div>
         
