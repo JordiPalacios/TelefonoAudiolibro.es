@@ -13,15 +13,15 @@
     },
     {
         "id": 2,
-        "isCrossLeft": false,
+        "isCrossLeft": true,
         "tittle": "Captura emociones en vivo",
-        "isCrossRight": true
+        "isCrossRight": false
     },
     {
         "id": 3,
-        "isCrossLeft": false,
+        "isCrossLeft": true,
         "tittle": "Opcion mensajes grupales",
-        "isCrossRight": true
+        "isCrossRight": false
     },
     {
         "id": 4,

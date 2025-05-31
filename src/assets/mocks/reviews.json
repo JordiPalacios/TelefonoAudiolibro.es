@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "stars": "★★★★★",
+        "nombre": "Liran Gadvi",
+        "descripcion": "Excelente servicio y atención al cliente. Muy recomendable."
+    },
+    {
+        "id": 1,
+        "stars": "★★★★☆",
+        "nombre": "Ana Pérez",
+        "descripcion": "Muy buena experiencia, aunque el tiempo de espera fue un poco largo."
+    },
+    {
+        "id": 2,
+        "stars": "★★★★★",
+        "nombre": "Carlos López",
+        "descripcion": "Productos de alta calidad y atención excepcional. Volveré sin duda."
+    },
+    {
+        "id": 3,
+        "stars": "★★★☆☆",
+        "nombre": "María García",
+        "descripcion": "El servicio fue bueno, pero creo que podrían mejorar en la variedad de productos."
+    }
+]
