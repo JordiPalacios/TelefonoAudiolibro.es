@@ -108,7 +108,7 @@ export const MainSlider = ({type, draggable, swipe, touchMove , dots, arrows, in
 
     return (
         <Slider ref={sliderRef} {...sliderSettings} 
-        className={`max-w-full md:max-w-lg lg:max-w-7xl mx-auto
+        className={`max-w-full mx-auto
         ${type === 'frases' 
             ? '' 
             : type === 'imagenes'

@@ -48,7 +48,7 @@ export const SliderMedia = ({typeMedia, url, name , poster, frase, stars, descri
                     controlsList='nodownload' 
                     poster={poster}  
                     playsInline
-                    className='w-full h-auto md:max-w-lg lg:max-w-xl object-cover rounded-2xl '
+                    className='w-full h-auto md:max-w-lg lg:max-w-xl object-cover rounded-2xl aspect-[3/4]'
                 />
             )}
             {typeMedia === 'reviews' && (
