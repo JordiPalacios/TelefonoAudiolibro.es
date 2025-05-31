@@ -2,10 +2,10 @@
 export const Footer = () => {
     return (
         <footer className="flex flex-col items-center justify-center gap-4 my-10">
-            <h1 className="font-bold text-sm md:text-lg lg:text-xl text-center">
+            <h1 className="font-bold text-sm md:text-xl text-center">
                 telefonoaudiolibro.es
             </h1>
-            <small className="text-xs md:text-sm lg:text-base text-center">
+            <small className="text-xs md:text-base text-center">
                 © 2025 telefonoaudiolibro.es - Todos los derechos reservados. 
             </small>
             <div className="flex flex-row gap-2 items-center justify-center">

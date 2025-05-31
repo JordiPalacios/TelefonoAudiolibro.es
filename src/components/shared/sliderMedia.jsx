@@ -11,7 +11,7 @@ export const SliderMedia = ({typeMedia, url, name , poster, frase, stars, descri
             break;
         
         case 'imagenes':
-            className = 'imgenesSlider'
+            className = 'imagenesSlider'
             break;
 
         case 'videos':
@@ -31,12 +31,17 @@ export const SliderMedia = ({typeMedia, url, name , poster, frase, stars, descri
         
         <div className={className}>
             {typeMedia === 'frases' && (
-                <p className='text-balance break-words text-lg lg:text-2xl text-center font-bold py-30'>
+                <p className='text-balance break-words text-lg md:text-2xl text-center font-bold py-30'>
                     {frase}
                 </p>
             )}
             {typeMedia === 'imagenes' && (
-                <img src={url} alt={name} loading='lazy' className='aspect-[3/4] max-w-full h-auto object-cover rounded-2xl py-4' />
+                <img 
+                src={url} 
+                alt={name} 
+                loading='lazy'
+                className='w-full h-auto md:max-w-lg lg:max-w-lg object-cover rounded-t-full aspect-[3/4]'
+                />
             )}
             {typeMedia === 'videos' && (
                 <video 
@@ -53,13 +58,13 @@ export const SliderMedia = ({typeMedia, url, name , poster, frase, stars, descri
             )}
             {typeMedia === 'reviews' && (
                 <div className='flex flex-col items-center h-72 text-balance justify-center gap-4'>
-                    <h4 className='text-xl md:text-2xl lg:text-3xl font-bold'>
+                    <h4 className='text-xl md:text-3xl font-bold'>
                         {stars}
                     </h4>
-                    <p className='text-lg md:text-xl lg:text-2xl px-5 py-10'>
+                    <p className='text-lg md:text-2xl px-5 py-10'>
                         {description}
                     </p>
-                    <p className='text-lg md:text-xl lg:text-2xl font-bold'>
+                    <p className='text-lg md:text-2xl font-bold'>
                         {name}
                     </p>
                 </div>
@@ -72,7 +77,9 @@ export const SliderMedia = ({typeMedia, url, name , poster, frase, stars, descri
 
 SliderMedia.propTypes = {
     styleType: PropTypes.string,
-    typeMedia: PropTypes.oneOf(['frase', 'imagen', 'video']),
+    typeMedia: PropTypes.oneOf(['frases', 'imagenes', 'videos', 'reviews']),
+    stars: PropTypes.string,
+    description: PropTypes.string,
     url: PropTypes.string,
     name: PropTypes.string,
     poster: PropTypes.string,

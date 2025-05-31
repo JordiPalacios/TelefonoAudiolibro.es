@@ -5,7 +5,7 @@ export const Seccion5ProsContras = () => {
     const prosVSconts = ProsVSContsData
     return (
         <>
-            <h2 className="text-3xl font-bold font-serif mb-5 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold font-serif mb-5 text-center">
                 ¿CON CÚAL TE QUEDAS?
             </h2>
             <div className="flex flex-col items-center justify-center w-full">                
@@ -13,11 +13,11 @@ export const Seccion5ProsContras = () => {
                     <thead>                    
                         <tr>
                             <th className="align-middle">
-                                <img src="/img/manual.webp" alt="telefonoaudiolibro.es" className="max-w-20 md:max-w-30 lg:max-w-40  h-auto aspect-[3/4] rounded-xl" loading="lazy" />
+                                <img src="/img/manual.webp" alt="telefonoaudiolibro.es" className="max-w-20 md:max-w-35 h-auto aspect-[3/4] rounded-xl" loading="lazy" />
                             </th>
                             <th />
                             <th className="align-middle">
-                                <img src="/img/telf12.webp" alt="telefonoaudiolibro.es" className="max-w-20 md:max-w-30 lg:max-w-40 h-auto aspect-[3/4] rounded-xl" loading="lazy" />
+                                <img src="/img/telf12.webp" alt="telefonoaudiolibro.es" className="max-w-20 md:max-w-35 h-auto aspect-[3/4] rounded-xl" loading="lazy" />
                             </th>
                         </tr>
                     </thead>
@@ -32,7 +32,7 @@ export const Seccion5ProsContras = () => {
                                         }
                                     </div>
                                 </td>
-                                <td className="align-middle font-semibold text-md md:text-lg lg:text-xl">
+                                <td className="align-middle font-semibold text-md md:text-lg">
                                     {item.tittle}
                                 </td>
                                 <td className="align-middle">

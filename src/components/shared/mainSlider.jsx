@@ -106,17 +106,18 @@ export const MainSlider = ({type, draggable, swipe, touchMove , dots, arrows, in
         }
     }
 
+
     return (
         <Slider ref={sliderRef} {...sliderSettings} 
-        className={`max-w-full mx-auto
-        ${type === 'frases' 
-            ? '' 
+        className={` mx-auto
+            ${type === 'frases' 
+            ? 'max-w-full' 
             : type === 'imagenes'
-            ? ''
+            ? 'max-w-xl lg:max-w-md'
             : type === 'videos'
-            ? ''
+            ? 'max-w-full md:max-w-4/5'
             : type === 'reviews'
-            ? 'bg-white/20 shadow-md rounded-xl '
+            ? 'max-w-xl bg-white/20 shadow-md rounded-xl '
             : ''
         }
         `}>

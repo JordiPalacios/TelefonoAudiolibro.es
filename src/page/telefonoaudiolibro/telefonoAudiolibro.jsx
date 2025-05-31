@@ -54,25 +54,25 @@ export const TelefonoAudiolibro = () => {
                     />
                 </Section>
                 <div className='w-full bg-gray-300' style={{ height:"8px" }} />
-                <Section as="section" className="px-10  flex flex-col lg:flex-row my-10 lg:my-20 gap-4 items-center justify-between text-center overflow-hidden">
+                <Section as="section" className="px-10 my-10 md:my-40 flex flex-col items-center justify-between text-center overflow-hidden">
                     <Seccion1Video />
                 </Section>
-                <Section as="section" className="px-10  flex flex-col lg:flex-row my-30 gap-4 items-center justify-between text-center overflow-hidden">
+                <Section as="section" className="px-10 md:px-20 my-30 flex flex-col lg:flex-row items-stretch justify-between gap-4 lg:gap-0 text-center overflow-hidden">
                     <Seccion2Audios />
                 </Section>
-                <Section as="section" className="px-10 my-30">
+                <Section as="section" className="px-10 my-30 md:my-60">
                     <Seccion3Guia />
                 </Section>
-                <Section as="section" className="px-10 my-20">
+                <Section as="section" className="px-10 my-30 md:my-80">
                     <Seccion4Conclusion />
                 </Section>
-                <Section as="section" className="px-10 my-30">
+                <Section as="section" className="px-10 mb-60">
                     <Seccion5ProsContras />
                 </Section>
-                <Section as="section" className="my-40">
+                <Section as="section" className="my-30 md:my-80">
                     <Seccion6FraseImpactante />
                 </Section>
-                <Section as="section" className="px-10 my-30">
+                <Section as="section" className="px-10 my-70 md:my-90">
                     <Reviews />
                 </Section>
                 <div className='w-full bg-white/40' style={{ height:"8px" }} />
