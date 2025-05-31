@@ -2,7 +2,8 @@ import { Section } from '../../components/shared/section'
 import { HeaderTelefonoAudilibro } from './sections/headerTelefonoAudilibro'
 import { MainSlider } from '../../components/shared/mainSlider'
 import { useWorkingMode } from '../../assets/customHooks/useWorkingMode'
-import { Seccion1Video, Seccion2Audios, Seccion3Guia, Seccion4Conclusion, Seccion5ProsContras } from './sections'
+import { Reviews, Seccion1Video, Seccion2Audios, Seccion3Guia, Seccion4Conclusion, Seccion5ProsContras, Seccion6FraseImpactante } from './sections'
+import { WhatsApp } from '../../components'
 
 export const TelefonoAudiolibro = () => {
     const workingMode = useWorkingMode('Mobile')
@@ -68,6 +69,14 @@ export const TelefonoAudiolibro = () => {
                 <Section as="section" className="my-20">
                     <Seccion5ProsContras />
                 </Section>
+                <Section as="section" className="my-20">
+                    <Seccion6FraseImpactante />
+                </Section>
+                <Section as="section" className="my-20">
+                    <Reviews />
+                </Section>
+                <div className='w-full bg-white/40' style={{ height:"8px" }} />
+                <WhatsApp className="contactFixed" msg="https://wa.me/34653781239?text=¡Quiero%20más%20información%20sobre%20VisualShow!" />
             </main>
         </>
     )
