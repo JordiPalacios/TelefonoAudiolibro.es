@@ -32,7 +32,7 @@ export const Seccion4Conclusion = () => {
                     COMPROBAR DISPINIBILIDAD
                 </button>
             </div>
-            <img src="/img/telf28.webp" alt="telefonoaudiolibro.es" className="max-w-50 md:max-w-xs rounded-xl "/>
+            <img src="/img/telf28.webp" alt="telefonoaudiolibro.es" className="max-w-50 md:max-w-xs rounded-xl" loading="lazy"/>
             <button className="block lg:hidden m-0 bg-lime-200 rounded-2xl border-1 border-black py-2 px-3.5 font-bold md:text-xl hover:scale-105 transition-transform duration-200">
                     COMPROBAR DISPINIBILIDAD
             </button>

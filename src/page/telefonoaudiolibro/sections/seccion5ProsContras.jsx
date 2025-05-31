@@ -13,11 +13,11 @@ export const Seccion5ProsContras = () => {
                     <thead>                    
                         <tr>
                             <th className="align-middle">
-                                <img src="/img/manual.webp" alt="telefonoaudiolibro.es" className="max-w-30 h-auto aspect-[3/4] rounded-xl" />
+                                <img src="/img/manual.webp" alt="telefonoaudiolibro.es" className="max-w-30 h-auto aspect-[3/4] rounded-xl" loading="lazy" />
                             </th>
                             <th />
                             <th className="align-middle">
-                                <img src="/img/telf12.webp" alt="telefonoaudiolibro.es" className="max-w-30 h-auto aspect-[3/4] rounded-xl" />
+                                <img src="/img/telf12.webp" alt="telefonoaudiolibro.es" className="max-w-30 h-auto aspect-[3/4] rounded-xl" loading="lazy" />
                             </th>
                         </tr>
                     </thead>
@@ -32,12 +32,12 @@ export const Seccion5ProsContras = () => {
                                         }
                                     </div>
                                 </td>
-                                <td className="align-middle font-semibold text-lg">
+                                <td className="align-middle font-semibold text-md md:text-lg lg:text-xl">
                                     {item.tittle}
                                 </td>
                                 <td className="align-middle">
                                     <div className="flex justify-center">
-                                        {item.isCrossLeft 
+                                        {item.isCrossRight 
                                             ? <CrossIcon className="w-8 h-8 text-red-600" />
                                             : <TickIcon className="w-8 h-8 text-green-600" />
                                         }
