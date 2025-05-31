@@ -73,7 +73,7 @@ export const MainSlider = ({type, draggable, swipe, touchMove , dots, arrows, in
             document.removeEventListener("visibilitychange", handleVisibilityChange);
         };
     }, [autoplay])
-
+    
     const getSlideProps = (data) => {
         switch (type) {
             case 'frases':
