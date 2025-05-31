@@ -5,19 +5,19 @@ export const Seccion5ProsContras = () => {
     const prosVSconts = ProsVSContsData
     return (
         <>
-            <h2 className="text-3xl font-bold font-serif mb-10 text-center">
+            <h2 className="text-3xl font-bold font-serif mb-5 text-center">
                 ¿CON CÚAL TE QUEDAS?
             </h2>
             <div className="flex flex-col items-center justify-center w-full">                
-                <table className="max-w-md w-full text-center mb-10 px-5 border-separate border-spacing-y-4 bg-white/50 p-3 shadow-md rounded-xl">
+                <table className="max-w-md w-full text-center px-5 py-2 border-separate border-spacing-y-4 bg-white/50 shadow-md rounded-xl">
                     <thead>                    
                         <tr>
                             <th className="align-middle">
-                                <img src="/img/manual.webp" alt="telefonoaudiolibro.es" className="max-w-30 h-auto aspect-[3/4] rounded-xl" loading="lazy" />
+                                <img src="/img/manual.webp" alt="telefonoaudiolibro.es" className="max-w-20 md:max-w-30 lg:max-w-40  h-auto aspect-[3/4] rounded-xl" loading="lazy" />
                             </th>
                             <th />
                             <th className="align-middle">
-                                <img src="/img/telf12.webp" alt="telefonoaudiolibro.es" className="max-w-30 h-auto aspect-[3/4] rounded-xl" loading="lazy" />
+                                <img src="/img/telf12.webp" alt="telefonoaudiolibro.es" className="max-w-20 md:max-w-30 lg:max-w-40 h-auto aspect-[3/4] rounded-xl" loading="lazy" />
                             </th>
                         </tr>
                     </thead>

@@ -3,7 +3,9 @@ import { Card } from "../../../components"
 export const Seccion3Guia = () => {
   return (
     <div className="py-5">
-      <h2 className="text-center text-xl font-bold font-serif">¿CÓMO FUNCIONA?</h2>
+      <h2 className="text-center text-2xl font-bold font-serif mb-10">
+        ¿CÓMO FUNCIONA?
+      </h2>
       <Card 
         url="/img/telf01.webp"
         tittle="1.RECIBE EL TELÉFONO"

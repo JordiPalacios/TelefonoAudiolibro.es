@@ -12,12 +12,12 @@ export const TelefonoAudiolibro = () => {
 
     return (
         <>
-            <Section as="header" className="headerContainer">
+            <Section as="header" className="px-10 headerContainer">
                 <HeaderTelefonoAudilibro />
             </Section>
             <main>              
                 <div className='w-full bg-gray-300' style={{ height:"8px" }} />
-                <Section as="section" className='my-20'>
+                <Section as="section" className='px-10 my-25'>
                     <MainSlider
                     type="frases"
                     draggable={false}
@@ -30,11 +30,11 @@ export const TelefonoAudiolibro = () => {
                     slidesToShow={1}
                     slidesToScroll={1}
                     autoplay={true}
-                    autoplaySpeed={10000}
+                    autoplaySpeed={7500}
                     />
                 </Section>
                 <div className='w-full bg-gray-300' style={{ height:"8px" }} />
-                <Section as="section" className='my-20'>
+                <Section as="section" className='px-10 my-2 lg:my-20'>
                     <MainSlider
                     type="videos"
                     draggable={true}
@@ -54,25 +54,25 @@ export const TelefonoAudiolibro = () => {
                     />
                 </Section>
                 <div className='w-full bg-gray-300' style={{ height:"8px" }} />
-                <Section as="section" className=" flex flex-col lg:flex-row my-20 gap-4 items-center justify-between text-center overflow-hidden">
+                <Section as="section" className="px-10  flex flex-col lg:flex-row my-10 lg:my-20 gap-4 items-center justify-between text-center overflow-hidden">
                     <Seccion1Video />
                 </Section>
-                <Section as="section" className=" flex flex-col lg:flex-row my-20 gap-4 items-center justify-between text-center overflow-hidden">
+                <Section as="section" className="px-10  flex flex-col lg:flex-row my-30 gap-4 items-center justify-between text-center overflow-hidden">
                     <Seccion2Audios />
                 </Section>
-                <Section as="section" className="my-20">
+                <Section as="section" className="px-10 my-30">
                     <Seccion3Guia />
                 </Section>
-                <Section as="section" className="my-20">
+                <Section as="section" className="px-10 my-20">
                     <Seccion4Conclusion />
                 </Section>
-                <Section as="section" className="my-20">
+                <Section as="section" className="px-10 my-30">
                     <Seccion5ProsContras />
                 </Section>
-                <Section as="section" className="my-20">
+                <Section as="section" className="my-40">
                     <Seccion6FraseImpactante />
                 </Section>
-                <Section as="section" className="my-20">
+                <Section as="section" className="px-10 my-30">
                     <Reviews />
                 </Section>
                 <div className='w-full bg-white/40' style={{ height:"8px" }} />
