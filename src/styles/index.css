@@ -50,4 +50,19 @@ body {
 
 button {
     cursor: pointer;
+    font-family: 'Space Grotesk Variable', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h1,h2 {
+    font-family: 'Outfit Variable', sans-serif;
+}
+
+p, span, li {
+    font-family: 'Inter Variable', sans-serif;
+}
+
+.accent {
+    font-family: 'Playfair Display Variable', serif;
 }

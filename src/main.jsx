@@ -2,6 +2,15 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router'
 import Web from './web.jsx'
+// Fonts
+// Supports weights 100-900
+import '@fontsource-variable/outfit';
+import '@fontsource-variable/inter';
+// Supports weights 300-700
+import '@fontsource-variable/space-grotesk';
+// Supports weights 400-900
+import '@fontsource-variable/playfair-display';
+// Slider
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './styles/index.js'
