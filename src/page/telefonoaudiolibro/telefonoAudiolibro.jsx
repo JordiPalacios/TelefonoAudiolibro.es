@@ -1,7 +1,7 @@
 import { Section } from '../../components/shared/section'
 import { HeaderTelefonoAudilibro } from './sections/headerTelefonoAudilibro'
 import { MainSlider } from '../../components/shared/mainSlider'
-import { Reviews, Seccion0Presentacion, Seccion1Video, Seccion2Audios, Seccion3Guia, Seccion4Conclusion, Seccion5ProsContras, Seccion6FraseImpactante } from './sections'
+import { InfiniteLoopSection, Reviews, Seccion0Presentacion, Seccion1Video, Seccion2Audios, Seccion3Guia, Seccion4Conclusion, Seccion5ProsContras, Seccion6FraseImpactante } from './sections'
 import { WhatsApp } from '../../components'
 
 export const TelefonoAudiolibro = () => {  
@@ -56,6 +56,9 @@ export const TelefonoAudiolibro = () => {
                 <Section as="section" className="px-10 my-10 md:my-40 flex flex-col items-center justify-between text-center overflow-hidden">
                     <Seccion1Video />
                 </Section>
+                <InfiniteLoopSection 
+                equal={true} 
+                />
                 <Section as="section" className="px-10 md:px-20 my-30 flex flex-col lg:flex-row items-stretch justify-between gap-4 lg:gap-0 text-center overflow-hidden">
                     <Seccion2Audios />
                 </Section>

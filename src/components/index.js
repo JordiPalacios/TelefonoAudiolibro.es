@@ -3,6 +3,7 @@ export * from "./shared/navMenu.jsx";
 export * from "./shared/section.jsx";
 export * from "./shared/footer.jsx";
 export * from "./shared/whatsApp.jsx";
+export * from "./shared/infiniteLoop.jsx";
 
 //* Components
 export * from "./hamburger.jsx";
