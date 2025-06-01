@@ -1,14 +1,10 @@
 import { Section } from '../../components/shared/section'
 import { HeaderTelefonoAudilibro } from './sections/headerTelefonoAudilibro'
 import { MainSlider } from '../../components/shared/mainSlider'
-import { useWorkingMode } from '../../assets/customHooks/useWorkingMode'
-import { Reviews, Seccion1Video, Seccion2Audios, Seccion3Guia, Seccion4Conclusion, Seccion5ProsContras, Seccion6FraseImpactante } from './sections'
+import { Reviews, Seccion0Presentacion, Seccion1Video, Seccion2Audios, Seccion3Guia, Seccion4Conclusion, Seccion5ProsContras, Seccion6FraseImpactante } from './sections'
 import { WhatsApp } from '../../components'
 
-export const TelefonoAudiolibro = () => {
-    const workingMode = useWorkingMode('Mobile')
-
-    
+export const TelefonoAudiolibro = () => {  
 
     return (
         <>
@@ -16,7 +12,6 @@ export const TelefonoAudiolibro = () => {
                 <HeaderTelefonoAudilibro />
             </Section>
             <main>              
-                <div className='w-full bg-gray-300' style={{ height:"8px" }} />
                 <Section as="section" className='px-10 my-25'>
                     <MainSlider
                     type="frases"
@@ -33,27 +28,20 @@ export const TelefonoAudiolibro = () => {
                     autoplaySpeed={7500}
                     />
                 </Section>
-                <div className='w-full bg-gray-300' style={{ height:"8px" }} />
+                <div className="w-full overflow-hidden leading-none mb-20">
+                    <svg viewBox="0 0 1200 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-6">
+                        <path
+                        d="M0 8 Q 75 16 150 8 T 300 8 T 450 8 T 600 8 T 750 8 T 900 8 T 1050 8 T 1200 8"
+                        stroke="#ff80c0"
+                        strokeWidth="6"
+                        fill="none"
+                        strokeLinecap="round"
+                        />
+                    </svg>
+                </div>
                 <Section as="section" className='px-10 my-2 lg:my-20'>
-                    <MainSlider
-                    type="videos"
-                    draggable={true}
-                    swipe={true}
-                    touchMove={true}
-                    dots={false}
-                    arrows={true}
-                    infinite={true}
-                    speed={500}
-                    {...(workingMode === "PC" 
-                        ? {slidesToShow: 3} 
-                        : {slidesToShow: 1}
-                    )}
-                    slidesToScroll={1}
-                    autoplay={false}
-                    autoplaySpeed={0}
-                    />
+                    <Seccion0Presentacion />
                 </Section>
-                <div className='w-full bg-gray-300' style={{ height:"8px" }} />
                 <Section as="section" className="px-10 my-10 md:my-40 flex flex-col items-center justify-between text-center overflow-hidden">
                     <Seccion1Video />
                 </Section>
