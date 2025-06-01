@@ -1,0 +1,47 @@
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    } to {
+        transform: translateX(-100%);
+    }
+}
+
+.logo {
+    overflow: hidden;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logoSlide {
+    display: inline-flex;
+    animation: 15s slide infinite linear;
+}
+
+.logoSlide img {
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    width: 100px;
+    height: auto;
+    margin: 0 10px;
+}
+
+/* Medidad Tablet */
+@media ( min-width: 760px ) {
+    .logoSlide {
+        animation: 20s slide infinite linear;
+    }
+    .logoSlide img {
+        width: 150px;
+    }
+}
+
+/* Medidas PC  */
+@media ( min-width: 1024px ) {
+    .logoSlide {
+        animation: 30s slide infinite linear;
+    }
+    .logoSlide img {
+        width: 150px;
+    }
+}
