@@ -5,7 +5,7 @@ export const Seccion5ProsContras = () => {
     const prosVSconts = ProsVSContsData
     return (
         <>
-            <h2 className="text-3xl md:text-4xl font-bold font-serif mb-5 text-center">
+            <h2 className="title text-center">
                 ¿CON CÚAL TE QUEDAS?
             </h2>
             <div className="flex flex-col items-center justify-center w-full">                

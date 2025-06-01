@@ -8,12 +8,12 @@ export const Seccion6FraseImpactante = () => {
             loading="lazy"
             className="absolute inset-0 w-full h-full object-cover"
             />
-            <div className="relative z-10 text-center text-lg md:text-4xl font-bold font-serif text-balance text-white">
-                <p className="max-w-md md:max-w-3xl">
+            <div className="relative z-10">
+                <p className="max-w-md md:max-w-3xl accent text-2xl md:text-4xl text-center text-white font-semibold p-4">
                     TU BODA DURA 6 HORAS, ESTOS AUDIOS SON PARA TODA LA VIDA
                 </p>
             </div>
-            <div className="absolute inset-0 bg-black/40 rounded-xl" />
+            <div className="absolute inset-0 bg-black/40" />
         </div>
     )
 }

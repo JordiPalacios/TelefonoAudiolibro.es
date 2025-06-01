@@ -11,7 +11,7 @@ export const HeaderTelefonoAudilibro = () => {
                     <p className="text-white md:text-xl xl:text-2xl">Aprovecha para que todos te dejen sus mensajes</p>
                 </div>
                 <div>
-                    <button className="mt-0 mb-4 bg-lime-200 rounded-2xl border-1 border-black py-2 px-3.5 font-bold md:text-xl hover:scale-105 transition-transform duration-200"> 
+                    <button className="button"> 
                         ENVIAR SOLICITUD 
                     </button>
                     <p className="font-bold text-white md:text-xl xl:text-xl">El 99% de las personas que no lo tienen en su boda se arrepienten...</p>

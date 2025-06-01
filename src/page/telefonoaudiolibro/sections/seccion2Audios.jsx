@@ -20,10 +20,10 @@ export const Seccion2Audios = () => {
                 />
             </div>
             <div className="flex flex-col items-center justify-center">
-                <h2 className="text-center text-xl md:text-3xl lg:max-w-5xl font-bold font-serif">
+                <h2 className="title text-center lg:max-w-5xl">
                     NO TODO EL MUNDO TIENE LA VOZ DE SU ABUELA GUARDADA PARA SIEMPRE
                 </h2>
-                <p className="m-5 text-xl md:text-2xl font-semibold font-mono underline-offset-4 underline decoration-dashed ">
+                <p className="m-5 text-xl md:text-2xl text-pink-500 font-semibold underline-offset-4 underline decoration-dashed ">
                     DALE AL PLAY
                 </p>                        
                     <audio className="w-xs my-2" src="/audio/audio.mp4" controls controlsList="nodownload" />
