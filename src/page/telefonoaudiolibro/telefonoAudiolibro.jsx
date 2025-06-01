@@ -28,12 +28,23 @@ export const TelefonoAudiolibro = () => {
                     autoplaySpeed={7500}
                     />
                 </Section>
-                <div className="w-full overflow-hidden leading-none mb-20">
+                <div className="lg:hidden w-full overflow-hidden leading-none mb-20">
                     <svg viewBox="0 0 1200 16" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-6">
                         <path
                         d="M0 8 Q 75 16 150 8 T 300 8 T 450 8 T 600 8 T 750 8 T 900 8 T 1050 8 T 1200 8"
                         stroke="#ff80c0"
                         strokeWidth="6"
+                        fill="none"
+                        strokeLinecap="round"
+                        />
+                    </svg>
+                </div>
+                <div className="hidden lg:block w-full overflow-hidden leading-none mb-20">
+                    <svg viewBox="0 0 1200 10" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-10">
+                        <path
+                        d="M0 8 Q 75 16 150 8 T 300 8 T 450 8 T 600 8 T 750 8 T 900 8 T 1050 8 T 1200 8"
+                        stroke="#ff80c0"
+                        strokeWidth="2"
                         fill="none"
                         strokeLinecap="round"
                         />
