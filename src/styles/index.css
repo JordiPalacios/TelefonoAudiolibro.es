@@ -66,3 +66,12 @@ p, span, li {
 .accent {
     font-family: 'Playfair Display Variable', serif;
 }
+
+/** Estilos tailwind personalizados */
+.title {
+    @apply text-2xl md:text-4xl font-extrabold mb-5;
+}
+
+.subtitle {
+    @apply text-xl md:text-2xl font-semibold mb-2;
+}
