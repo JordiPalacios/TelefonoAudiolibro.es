@@ -17,7 +17,7 @@ export const HeaderTelefonoAudilibro = () => {
                     <p className="font-bold text-white md:text-xl xl:text-xl">El 99% de las personas que no lo tienen en su boda se arrepienten...</p>
                 </div>
             </section>
-            <img src="./img/telf09.webp" alt="telefonoaudiolibro.es"/>
+            <img src="./img/telf04.webp" alt="telefonoaudiolibro.es"/>
         </>
     )
 }
