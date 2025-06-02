@@ -13,7 +13,9 @@ export const InfiniteLoop = ({ urlImg, nameImg, equal }) => {
         )) 
     
 return (
+    // Duplicado para un loop perfecto
     <div className="logoSlide">
+        {content}
         {content}
     </div>
 )

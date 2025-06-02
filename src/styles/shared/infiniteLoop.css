@@ -2,7 +2,7 @@
     from{
         transform: translateX(0);
     } to {
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
 }
 
@@ -14,7 +14,7 @@
 }
 
 .logoSlide {
-    display: inline-flex;
+    display: flex;
     animation: 15s slide infinite linear;
 }
 
