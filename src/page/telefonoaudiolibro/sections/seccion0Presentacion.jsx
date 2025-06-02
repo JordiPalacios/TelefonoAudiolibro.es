@@ -1,5 +1,6 @@
 import { MainSlider } from "../../../components/shared/mainSlider"
-import { useWorkingMode } from '../../../assets/customHooks/useWorkingMode'
+import { Voice } from "../../../components"
+import { useWorkingMode } from "../../../assets/customHooks/useWorkingMode"
 
 export const Seccion0Presentacion = () => {
     const workingMode = useWorkingMode('Mobile')
@@ -13,7 +14,7 @@ export const Seccion0Presentacion = () => {
                 <h3 className="subtitle text-pink-500 lg:max-w-3xl mx-auto">
                     Tener junta a TODA tu <span className="font-extrabold text-pink-500">familia y amigos</span> en un solo lugar, pasa poco
                 </h3>
-                <p>
+                <p className="mb-5">
                     Muuy poco, así que aprovecha tu boda para crear el mejor
                     recuerdo de tus personas favoritas.
                     <br />
@@ -29,7 +30,15 @@ export const Seccion0Presentacion = () => {
                     Nada de eso, <span className="font-extrabold text-pink-500">no hace falta gastarse 5.000€ en robots
                     leds</span> ni pistolas de fuego para tener un recuerdo especial
                 </p>
+                <button className="button">
+                    texto provisional
+                </button>
             </div>
+            <Voice 
+            numPC="8"
+            numTablet="4"
+            numMobile="2"
+            />
             <MainSlider
             type="videos"
             draggable={true}
