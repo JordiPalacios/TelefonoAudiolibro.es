@@ -67,6 +67,10 @@ p, span, li {
     font-family: 'Playfair Display Variable', serif;
 }
 
+.title-accent {
+    font-family: 'Lobster', system-ui;
+}
+
 /** Estilos tailwind personalizados */
 .title {
     @apply text-2xl md:text-4xl font-extrabold mb-5;

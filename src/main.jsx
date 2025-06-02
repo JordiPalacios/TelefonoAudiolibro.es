@@ -10,6 +10,7 @@ import '@fontsource-variable/inter';
 import '@fontsource-variable/space-grotesk';
 // Supports weights 400-900
 import '@fontsource-variable/playfair-display';
+import '@fontsource/lobster';
 // Slider
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
