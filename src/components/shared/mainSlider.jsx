@@ -99,6 +99,7 @@ export const MainSlider = ({type, draggable, swipe, touchMove , dots, arrows, in
                     stars: data.stars,
                     name: data.nombre,
                     description: data.descripcion,
+                    date: data.date,
                     typeMedia: type
                 }
             default:

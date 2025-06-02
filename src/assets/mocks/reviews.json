@@ -3,24 +3,28 @@
         "id": 0,
         "stars": "★★★★★",
         "nombre": "Liran Gadvi",
-        "descripcion": "Excelente servicio y atención al cliente. Muy recomendable."
+        "descripcion": "Excelente servicio y atención al cliente. Muy recomendable.",
+        "date": "Enero 15, 2025"
     },
     {
         "id": 1,
         "stars": "★★★★☆",
         "nombre": "Ana Pérez",
-        "descripcion": "Muy buena experiencia, aunque el tiempo de espera fue un poco largo."
+        "descripcion": "Muy buena experiencia, aunque el tiempo de espera fue un poco largo.",
+        "date": "Marzo 27, 2025"
     },
     {
         "id": 2,
         "stars": "★★★★★",
         "nombre": "Carlos López",
-        "descripcion": "Productos de alta calidad y atención excepcional. Volveré sin duda."
+        "descripcion": "Productos de alta calidad y atención excepcional. Volveré sin duda.",
+        "date": "Julio 05, 2024"
     },
     {
         "id": 3,
         "stars": "★★★☆☆",
         "nombre": "María García",
-        "descripcion": "El servicio fue bueno, pero creo que podrían mejorar en la variedad de productos."
+        "descripcion": "El servicio fue bueno, pero creo que podrían mejorar en la variedad de productos.",
+        "date": "Abril 19, 2025"
     }
 ]

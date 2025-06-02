@@ -1,7 +1,7 @@
 
 import PropTypes from 'prop-types'
 
-export const SliderMedia = ({typeMedia, url, name , poster, frase, stars, description}) => {
+export const SliderMedia = ({typeMedia, url, name , poster, frase, stars, description, date}) => {
       //Decido con la clase a trabajar en el slider
     let className
 
@@ -58,9 +58,16 @@ export const SliderMedia = ({typeMedia, url, name , poster, frase, stars, descri
             )}
             {typeMedia === 'reviews' && (
                 <div className='flex flex-col items-center h-72 text-balance justify-center gap-4'>
-                    <h4 className='text-xl md:text-3xl font-bold'>
-                        {stars}
-                    </h4>
+                    <div className='flex flex-row items-center justify-center gap-3 md:gap-6'>                        
+                        <h4 className='text-xl md:text-3xl font-bold'>
+                            {stars}
+                        </h4>
+                        <span>
+                            <small>                            
+                                {date}
+                            </small>
+                        </span>
+                    </div>
                     <p className='text-lg md:text-2xl px-5 py-10'>
                         {description}
                     </p>
