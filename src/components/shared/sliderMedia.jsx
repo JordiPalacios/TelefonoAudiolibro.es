@@ -63,7 +63,7 @@ export const SliderMedia = ({typeMedia, url, name , poster, frase, stars, descri
                             {stars}
                         </h4>
                         <span>
-                            <small>                            
+                            <small className='font-extrabold text-sm md:text-lg text-gray-900/80'>                            
                                 {date}
                             </small>
                         </span>
