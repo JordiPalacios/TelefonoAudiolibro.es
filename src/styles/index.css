@@ -50,13 +50,13 @@ body {
 
 button {
     cursor: pointer;
-    font-family: 'Space Grotesk Variable', sans-serif;
+    font-family: 'Outfit Variable', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 h1,h2 {
-    font-family: 'Outfit Variable', sans-serif;
+    font-family: 'Playfair Display Variable', serif;
 }
 
 p, span, li {
@@ -64,7 +64,7 @@ p, span, li {
 }
 
 .accent {
-    font-family: 'Playfair Display Variable', serif;
+    font-family: 'Cormorant Variable', serif;
 }
 
 .title-accent {
