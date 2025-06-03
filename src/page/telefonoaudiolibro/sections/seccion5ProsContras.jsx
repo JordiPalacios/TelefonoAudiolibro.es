@@ -4,12 +4,12 @@ import { CrossIcon, TickIcon } from "../../../components"
 export const Seccion5ProsContras = () => {
     const prosVSconts = ProsVSContsData
     return (
-        <>
-            <h2 className="title text-center">
+        <div className="py-10">
+            <h2 className="title text-center mb-5">
                 ¿CON CÚAL TE QUEDAS?
             </h2>
             <div className="flex flex-col items-center justify-center w-full">                
-                <table className="max-w-md w-full text-center px-5 py-2 border-separate border-spacing-y-4 bg-white/50 shadow-md rounded-xl">
+                <table className="max-w-md w-full text-center px-5 py-2 border-separate border-spacing-y-4 bg-gray-100/50 shadow-md rounded-xl">
                     <thead>                    
                         <tr>
                             <th className="align-middle">
@@ -23,7 +23,7 @@ export const Seccion5ProsContras = () => {
                     </thead>
                     <tbody>                    
                         {prosVSconts.map((item) => (
-                            <tr key={item.id} className="align-middle">
+                            <tr key={item.id} className="align-middl bg-gray-100/50 shadow-md shadow-black/20 rounded-xl">
                                 <td className="align-middle">
                                     <div className="flex justify-center">    
                                         {item.isCrossLeft 
@@ -35,7 +35,7 @@ export const Seccion5ProsContras = () => {
                                 <td className="align-middle font-semibold text-md md:text-lg">
                                     {item.tittle}
                                 </td>
-                                <td className="align-middle">
+                                <td className="align-middle bg-lime-200/50 shadow-lg shadow-black/20 rounded-xl">
                                     <div className="flex justify-center">
                                         {item.isCrossRight 
                                             ? <CrossIcon className="w-8 h-8 text-red-600" />
@@ -48,6 +48,6 @@ export const Seccion5ProsContras = () => {
                     </tbody>
                 </table>
             </div>
-        </>
+        </div>
     )
 }

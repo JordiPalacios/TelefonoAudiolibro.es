@@ -2,8 +2,8 @@ import { Card } from "../../../components"
 
 export const Seccion3Guia = () => {
   return (
-    <div className="py-5">
-      <h2 className="title text-center mt-5">
+    <div className="flex flex-col items-center justify-center py-5">
+      <h2 className="title text-center mt-5 underline decoration-wavy decoration-2 underline-offset-2">
         ¿CÓMO FUNCIONA?
       </h2>
       <div className="flex flex-col lg:flex-row lg:gap-8 items-center justify-center">
@@ -29,6 +29,9 @@ export const Seccion3Guia = () => {
           desc2=" Transformamos los mensajes en recuerdos digitales que tendréis para siempre"
           />
       </div>
+      <button className="button m-5">
+        texto provisional
+      </button>
     </div>
   )
 }

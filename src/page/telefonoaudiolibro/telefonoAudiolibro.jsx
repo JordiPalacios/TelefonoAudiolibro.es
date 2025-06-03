@@ -47,8 +47,9 @@ export const TelefonoAudiolibro = () => {
                 numPC="8"
                 numTablet="4"
                 numMobile="2"
+                color="#c22f8e"
                 />
-                <Section as="section" className="px-10 my-10 flex flex-col lg:flex-row items-center justify-between text-center overflow-hidden">
+                <Section as="section" className="px-10 my-10 flex flex-col lg:flex-row items-center justify-between lg:justify-around text-center overflow-hidden">
                     <Seccion1Video />
                 </Section>
                 {/* ***************************************************************************** */}
@@ -57,10 +58,10 @@ export const TelefonoAudiolibro = () => {
                     <Seccion4Conclusion />
                 </Section>
                 {/* ***************************************************************************** */}
-                <Section as="section" className="px-10">
+                <Section as="section" className="px-10 bg-lime-300/30 mt-10">
                     <Seccion5ProsContras />
                 </Section>
-                <Section as="section" className="my-15">
+                <Section as="section">
                     <Seccion6FraseImpactante />
                 </Section>
                 <Section as="section" className="px-10 my-15">

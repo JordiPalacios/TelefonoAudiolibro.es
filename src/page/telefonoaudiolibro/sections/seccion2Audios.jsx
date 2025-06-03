@@ -24,12 +24,15 @@ export const Seccion2Audios = () => {
                 <h2 className="title text-center lg:max-w-5xl">
                     NO TODO EL MUNDO TIENE LA VOZ DE SU ABUELA GUARDADA PARA SIEMPRE
                 </h2>
-                <p className="m-5 text-xl md:text-2xl text-pink-500 font-semibold underline-offset-4 underline decoration-dashed ">
+                <p className="m-5 text-xl md:text-2xl text-pink-500 font-semibold underline-offset-4 underline decoration-dashed">
                     DALE AL PLAY
                 </p>                        
                     <audio className="w-xs my-2" src="/audio/audio.mp4" controls controlsList="nodownload" />
                     <audio className="w-xs my-2" src="/audio/audio.mp4" controls controlsList="nodownload" />
                     <audio className="w-xs my-2" src="/audio/audio.mp4" controls controlsList="nodownload" />                
+                <button className="button m-10">
+                    texto provisional
+                </button>
             </div>
         </>
     )
