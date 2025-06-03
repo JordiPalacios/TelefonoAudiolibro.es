@@ -8,7 +8,7 @@ export const Card = ({ id, tittle, desc1, desc2 }) => {
             >
                 {id}
             </span>
-            <h2 className="font-extrabold text-xl md:text-2xl text-balance">
+            <h2 className="font-extrabold text-xl md:text-2xl text-balance mt-5 md:mt-2">
                 {tittle}
             </h2>
             <p className="font-bold md:text-lg text-pink-500">
