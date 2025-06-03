@@ -22,9 +22,10 @@ export const Seccion0Presentacion = () => {
                     Pero por favor... <span className="font-bold">No lo hagas con el típico libro de firmas</span> (muy aburrido).
                     <br />
                     <br />
-                    Total, que necesitas un recuerdo original que sea también una <span className="accent text-pink-500 font-semibold">experiencia para todos.</span>
+                    Total, que necesitas un recuerdo original que sea también una <span className="text-pink-500 font-semibold">experiencia para todos.</span>
                     <br />
-                    <span className="accent text-gray-700 font-bold">Uffffff “Pero esto me costará más que ir al Mercadona”</span>
+                    <br />
+                    <span className="accent text-lg md:text-xl text-gray-700 font-bold">Uffffff “Pero esto me costará más que ir al Mercadona”</span>
                     <br />
                     <br />
                     Nada de eso, <span className="font-extrabold text-pink-500">no hace falta gastarse 5.000€ en robots
@@ -35,9 +36,10 @@ export const Seccion0Presentacion = () => {
                 </button>
             </div>
             <Voice 
-            numPC="8"
+            numPC="10"
             numTablet="4"
             numMobile="2"
+            color="#f472b6"
             />
             <MainSlider
             type="videos"
