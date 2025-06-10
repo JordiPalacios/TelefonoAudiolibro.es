@@ -1,12 +1,21 @@
-import { MainSlider } from "../../../components/shared/mainSlider"
 import { Voice } from "../../../components"
-import { useWorkingMode } from "../../../assets/customHooks/useWorkingMode"
+import { useViewInterseccion, useWorkingMode } from "../../../assets/customHooks"
+import { MainSlider } from "../../../components/shared/mainSlider"
 
 export const Seccion0Presentacion = () => {
     const workingMode = useWorkingMode('Mobile')
+    const [viewInterseccion, ref] = useViewInterseccion()
 
     return (
-        <>
+        <div 
+            ref={ref}
+            transition-style={
+                viewInterseccion 
+                ? "in:wipe:down"
+                : ""
+            }
+            className={`block transition-opacity duration-300 ${viewInterseccion ? "opacity-100" : "opacity-0"}`}
+            >
             <div className="text-center">
                 <h2 className="title">                       
                     ¿QUÉ DARÍAS POR VOLVER A ESCUCHAR LA VOZ DE TU ABUELOS?
@@ -58,6 +67,6 @@ export const Seccion0Presentacion = () => {
             autoplay={false}
             autoplaySpeed={0}
             />
-        </>
+        </div>
     )
 }
