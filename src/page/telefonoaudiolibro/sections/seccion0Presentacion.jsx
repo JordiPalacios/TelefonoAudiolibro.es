@@ -4,7 +4,7 @@ import { MainSlider } from "../../../components/shared/mainSlider"
 
 export const Seccion0Presentacion = () => {
     const workingMode = useWorkingMode('Mobile')
-    const [viewInterseccion, ref] = useViewInterseccion()
+    const [viewInterseccion, ref] = useViewInterseccion(0.3)
 
     return (
         <div 

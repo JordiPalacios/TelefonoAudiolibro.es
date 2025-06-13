@@ -1,15 +1,15 @@
 import { useViewInterseccion } from "../assets/customHooks"
 
 export const Card = ({ id, tittle, desc1, desc2 }) => {
-    const [viewInterseccion, ref] = useViewInterseccion()
+    const [viewInterseccion, ref] = useViewInterseccion(0.85)
 
     return (
         <div 
         ref={ref}
-            transition-style={
-                viewInterseccion 
-                ? "in:circle:hesitate"
-                : ""
+        transition-style={
+            viewInterseccion 
+            ? "in:circle:hesitate"
+            : ""
         }
         className={`relative flex flex-col items-center justify-evenly text-center w-xs md:w-md aspect-[4/3] gap-4 p-4 my-10 md:my-20 lg:mx-4 bg-gray-100/50 rounded-4xl shadow-md
         transition-opacity duration-300 ${viewInterseccion ? "opacity-100" : "opacity-0"}`}

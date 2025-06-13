@@ -1,10 +1,19 @@
+import { useViewInterseccion } from "../../../assets/customHooks"
 import { MainSlider } from "../../../components/shared/mainSlider"
 
 export const Seccion2Audios = () => {
+    const [viewInterseccion, ref] = useViewInterseccion(0.15)
     
     return (
         <>
-            <div className= "hidden lg:block w-1/2">                
+            <div 
+            ref={ref}
+            transition-style={
+            viewInterseccion 
+            ? "in:square:center"
+            : ""
+            }
+            className= {`hidden lg:block w-1/2 transition-opacity duration-300 ${viewInterseccion ? "opacity-100" : "opacity-0"}`}>                
                 <MainSlider
                     type="imagenes"
                     draggable={true}

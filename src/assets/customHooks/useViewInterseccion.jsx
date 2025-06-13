@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react"
 
-export const useViewInterseccion = () => {
+export const useViewInterseccion = (threshold = 0.2) => {
     const [active, setActive] = useState(false)
     const ref  =useRef(null)
 
@@ -14,7 +14,7 @@ export const useViewInterseccion = () => {
                     observer.disconnect()
                 } 
             },
-            { threshold: 0.2 }
+            { threshold }
         )
 
         observer.observe(ref.current)
