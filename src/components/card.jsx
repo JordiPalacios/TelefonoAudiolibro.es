@@ -1,6 +1,6 @@
 import { useViewInterseccion } from "../assets/customHooks"
 
-export const Card = ({ id, tittle, desc1, desc2 }) => {
+export const Card = ({ id, tittle, desc1, desc2, url }) => {
     const [viewInterseccion, ref] = useViewInterseccion(0.85)
 
     return (
@@ -20,13 +20,18 @@ export const Card = ({ id, tittle, desc1, desc2 }) => {
             >
                 {id}
             </span>
-            <h2 className="font-extrabold text-xl md:text-2xl text-balance mt-5 md:mt-2">
+            <img 
+            src={url} 
+            alt="telefono audiolibro guia" 
+            className="lg:componentAnimation max-w-25 object-cover absolute -top-12 right-0"
+            />
+            <h2 className="font-extrabold text-xl md:text-2xl text-balance mt-10 md:mt-2">
                 {tittle}
             </h2>
             <p className="font-bold md:text-lg text-pink-500">
                 {desc1}
             </p>
-            <p className="font-semibold md:text-lg">
+            <p className="font-semibold mb-10 md:mt-2 md:text-lg">
                 {desc2}
             </p>
         </div>
