@@ -29,7 +29,7 @@ export const Seccion1Video = () => {
                 ? "in:square:center"
                 : ""
                 } 
-                className={`m-5 lg:m-10 rounded-tl-4xl rounded-br-4xl max-w-3/4 md:max-w-lg lg:max-w-xs object-cover
+                className={`m-5 lg:m-10 rounded-tl-4xl rounded-br-4xl max-w-3/4 md:max-w-xs object-cover
                 transition-opacity duration-300 
                 ${viewInterseccion ? "lg:opacity-100" : "opacity-0"}
                 `}
