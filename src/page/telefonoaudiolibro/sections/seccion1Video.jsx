@@ -4,6 +4,36 @@ export const Seccion1Video = () => {
     const [viewInterseccion, ref] = useViewInterseccion(0.10)
     return (
         <>
+            <img 
+            src="/img/auxiliares/stars.webp" 
+            alt="telefono audiolibro guia" 
+            className="componentAnimation max-w-35 md:max-w-60 lg:max-w-70 object-cover absolute top-20 -right-15 md:-right-25 lg:left-250 rotate-12"
+            />
+            <img 
+            src="/img/auxiliares/stars.webp" 
+            alt="telefono audiolibro guia" 
+            className="componentAnimation max-w-35 md:max-w-60 lg:max-w-70 object-cover absolute top-40 -left-15 md:-left-10 lg:top-10 lg:left-10 rotate-12"
+            />
+            <img 
+            src="/img/auxiliares/stars.webp" 
+            alt="telefono audiolibro guia" 
+            className="componentAnimation  max-w-35 md:max-w-60 lg:max-w-40 object-cover absolute top-60 md:top-100 lg:top-80 -right-15 md:-right-20 lg:left-270 rotate-12"
+            />
+            <img 
+            src="/img/auxiliares/stars.webp" 
+            alt="telefono audiolibro guia" 
+            className="componentAnimation max-w-35 md:max-w-60 lg:max-w-40 object-cover absolute top-80 md:top-120 lg:top-100 -left-15 md:-left-5 lg:left-75 rotate-12"
+            />
+            <img 
+            src="/img/auxiliares/stars.webp" 
+            alt="telefono audiolibro guia" 
+            className="componentAnimation max-w-35 md:max-w-60 lg:max-w-65 object-cover absolute top-100 md:top-160 lg:top-120 -right-15 md:-right-5 lg:left-200 rotate-12"
+            />
+            <img 
+            src="/img/auxiliares/stars.webp" 
+            alt="telefono audiolibro guia" 
+            className="componentAnimation max-w-35 md:max-w-60 lg:max-w-65 object-cover absolute top-120 md:top-180 lg:top-120 -left-15 md:-left-0 lg:left-20 rotate-12"
+            />
             <div className="flex flex-col items-center justify-center">            
                 <h2 className="title">
                     ESTOS PRODRÍAIS SER VOSOTROS
