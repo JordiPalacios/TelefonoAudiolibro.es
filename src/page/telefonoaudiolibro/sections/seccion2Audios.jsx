@@ -1,34 +1,25 @@
-import { useViewInterseccion } from "../../../assets/customHooks"
 import { MainSlider } from "../../../components/shared/mainSlider"
 
 export const Seccion2Audios = () => {
-    const [viewInterseccion, ref] = useViewInterseccion(0.10)
     
     return (
-        <>
-            <div 
-            ref={ref}
-            transition-style={
-            viewInterseccion 
-            ? "in:square:center"
-            : ""
-            }
-            className= {`hidden lg:block w-1/2 transition-opacity duration-300 ${viewInterseccion ? "opacity-100" : "opacity-0"}`}>                
-                <MainSlider
-                    type="imagenes"
-                    draggable={true}
-                    swipe={true}
-                    touchMove={true}
-                    dots={false}
-                    arrows={true}
-                    infinite={true}
-                    speed={500}
-                    slidesToShow={1}
-                    slidesToScroll={1}
-                    autoplay={false}
-                    autoplaySpeed={0}
+        <>      
+            <div className="hidden lg:block w-1/2 h-full">
+            <MainSlider
+                type="imagenes"
+                draggable={true}
+                swipe={true}
+                touchMove={true}
+                dots={false}
+                arrows={true}
+                infinite={true}
+                speed={500}
+                slidesToShow={1}
+                slidesToScroll={1}
+                autoplay={false}
+                autoplaySpeed={0}
                 />
-            </div>
+            </div>         
             <div className="flex flex-col items-center justify-center">
                 <h2 className="title text-center lg:max-w-5xl">
                     NO TODO EL MUNDO TIENE LA VOZ DE SU ABUELA GUARDADA PARA SIEMPRE
