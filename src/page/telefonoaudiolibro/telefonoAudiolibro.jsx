@@ -34,13 +34,13 @@ export const TelefonoAudiolibro = () => {
                 <Section as="section" className='px-10 my-10'>
                     <Seccion0Presentacion />
                 </Section>
-                <Section as="section" className="px-10 bg-lime-300/30">
+                <Section as="section" id='guia' className="px-10 bg-lime-300/30">
                     <Seccion3Guia />
                 </Section>
                 <InfiniteLoopSection 
                 equal={true} 
                 />
-                <Section as="section" className="componentAnimation px-10 md:px-20 my-10 flex flex-col lg:flex-row items-stretch justify-between gap-4 lg:gap-0 text-center overflow-hidden">
+                <Section as="section" id='audios' className="componentAnimation relative px-10 md:px-20 mb-10 flex flex-col lg:flex-row items-stretch justify-between gap-4 lg:gap-0 text-center overflow-hidden">
                     <Seccion2Audios />
                 </Section>
                 <Voice 
@@ -49,7 +49,7 @@ export const TelefonoAudiolibro = () => {
                 numMobile="2"
                 color="#c22f8e"
                 />
-                <Section as="section" className="px-10 my-10 flex flex-col lg:flex-row items-center justify-between lg:justify-around text-center overflow-hidden">
+                <Section as="section" className="relative px-10 my-10 flex flex-col lg:flex-row items-center justify-between lg:justify-around text-center overflow-hidden">
                     <Seccion1Video />
                 </Section>
                 {/* ***************************************************************************** */}
@@ -64,7 +64,7 @@ export const TelefonoAudiolibro = () => {
                 <Section as="section">
                     <Seccion6FraseImpactante />
                 </Section>
-                <Section as="section" className="px-10 my-15">
+                <Section as="section" id='opiniones' className="px-10 my-15">
                     <Reviews />
                 </Section>
                 <div className='w-full bg-white/40' style={{ height:"8px" }} />

@@ -4,7 +4,12 @@ export const Seccion2Audios = () => {
     
     return (
         <>      
-            <div className="hidden lg:block w-1/2 h-full">
+            <img 
+            src="/img/auxiliares/bolaDiscoteca.webp" 
+            alt="telefono audiolibro guia" 
+            className="componentAnimation block max-w-40 md:max-w-60 lg:max-w-xs object-cover absolute top-0 -left-7.5 md:-left-10 lg:left-0"
+            />
+            <div className="hidden mt-10 lg:block w-1/2 h-full">
             <MainSlider
                 type="imagenes"
                 draggable={true}
@@ -20,7 +25,7 @@ export const Seccion2Audios = () => {
                 autoplaySpeed={0}
                 />
             </div>         
-            <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center mt-10">
                 <h2 className="title text-center lg:max-w-5xl">
                     NO TODO EL MUNDO TIENE LA VOZ DE SU ABUELA GUARDADA PARA SIEMPRE
                 </h2>
