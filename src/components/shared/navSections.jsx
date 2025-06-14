@@ -12,7 +12,7 @@ export const NavSections = ( {section} ) => {
                     window.history.replaceState(null, "", window.location.pathname);
                     }
                 }}
-        className='hidden lg:block text-white hover:text-white/70 transition-colors duration-300'>
+        className='mb-4 text-lg font-bold lg:text-lg lg:font-semibold text-white hover:text-white/70 transition-colors duration-300'>
             {name}
         </a>
     )
