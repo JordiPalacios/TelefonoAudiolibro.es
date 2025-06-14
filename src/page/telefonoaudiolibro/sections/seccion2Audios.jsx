@@ -2,7 +2,7 @@ import { useViewInterseccion } from "../../../assets/customHooks"
 import { MainSlider } from "../../../components/shared/mainSlider"
 
 export const Seccion2Audios = () => {
-    const [viewInterseccion, ref] = useViewInterseccion(0.15)
+    const [viewInterseccion, ref] = useViewInterseccion(0.10)
     
     return (
         <>

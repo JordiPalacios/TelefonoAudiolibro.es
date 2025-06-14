@@ -1,7 +1,7 @@
 import { useViewInterseccion } from "../../../assets/customHooks"
 
 export const Seccion1Video = () => {
-    const [viewInterseccion, ref] = useViewInterseccion(0.15)
+    const [viewInterseccion, ref] = useViewInterseccion(0.10)
     return (
         <>
             <div className="flex flex-col items-center justify-center">            
@@ -34,7 +34,7 @@ export const Seccion1Video = () => {
                 ${viewInterseccion ? "lg:opacity-100" : "opacity-0"}
                 `}
                 />
-            <button className='button lg:hidden m-5'>
+            <button className='button lg:hidden mb-5 md:m-5'>
                     texto provisional
             </button>
         </>
