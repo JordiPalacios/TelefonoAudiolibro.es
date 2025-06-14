@@ -110,7 +110,7 @@ export const MainSlider = ({type, draggable, swipe, touchMove , dots, arrows, in
 
     return (
         <Slider ref={sliderRef} {...sliderSettings} 
-        className={` mx-auto
+        className={`componentAnimation mx-auto
             ${type === 'frases' 
             ? 'max-w-full' 
             : type === 'imagenes'

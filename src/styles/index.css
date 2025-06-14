@@ -114,7 +114,7 @@ p, span, li {
 }
 
 [transition-style="in:square:center"] {
-    animation: 5s cubic-bezier(.25, 1, .30, 1) square-in-center both;
+    animation: 2.5s cubic-bezier(.25, 1, .30, 1) square-in-center both;
 }
 
 /* Swoop desde el círculo */
@@ -130,4 +130,28 @@ p, span, li {
 [transition-style="in:custom:circle-swoop"] {
     --transition__duration: 10s;
     animation-name: in-circle-swoop;
+}
+
+/* Animación de entrada de componente */
+@keyframes showComponent {
+    from {
+        opacity: 0%;
+        scale: 25%;
+    } to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+
+.componentAnimation {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation: showComponent 1s both;
+    animation-timeline: --image;
+    animation-name: showComponent;
+
+    animation-range: entry 15% cover 50%;
+    animation-fill-mode: both;
 }

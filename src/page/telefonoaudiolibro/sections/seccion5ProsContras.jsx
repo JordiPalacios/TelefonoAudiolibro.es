@@ -8,7 +8,7 @@ export const Seccion5ProsContras = () => {
             <h2 className="title text-center mb-5">
                 ¿CON CÚAL TE QUEDAS?
             </h2>
-            <div className="flex flex-col items-center justify-center w-full">                
+            <div className="comparisonAnimation flex flex-col items-center justify-center w-full">                
                 <table className="max-w-md w-full text-center px-5 py-2 border-separate border-spacing-y-4 bg-gray-100/50 shadow-md rounded-xl">
                     <thead>                    
                         <tr>
