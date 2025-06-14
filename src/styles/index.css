@@ -152,6 +152,6 @@ p, span, li {
     animation-timeline: --image;
     animation-name: showComponent;
 
-    animation-range: entry 15% cover 50%;
+    animation-range: entry 15% cover 35%;
     animation-fill-mode: both;
 }
