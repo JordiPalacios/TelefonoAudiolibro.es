@@ -1,21 +1,12 @@
 import { Voice } from "../../../components"
-import { useViewInterseccion, useWorkingMode } from "../../../assets/customHooks"
+import { useWorkingMode } from "../../../assets/customHooks"
 import { MainSlider } from "../../../components/shared/mainSlider"
 
 export const Seccion0Presentacion = () => {
     const workingMode = useWorkingMode('Mobile')
-    const [viewInterseccion, ref] = useViewInterseccion(0.3)
 
     return (
-        <div 
-            // ref={ref}
-            // transition-style={
-            //     viewInterseccion 
-            //     ? "in:wipe:down"
-            //     : ""
-            // }
-            // className={`block transition-opacity duration-300 ${viewInterseccion ? "opacity-100" : "opacity-0"}`}
-            >
+        <>
             <div className="text-center">
                 <h2 className="title">                       
                     ¿QUÉ DARÍAS POR VOLVER A ESCUCHAR LA VOZ DE TU ABUELOS?
@@ -49,34 +40,24 @@ export const Seccion0Presentacion = () => {
             numTablet="4"
             numMobile="2"
             color="#f472b6"
+            />               
+            <MainSlider
+            type="videos"
+            draggable={true}
+            swipe={true}
+            touchMove={true}
+            dots={false}
+            arrows={true}
+            infinite={true}
+            speed={500}
+            {...(workingMode === "PC" 
+                ? {slidesToShow: 3} 
+                : {slidesToShow: 1}
+            )}
+            slidesToScroll={1}
+            autoplay={false}
+            autoplaySpeed={0}
             />
-            <div
-            ref={ref}
-            transition-style={
-                viewInterseccion 
-                ? "in:custom:circle-swoop"
-                : ""
-            }
-            className={`transition-opacity duration-300 ${viewInterseccion ? "opacity-100" : "opacity-0"}`}
-            >                
-                <MainSlider
-                type="videos"
-                draggable={true}
-                swipe={true}
-                touchMove={true}
-                dots={false}
-                arrows={true}
-                infinite={true}
-                speed={500}
-                {...(workingMode === "PC" 
-                    ? {slidesToShow: 3} 
-                    : {slidesToShow: 1}
-                )}
-                slidesToScroll={1}
-                autoplay={false}
-                autoplaySpeed={0}
-                />
-            </div>
-        </div>
+        </>
     )
 }
