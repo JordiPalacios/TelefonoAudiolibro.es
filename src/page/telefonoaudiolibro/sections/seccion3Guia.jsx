@@ -10,12 +10,12 @@ export const Seccion3Guia = () => {
       <img 
       src="/img/auxiliares/telefonoMuestra01.webp" 
       alt="telefono audiolibro guia" 
-      className="componentAnimation hidden lg:block max-w-xs object-cover p-5 absolute top-1/3 xl:top-1/2 -right-1/24 xl:-right-1/24 2xl:right-1/6"
+      className="hidden lg:block max-w-xs object-cover p-5 absolute top-1/3 xl:top-1/2 -right-1/24 xl:-right-1/24 2xl:right-1/6"
       />
       <img 
       src="/img/auxiliares/telefonoMuestra01.webp" 
       alt="telefono audiolibro guia" 
-      className="componentAnimation hidden lg:block max-w-xs object-cover p-5 absolute top-1/12 xl:top-1/6 -left-1/24 xl:-left-1/24 2xl:left-1/6"
+      className="hidden lg:block max-w-xs object-cover p-5 absolute top-1/12 xl:top-1/6 -left-1/24 xl:-left-1/24 2xl:left-1/6"
       />   
       <video 
       src="/video/videoGuia.mov" 
