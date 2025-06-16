@@ -4,7 +4,7 @@ import { CrossIcon, TickIcon } from "../../../components"
 export const Seccion5ProsContras = () => {
     const prosVSconts = ProsVSContsData
     return (
-        <div className="pb-10">
+        <div className="py-10">
             <h2 className="title text-center mb-5">
                 ¿CON CÚAL TE QUEDAS?
             </h2>
