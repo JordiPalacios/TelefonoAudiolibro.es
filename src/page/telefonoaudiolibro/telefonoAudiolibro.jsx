@@ -34,7 +34,7 @@ export const TelefonoAudiolibro = () => {
                 <Section as="section" className='px-10 my-10'>
                     <Seccion0Presentacion />
                 </Section>
-                <Section as="section" id='guia' className="px-10 bg-lime-300/30">
+                <Section as="section" id='guia' className="px-10 bg-accent">
                     <Seccion3Guia />
                 </Section>
                 <InfiniteLoopSection 
@@ -52,19 +52,22 @@ export const TelefonoAudiolibro = () => {
                 <Section as="section" className="relative px-10 my-10 flex flex-col lg:flex-row items-center justify-between lg:justify-around text-center overflow-hidden">
                     <Seccion1Video />
                 </Section>
+                <InfiniteLoopSection 
+                equal={true} 
+                />
                 {/* ***************************************************************************** */}
                 {/* De momento se oculta porque no lo usamos, si al final no se usa lo borro      */}
                 <Section as="section" className="hidden px-10 my-10">
                     <Seccion4Conclusion />
                 </Section>
                 {/* ***************************************************************************** */}
-                <Section as="section" className="px-10 bg-lime-300/30 mt-10">
+                <Section as="section" className="px-10 bg-accent">
                     <Seccion5ProsContras />
                 </Section>
                 <Section as="section">
                     <Seccion6FraseImpactante />
                 </Section>
-                <Section as="section" id='opiniones' className="px-10 my-15">
+                <Section as="section" id='opiniones' className="px-10 py-20 bg-accent-2 xl:py-60">
                     <Reviews />
                 </Section>
                 <div className='w-full bg-white/40' style={{ height:"8px" }} />
