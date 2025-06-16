@@ -1,6 +1,6 @@
 import { useViewInterseccion } from "../assets/customHooks"
 
-export const Card = ({ id, tittle, desc1, desc2, url }) => {
+export const Card = ({ id, tittle, desc1, desc2, url, className = "" }) => {
     const [viewInterseccion, ref] = useViewInterseccion(0.85)
 
     return (
@@ -8,10 +8,10 @@ export const Card = ({ id, tittle, desc1, desc2, url }) => {
         ref={ref}
         transition-style={
             viewInterseccion 
-            ? "in:circle:hesitate"
+            ? "in:circle:center"
             : ""
         }
-        className={`relative flex flex-col items-center justify-evenly text-center w-xs md:w-md aspect-[4/3] gap-4 p-4 my-10 md:my-20 lg:mx-4 bg-gray-100/50 rounded-4xl shadow-md
+        className={`relative flex flex-col items-center justify-evenly text-center w-full md:max-w-sm lg:max-w-sm aspect-[4/3] p-4 my-10 lg:mx-4 bg-gray-100/50 rounded-4xl shadow-xl ${className}
         transition-opacity duration-300 ${viewInterseccion ? "opacity-100" : "opacity-0"}`}
         >
             <span
@@ -23,9 +23,9 @@ export const Card = ({ id, tittle, desc1, desc2, url }) => {
             <img 
             src={url} 
             alt="telefono audiolibro guia" 
-            className="lg:componentAnimation max-w-25 object-cover absolute -top-12 right-0"
+            className="lg:componentAnimation max-w-25 object-cover absolute -top-12 -right-5"
             />
-            <h2 className="font-extrabold text-xl md:text-2xl text-balance mt-10 md:mt-2">
+            <h2 className="font-extrabold text-xl md:text-2xl text-balance mt-10 md:mt-5">
                 {tittle}
             </h2>
             <p className="font-bold md:text-lg text-pink-500">
