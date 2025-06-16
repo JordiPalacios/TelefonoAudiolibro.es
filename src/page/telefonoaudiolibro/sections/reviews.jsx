@@ -3,7 +3,7 @@ import { MainSlider } from "../../../components/shared/mainSlider"
 export const Reviews = () => {
     return (
         <>
-            <h3 className="title text-center mb-4 md:mb-10">
+            <h3 className="title text-center">
                 OPINIONES
             </h3>
             <MainSlider 
