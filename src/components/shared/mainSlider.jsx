@@ -109,19 +109,20 @@ export const MainSlider = ({type, draggable, swipe, touchMove , dots, arrows, in
 
 
     return (
+        <div className="lg:p-10">
         <Slider ref={sliderRef} {...sliderSettings} 
         className={`componentAnimation mx-auto
             ${type === 'frases' 
-            ? 'max-w-full' 
-            : type === 'imagenes'
-            ? 'max-w-xl lg:max-w-md'
-            : type === 'videos'
-            ? 'max-w-full md:max-w-4/5'
-            : type === 'reviews'
-            ? 'max-w-xl bg-white/20 shadow-md rounded-xl '
-            : ''
-        }
-        `}>
+                ? 'max-w-full' 
+                : type === 'imagenes'
+                ? 'max-w-xl lg:max-w-md'
+                : type === 'videos'
+                ? 'max-w-full md:max-w-3/6 lg:max-w-full'
+                : type === 'reviews'
+                ? 'max-w-xl bg-white/20 shadow-md rounded-xl '
+                : ''
+            }
+            `}>
             {sliderData.map((data) => (
                 <SliderMedia 
                 key={data.id}
@@ -129,5 +130,6 @@ export const MainSlider = ({type, draggable, swipe, touchMove , dots, arrows, in
                 />
             ))}
         </Slider>
+        </div>
     )
 }
