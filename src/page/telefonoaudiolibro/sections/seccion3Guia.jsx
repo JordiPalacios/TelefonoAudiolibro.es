@@ -24,7 +24,7 @@ export const Seccion3Guia = () => {
       controlsList="nodownload"
       poster="/video/poster/poster08.webp"
       playsInline
-      className="componentAnimation mb-5 md:mb-20 self-center rounded-2xl shadow-2xl max-w-3/4 md:max-w-xs xl:max-w-sm object-cover"
+      className="componentAnimation mb-5 md:mb-20 self-center rounded-2xl shadow-2xl max-w-3/4 md:max-w-xs xl:max-w-xs 2xl:max-w-md object-cover"
       />
       <div className="flex flex-col items-stretch justify-center xl:flex-row overflow-hidden px-5 xl:gap-5 2xl:gap-40">
         <Card 
@@ -56,7 +56,7 @@ export const Seccion3Guia = () => {
       href="https://book.stripe.com/bJebJ3gex0Kx4DjehEgA804"
       target="_blank"
       rel="noreferrer noopener"
-      className="button mb-5 self-center uppercase"
+      className="button self-center uppercase"
       >
         Reservar ahora
       </a>

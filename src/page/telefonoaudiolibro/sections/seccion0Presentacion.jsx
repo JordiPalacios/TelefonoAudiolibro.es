@@ -7,14 +7,14 @@ export const Seccion0Presentacion = () => {
 
     return (
         <>
-            <div className="text-center">
+            <div className="text-center mb-10">
                 <h2 className="title">                       
                     ¿QUÉ DARÍAS POR VOLVER A ESCUCHAR LA VOZ DE TU ABUELOS?
                 </h2>
                 <h3 className="subtitle text-pink-500 lg:max-w-3xl mx-auto">
                     Tener junta a TODA tu <span className="font-extrabold text-pink-500">familia y amigos</span> en un solo lugar, pasa poco
                 </h3>
-                <p className="mb-5">
+                <p className="mb-10">
                     Muuy poco, así que aprovecha tu boda para crear el mejor
                     recuerdo de tus personas favoritas.
                     <br />
@@ -25,15 +25,20 @@ export const Seccion0Presentacion = () => {
                     Total, que necesitas un recuerdo original que sea también una <span className="text-pink-500 font-semibold">experiencia para todos.</span>
                     <br />
                     <br />
-                    <span className="accent text-lg md:text-xl text-gray-700 font-bold">Uffffff “Pero esto me costará más que ir al Mercadona”</span>
+                    <span className="accent text-lg md:text-xl text-gray-700 font-extrabold">Uffffff “Pero esto me costará más que ir al Mercadona”</span>
                     <br />
                     <br />
                     Nada de eso, <span className="font-extrabold text-pink-500">no hace falta gastarse 5.000€ en robots
                     leds</span> ni pistolas de fuego para tener un recuerdo especial
                 </p>
-                <button className="button">
-                    texto provisional
-                </button>
+                <a 
+                href="https://book.stripe.com/bJebJ3gex0Kx4DjehEgA804"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="button self-center uppercase"
+                >
+                    Reservar ahora
+                </a>
             </div>
             <Voice 
             numPC="10"

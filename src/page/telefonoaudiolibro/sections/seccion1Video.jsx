@@ -7,7 +7,7 @@ export const Seccion1Video = () => {
                     ESTOS PRODRÍAIS SER VOSOTROS
                 </h2>
                 <p className="font-semibold text-lg md:text-xl lg:text-2xl">
-                    Reviviendo de <span className="text-pink-500 font-extrabold">nuevo</span> la boda de el día siguiente.
+                    Reviviendo de <span className="text-pink-600/90 font-extrabold">nuevo</span> la boda, al día siguiente.
                 </p>
                 <button className='button hidden lg:block m-10'>
                     texto provisional
@@ -23,9 +23,14 @@ export const Seccion1Video = () => {
                 playsInline
                 className={`m-5 lg:m-10 rounded-tl-4xl rounded-br-4xl max-w-3/4 md:max-w-xs object-cover`}
                 />
-            <button className='button lg:hidden mb-5 md:m-5'>
-                    texto provisional
-            </button>
+            <a 
+            href="https://book.stripe.com/bJebJ3gex0Kx4DjehEgA804"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="button self-center uppercase"
+            >
+                Reservar ahora
+            </a>
         </>
     )
 }
