@@ -5,7 +5,7 @@ export const WhatsApp = ({ msg, className, label, colorText }) => {
 
     if (className === "contactFixed") {
         content = 
-        <div className="fixed mr-0 bottom-14 right-2 z-50 transition-transform duration-500 hover:scale-110">
+        <div className="componentAnimation fixed mr-0 bottom-14 right-2 z-50 transition-transform duration-500 hover:scale-110">
                 <a 
                 href={msg} 
                 target="_blank" 

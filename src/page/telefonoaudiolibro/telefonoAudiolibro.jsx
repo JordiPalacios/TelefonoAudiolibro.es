@@ -70,7 +70,7 @@ export const TelefonoAudiolibro = () => {
                 <Section as="section" id='opiniones' className="px-10 py-20 bg-accent-2 xl:py-60">
                     <Reviews />
                 </Section>
-                <div className='w-full bg-white/40' style={{ height:"8px" }} />
+                <div className='w-full bg-white/10' style={{ height:"8px" }} />
                 <WhatsApp className="contactFixed" msg="https://wa.me/34653781239?text=¡Quiero%20más%20información%20sobre%20VisualShow!" />
             </main>
         </>

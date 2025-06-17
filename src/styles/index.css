@@ -100,6 +100,10 @@ p, span, li {
     background: radial-gradient(125% 125% at 50% 10%, #fdeaf4 30%, #f9a8d4 100%)
 }
 
+.bg-footer{
+    background: radial-gradient(125% 125% at 50% 150%, #fdeaf4 5%, #fbc3e1 100%)
+}
+
 
 /* Animations */
 /* Circulo entrando en el centro */
