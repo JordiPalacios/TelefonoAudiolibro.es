@@ -108,6 +108,24 @@ p, span, li {
     background: radial-gradient(125% 125% at 50% 150%, #fdeaf4 5%, #fbc3e1 100%)
 }
 
+.pagoRealizado {
+    background: url('/img/telf21.webp') center/cover no-repeat;
+}
+
+.pagoRealizado::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.1); /* Ajusta el 0.4 para más o menos oscuridad */
+    z-index: 1;
+    pointer-events: none;
+}
+
+@media (min-width: 1024px) {
+    .pagoRealizado {
+    background: url('/img/telf06.webp') center/cover no-repeat;
+}
+}
 
 /* Animations */
 /* Circulo entrando en el centro */
