@@ -1,5 +1,6 @@
 
 import PropTypes from 'prop-types'
+import { VerifiedIcon } from '../icons/verifiedIcon';
 
 export const SliderMedia = ({typeMedia, url, name , poster, frase, stars, description, date}) => {
       //Decido con la clase a trabajar en el slider
@@ -71,9 +72,17 @@ export const SliderMedia = ({typeMedia, url, name , poster, frase, stars, descri
                     <p className='text-lg md:text-2xl px-5 py-10'>
                         {description}
                     </p>
-                    <p className='text-lg md:text-2xl font-bold'>
-                        {name}
-                    </p>
+                    <div className='flex flex-row items-center justify-around md:justify-start w-full md:gap-20 px-5'>
+                        <div className='flex flex-row justify-center items-center gap-1'>                            
+                            <VerifiedIcon className='w-5 h-5 md:w-8 md:h-8 text-pink-400/80' />
+                            <span className='font-sans text-xs text-black/40 mr-2'>
+                                Opinión verificada
+                            </span>
+                        </div>
+                        <p className='text-lg md:text-2xl font-bold'>
+                            {name}
+                        </p>
+                    </div>
                 </div>
             )}
         </div>
