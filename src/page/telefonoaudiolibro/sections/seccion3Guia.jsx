@@ -15,7 +15,7 @@ export const Seccion3Guia = () => {
       <img 
       src="/img/auxiliares/telefonoMuestra04.webp" 
       alt="telefono audiolibro guia" 
-      className="hiddenlg:block max-w-45 object-cover p-5 absolute top-7/24 xl:top-1/2 right-1/12 xl:right-1/6"
+      className="hidden lg:block max-w-45 object-cover p-5 absolute top-7/24 xl:top-1/2 right-1/12 xl:right-1/6"
       />
       <video 
       src="/video/videoGuia.mov" 
