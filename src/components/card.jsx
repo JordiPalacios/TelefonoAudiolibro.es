@@ -28,7 +28,7 @@ export const Card = ({ id, tittle, desc1, desc2, url, className = "" }) => {
             <h2 className="font-extrabold text-xl md:text-2xl text-balance mt-10 md:mt-5">
                 {tittle}
             </h2>
-            <p className="font-bold md:text-lg text-pink-500">
+            <p className="font-bold md:text-lg text-pink-500 underline underline-offset-2">
                 {desc1}
             </p>
             <p className="font-semibold mb-10 md:mt-2 md:text-lg">

@@ -71,6 +71,10 @@ p, span, li {
     font-family: 'Inter Variable', sans-serif;
 }
 
+p, span, li {
+    font-family: 'Tinos', serif;
+}
+
 .accent {
     font-family: 'Cormorant Variable', serif;
 }
