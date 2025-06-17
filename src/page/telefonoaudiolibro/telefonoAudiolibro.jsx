@@ -49,7 +49,7 @@ export const TelefonoAudiolibro = () => {
                 numMobile="2"
                 color="#c22f8e"
                 />
-                <Section as="section" className="relative px-10 my-10 flex flex-col lg:flex-row items-center justify-between lg:justify-around text-center overflow-hidden">
+                <Section as="section" className="componentAnimation relative px-10 my-10 flex flex-col lg:flex-row items-center justify-between lg:justify-around text-center overflow-hidden">
                     <Seccion1Video />
                 </Section>
                 <InfiniteLoopSection 

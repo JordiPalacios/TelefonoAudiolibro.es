@@ -15,7 +15,7 @@ export const Seccion3Guia = () => {
       <img 
       src="/img/auxiliares/telefonoMuestra04.webp" 
       alt="telefono audiolibro guia" 
-      className="hidden lg:block max-w-45 object-cover p-5 absolute top-7/24 xl:top-1/2 right-1/12 xl:right-1/6"
+      className="hiddenlg:block max-w-45 object-cover p-5 absolute top-7/24 xl:top-1/2 right-1/12 xl:right-1/6"
       />
       <video 
       src="/video/videoGuia.mov" 
@@ -24,7 +24,7 @@ export const Seccion3Guia = () => {
       controlsList="nodownload"
       poster="/video/poster/poster08.webp"
       playsInline
-      className="componentAnimation mb-5 md:mb-20 self-center rounded-2xl shadow-2xl max-w-3/4 md:max-w-xs xl:max-w-xs 2xl:max-w-md object-cover"
+      className="componentAnimation mb-5 md:mb-20 self-center rounded-2xl shadow-2xl max-w-3/4 md:max-w-xs xl:max-w-xs 2xl:max-w-sm object-cover"
       />
       <div className="flex flex-col items-stretch justify-center xl:flex-row overflow-hidden px-5 xl:gap-5 2xl:gap-40">
         <Card 

@@ -117,7 +117,7 @@ export const MainSlider = ({type, draggable, swipe, touchMove , dots, arrows, in
                 : type === 'imagenes'
                 ? 'max-w-xl lg:max-w-md'
                 : type === 'videos'
-                ? 'max-w-full md:max-w-3/6 lg:max-w-full'
+                ? 'max-w-full md:max-w-3/6 lg:max-w-3/4'
                 : type === 'reviews'
                 ? 'max-w-xl bg-white/20 shadow-md rounded-xl '
                 : ''
