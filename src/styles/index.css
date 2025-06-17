@@ -85,7 +85,7 @@ p, span, li {
 
 /** Estilos tailwind personalizados */
 .title {
-    @apply text-3xl md:text-5xl font-extrabold mb-5 md:mb-10 xl:mb-15 2xl:mb-20;
+    @apply text-3xl md:text-5xl font-extrabold mb-5 md:mb-10 xl:mb-15 2xl:mb-10;
 }
 
 .subtitle {

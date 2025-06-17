@@ -10,15 +10,13 @@ export const PagoRealizado = () => {
             <p className="text-center mb-5 text-pink-200 font-semibold">
                 Pronto recibirás un correo con la confirmación de tu reserva.
             </p>
-            <button>
-                <a 
-                    href="https://telefonoaudiolibro.es"
-                    rel="noreferrer noopener"
-                    className="button self-center uppercase"
-                >
-                    Volver a la página principal
-                </a>
-            </button>
+            <a 
+                href="https://telefonoaudiolibro.es"
+                rel="noreferrer noopener"
+                className="button self-center uppercase"
+            >
+                Volver a la página principal
+            </a>
         </div>
     )
 }
