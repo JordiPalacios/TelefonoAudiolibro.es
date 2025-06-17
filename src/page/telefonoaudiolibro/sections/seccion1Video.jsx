@@ -9,9 +9,14 @@ export const Seccion1Video = () => {
                 <p className="font-semibold text-lg md:text-xl lg:text-2xl">
                     Reviviendo de <span className="text-pink-600/90 font-extrabold">nuevo</span> la boda, al día siguiente.
                 </p>
-                <button className='button hidden lg:block m-10'>
-                    texto provisional
-            </button>
+                <a 
+                href="https://book.stripe.com/bJebJ3gex0Kx4DjehEgA804"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="hidden lg:block button m-10 self-center uppercase"
+                >
+                    Reservar ahora
+                </a>
             </div>           
             <video 
                 src="/video/videoTelf02.mov" 
@@ -27,7 +32,7 @@ export const Seccion1Video = () => {
             href="https://book.stripe.com/bJebJ3gex0Kx4DjehEgA804"
             target="_blank"
             rel="noreferrer noopener"
-            className="button self-center uppercase"
+            className="block lg:hidden button self-center uppercase"
             >
                 Reservar ahora
             </a>
