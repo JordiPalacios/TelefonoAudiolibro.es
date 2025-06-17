@@ -5,7 +5,7 @@ import Web from './web.jsx'
 // Fonts
 // Supports weights 100-900
 import '@fontsource-variable/outfit';
-import '@fontsource-variable/inter';
+import '@fontsource-variable/inter/opsz-italic.css';
 // Supports weights 300-700
 import '@fontsource-variable/space-grotesk';
 // Supports weights 400-900
