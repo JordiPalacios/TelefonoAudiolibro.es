@@ -11,7 +11,7 @@ export const Reviews = () => {
                 draggable={true}
                 swipe={true}
                 touchMove={true}
-                dots={true}
+                dots={false}
                 arrows={true}
                 infinite={true}
                 speed={500}
