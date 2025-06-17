@@ -52,9 +52,14 @@ export const Seccion3Guia = () => {
           className = "self-center sm:self-start xl:self-auto"
           />
       </div>
-      <button className="button mb-5 self-center">
-        texto provisional
-      </button>
+      <a 
+      href="https://book.stripe.com/bJebJ3gex0Kx4DjehEgA804"
+      target="_blank"
+      rel="noreferrer noopener"
+      className="button mb-5 self-center uppercase"
+      >
+        Reservar ahora
+      </a>
     </div>
   )
 }
