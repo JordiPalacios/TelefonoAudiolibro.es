@@ -1,5 +1,5 @@
 import { Navigate, Route, Routes } from "react-router";
-import { AvisoLegal, PoliticaPrivacidad, TelefonoAudiolibro, TerminosCondiciones } from "./page";
+import { AvisoLegal, PagoRealizado, PoliticaPrivacidad, TelefonoAudiolibro, TerminosCondiciones } from "./page";
 import { Layout } from "./page/layout";
 
 function Web() {
@@ -7,6 +7,7 @@ function Web() {
         <Routes>
             <Route path="/" element={<Layout />}>
                 <Route index element={<TelefonoAudiolibro />} />
+                <Route path="reserva-realizada" element={<PagoRealizado />} />
                 <Route path="aviso-legal" element={<AvisoLegal />} />
                 <Route path="terminos-condiciones" element={<TerminosCondiciones />} />
                 <Route path="politica-privacidad" element={<PoliticaPrivacidad />} />
