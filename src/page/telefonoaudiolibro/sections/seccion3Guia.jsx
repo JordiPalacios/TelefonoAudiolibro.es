@@ -8,15 +8,15 @@ export const Seccion3Guia = () => {
         <span className="title-accent font-light"> FUNCIONA? </span>
       </h2>
       <img 
-      src="/img/auxiliares/telefonoMuestra01.webp" 
+      src="/img/auxiliares/telefonoMuestra04.webp" 
       alt="telefono audiolibro guia" 
-      className="hidden lg:block max-w-xs object-cover p-5 absolute top-1/3 xl:top-1/2 -right-1/24 xl:-right-1/24 2xl:right-1/6"
-      />
-      <img 
-      src="/img/auxiliares/telefonoMuestra01.webp" 
-      alt="telefono audiolibro guia" 
-      className="hidden lg:block max-w-xs object-cover p-5 absolute top-1/12 xl:top-1/6 -left-1/24 xl:-left-1/24 2xl:left-1/6"
+      className="hidden lg:block max-w-60 object-cover p-5 absolute top-1/24 left-1/12 xl:left-1/6"
       />   
+      <img 
+      src="/img/auxiliares/telefonoMuestra04.webp" 
+      alt="telefono audiolibro guia" 
+      className="hidden lg:block max-w-45 object-cover p-5 absolute top-7/24 xl:top-1/2 right-1/12 xl:right-1/6"
+      />
       <video 
       src="/video/videoGuia.mov" 
       itemType="video/mov"
@@ -28,7 +28,7 @@ export const Seccion3Guia = () => {
       />
       <div className="flex flex-col items-stretch justify-center xl:flex-row overflow-hidden px-5 xl:gap-5 2xl:gap-40">
         <Card 
-          url="/img/auxiliares/telefonoMuestra00.webp"
+          url="/img/auxiliares/iconoGuia_1.webp"
           id="1"
           tittle=" RECIBE EL TELÉFONO "
           desc1=" Te lo enviamos días antes a domicilio. "
@@ -36,7 +36,7 @@ export const Seccion3Guia = () => {
           className = "self-center sm:self-start xl:self-auto"
           />
         <Card 
-          url="/img/auxiliares/telefonoMuestra00.webp"
+          url="/img/auxiliares/iconoGuia_2.webp"
           id="2"
           tittle=" TUS PERSONAS FAVORITAS DEJAN MENSAJES DE AUDIO "
           desc1=" Desde emotivos hasta divertidos y cachondos.  "
@@ -44,7 +44,7 @@ export const Seccion3Guia = () => {
           className = "self-center sm:self-end xl:self-auto"
           />
         <Card 
-          url="/img/auxiliares/telefonoMuestra00.webp"
+          url="/img/auxiliares/iconoGuia_3.webp"
           id="3"
           tittle=" RECIBE LOS MENSAJES EN 24 HORAS "
           desc1=" ¡Os recogemos el teléfono! " 

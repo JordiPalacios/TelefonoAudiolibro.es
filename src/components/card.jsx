@@ -23,7 +23,7 @@ export const Card = ({ id, tittle, desc1, desc2, url, className = "" }) => {
             <img 
             src={url} 
             alt="telefono audiolibro guia" 
-            className="lg:componentAnimation max-w-25 object-cover absolute -top-12 -right-5"
+            className="lg:componentAnimation max-w-40 object-cover absolute -top-10 -right-7"
             />
             <h2 className="font-extrabold text-xl md:text-2xl text-balance mt-10 md:mt-5">
                 {tittle}
