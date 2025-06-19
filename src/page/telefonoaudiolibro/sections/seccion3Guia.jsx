@@ -3,63 +3,77 @@ import { Card } from "../../../components"
 export const Seccion3Guia = () => {
   return (
     <div className="relative flex flex-col py-5 overflow-hidden">
-      <h2 className="title title-main text-center mt-5 underline decoration-pink-500/80 decoration-4 underline-offset-8">
-        ¿CÓMO 
-        <span className="title-accent font-light text-pink-500"> FUNCIONA? </span>
-      </h2>
-      <img 
-      src="/img/auxiliares/telefonoMuestra04.webp" 
-      alt="telefono audiolibro guia" 
-      className="hidden lg:block max-w-60 object-cover p-5 absolute top-1/24 left-1/12 xl:left-1/6"
-      />   
-      <img 
-      src="/img/auxiliares/telefonoMuestra04.webp" 
-      alt="telefono audiolibro guia" 
-      className="hidden lg:block max-w-45 object-cover p-5 absolute top-7/24 xl:top-1/2 right-1/12 xl:right-1/6"
-      />
-      <video 
-      src="/video/videoGuia.mov" 
-      itemType="video/mov"
-      controls
-      controlsList="nodownload"
-      poster="/video/poster/poster08.webp"
-      playsInline
-      className="componentAnimation mb-5 md:mb-20 self-center rounded-2xl shadow-2xl max-w-3/4 md:max-w-xs xl:max-w-xs 2xl:max-w-sm object-cover"
-      />
-      <div className="flex flex-col items-stretch justify-center xl:flex-row overflow-hidden px-5 xl:gap-5 2xl:gap-40">
-        <Card 
-          url="/img/auxiliares/iconoGuia_1.webp"
-          id="1"
-          tittle=" RECIBE EL TELÉFONO "
-          desc1=" Te lo enviamos días antes a domicilio. "
-          desc2="¡Ya podéis grabar vuestro mensaje de bienvenida! "   
-          className = "self-center sm:self-start xl:self-auto"
+      <div className="flex flex-row justify-center items-center gap-1">        
+        <p className="text-2xl text-pink-500 font-light mt-5">
+          bla
+        </p>
+        <p className="text-2xl text-pink-500 font-light rotate-8 bg-pink-200 px-3 py-1">
+          bla
+        </p>
+        <p className="text-2xl text-pink-500 font-light mt-5 -rotate-10">
+          bla
+        </p>
+      </div>
+      <div className="flex flex-row justify-center items-center gap-2">        
+        <h2 className="title title-main text-center -mt-4">
+          ¿Cómo
+        </h2>
+        <h2 className="text-4xl mt-2 md:text-5xl mb-5 md:mb-10 xl:mb-15 2xl:mb-10 title-accent text-center text-pink-500">
+          funciona?
+        </h2>
+      </div>
+      <div className="flex flex-col justify-center lg:flex-row-reverse">
+        <div className="flex flex-col items-center justify-around px-15">          
+          <video 
+          src="/video/videoGuia.mov" 
+          itemType="video/mov"
+          controls
+          controlsList="nodownload"
+          poster="/video/poster/poster08.webp"
+          playsInline
+          className="mb-5 rounded-2xl shadow-xl max-w-3/4 md:max-w-xs xl:max-w-xs 2xl:max-w-sm object-cover"
           />
-        <Card 
-          url="/img/auxiliares/iconoGuia_2.webp"
-          id="2"
-          tittle=" TUS PERSONAS FAVORITAS DEJAN MENSAJES DE AUDIO "
-          desc1=" Desde emotivos hasta divertidos y cachondos.  "
-          desc2=" Todo esto es lo que recordarás para el resto de tus días. "   
-          className = "self-center sm:self-end xl:self-auto"
-          />
-        <Card 
-          url="/img/auxiliares/iconoGuia_3.webp"
-          id="3"
-          tittle=" RECIBE LOS MENSAJES EN 24 HORAS "
-          desc1=" ¡Os recogemos el teléfono! " 
-          desc2=" Transformamos los mensajes en recuerdos digitales que tendréis para siempre"
-          className = "self-center sm:self-start xl:self-auto"
-          />
+          <img 
+          src="/img/auxiliares/telefonoMuestra04.webp" 
+          alt="telefono audiolibro guia" 
+          className="hidden lg:block max-w-60 object-cover -rotate-10"
+          /> 
+        </div>
+        <div className="w-full xl:max-w-5xl flex flex-col overflow-hidden px-5">
+          <Card 
+            url="/img/auxiliares/iconoGuia_1.webp"
+            id="1"
+            tittle=" RECIBE EL TELÉFONO "
+            desc1=" Te lo enviamos días antes a domicilio. "
+            desc2="¡Ya podéis grabar vuestro mensaje de bienvenida! "   
+            className = "self-center sm:self-start"
+            />
+          <Card 
+            url="/img/auxiliares/iconoGuia_2.webp"
+            id="2"
+            tittle=" TUS PERSONAS FAVORITAS DEJAN MENSAJES DE AUDIO "
+            desc1=" Desde emotivos hasta divertidos y cachondos.  "
+            desc2=" Todo esto es lo que recordarás para el resto de tus días. "   
+            className = "self-center sm:self-end"
+            />
+          <Card 
+            url="/img/auxiliares/iconoGuia_3.webp"
+            id="3"
+            tittle=" RECIBE LOS MENSAJES EN 24 HORAS "
+            desc1=" ¡Os recogemos el teléfono! " 
+            desc2=" Transformamos los mensajes en recuerdos digitales que tendréis para siempre"
+            className = "self-center sm:self-start"
+            />
+        </div>
       </div>
       <a 
       href="https://book.stripe.com/bJebJ3gex0Kx4DjehEgA804"
       target="_blank"
       rel="noreferrer noopener"
-      className="button self-center uppercase"
+      className="button self-center sm:mr-10 uppercase"
       >
         Reservar ahora
       </a>
-    </div>
+</div>
   )
 }
