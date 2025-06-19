@@ -1,7 +1,6 @@
 import { Section } from '../../components/shared/section'
 import { HeaderTelefonoAudilibro } from './sections/headerTelefonoAudilibro'
-import { MainSlider } from '../../components/shared/mainSlider'
-import { InfiniteLoopSection, Reviews, Seccion0Presentacion, Seccion1Video, Seccion2Audios, Seccion3Guia, Seccion4Conclusion, Seccion5ProsContras, Seccion6FraseImpactante } from './sections'
+import { InfiniteLoopSection, Reviews, Seccion0Presentacion, Seccion1Video, Seccion2Audios, Seccion3Guia, Seccion5ProsContras, Seccion6FraseImpactante } from './sections'
 import { Voice, WhatsApp } from '../../components'
 
 export const TelefonoAudiolibro = () => {  
