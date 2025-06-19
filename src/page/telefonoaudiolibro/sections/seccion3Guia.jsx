@@ -4,13 +4,13 @@ export const Seccion3Guia = () => {
   return (
     <div className="relative flex flex-col py-5 overflow-hidden">
       <div className="flex flex-row justify-center items-center gap-1">        
-        <p className="text-2xl text-pink-500 font-light mt-5">
+        <p className="text-2xl md:text-4xl text-pink-500 font-light mt-5">
           bla
         </p>
-        <p className="text-2xl text-pink-500 font-light rotate-8 bg-pink-200 px-3 py-1">
+        <p className="text-2xl md:text-4xl text-pink-500 font-light rotate-8 bg-pink-200 px-3 py-1">
           bla
         </p>
-        <p className="text-2xl text-pink-500 font-light mt-5 -rotate-10">
+        <p className="text-2xl md:text-4xl text-pink-500 font-light mt-5 -rotate-10">
           bla
         </p>
       </div>
@@ -18,7 +18,7 @@ export const Seccion3Guia = () => {
         <h2 className="title title-main text-center -mt-4">
           ¿Cómo
         </h2>
-        <h2 className="text-4xl mt-2 md:text-5xl mb-5 md:mb-10 xl:mb-15 2xl:mb-10 title-accent text-center text-pink-500">
+        <h2 className="text-4xl md:text-7xl mt-2 mb-5 md:mb-10 xl:mb-15 2xl:mb-10 title-accent text-center text-pink-500">
           funciona?
         </h2>
       </div>
@@ -72,7 +72,7 @@ export const Seccion3Guia = () => {
       rel="noreferrer noopener"
       className="button self-center sm:mr-10 uppercase"
       >
-        Reservar ahora
+        Ya me lo dirás 🙃
       </a>
 </div>
   )

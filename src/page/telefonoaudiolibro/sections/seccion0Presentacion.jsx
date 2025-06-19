@@ -8,7 +8,7 @@ export const Seccion0Presentacion = () => {
     return (
         <>
             <div className="text-center mb-10">
-                <h2 className="title title-main">                       
+                <h2 className="title-main text-3xl md:text-5xl font-extrabold mb-5 md:mb-10 xl:mb-15 2xl:mb-10">                       
                     ¿QUÉ DARÍAS POR VOLVER A ESCUCHAR LA VOZ DE TUS <span className="title-accent font-extrabold text-pink-500/90">ABUELOS</span>?
                 </h2>
                 <h3 className="subtitle text-pink-500/80 lg:max-w-3xl mx-auto">

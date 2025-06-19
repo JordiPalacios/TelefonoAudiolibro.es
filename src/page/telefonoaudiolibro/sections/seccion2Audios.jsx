@@ -41,7 +41,7 @@ export const Seccion2Audios = () => {
                     <audio className="w-xs my-2" src="/audio/audio.mp4" controls controlsList="nodownload" />
                     <audio className="w-xs my-2" src="/audio/audio.mp4" controls controlsList="nodownload" />                
                 <button className="button m-10">
-                    reservar ahora
+                    Ya me lo dirás 🙃
                 </button>
             </div>
         </>

@@ -5,7 +5,7 @@ export const Seccion5ProsContras = () => {
     const prosVSconts = ProsVSContsData
     return (
         <div className="py-10">
-            <h2 className="title text-center mb-5">
+            <h2 className="title-main font-extrabold text-3xl md:text-7xl tracking-tighter text-center mb-5">
                 ¿CON <span className="title-accent font-extrabold text-pink-600/90">CÚAL</span> TE QUEDAS?
             </h2>
             <div className="comparisonAnimation flex flex-col items-center justify-center w-full">                
@@ -24,7 +24,7 @@ export const Seccion5ProsContras = () => {
                     </thead>
                     <tbody>                    
                         {prosVSconts.map((item) => (
-                            <tr key={item.id} className="align-middl bg-pink-100/50 shadow-md shadow-black/20 rounded-xl">
+                            <tr key={item.id} className="align-middl bg-pink-200/50 shadow-md shadow-black/20 rounded-xl">
                                 <td className="align-middle">
                                     <div className="flex justify-center py-3">    
                                         {item.isCrossLeft 

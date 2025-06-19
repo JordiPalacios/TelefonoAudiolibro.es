@@ -3,11 +3,20 @@ export const Seccion1Video = () => {
     return (
         <>
             <div className="flex flex-col items-center justify-center">            
-                <h2 className="title">
-                    ESTOS PRODRÍAIS SER VOSOTROS
-                </h2>
-                <p className="font-semibold text-lg md:text-xl lg:text-2xl">
+                <p className="title-main font-bold text-3xl md:text-6xl mt-5 md:mt-10 bg-white/30 py-3 px-3 -rotate-6 tracking-tighter">
+                    ESTOS PRODRÍAIS
+                </p>
+                <p className="serif font-light italic text-4xl md:text-5xl text-pink-600/90 -mt-4 z-10 tracking-tighter">
+                    ser vosotros
+                </p>
+                <p className="italic font-light text-lg md:text-xl lg:text-2xl mt-5 tracking-tighter leading-tight">
                     Reviviendo de <span className="text-pink-600/90 font-extrabold">nuevo</span> la boda, al día siguiente.
+                </p>
+                <p className="italic font-light text-lg md:text-xl lg:text-2xl mb-5 tracking-tighter leading-tight">
+                    La boda se terminará... pero os queda escuchar <span className="text-pink-600/90 font-extrabold">todos los mensajes</span>.
+                </p>
+                <p className="italic font-light text-lg md:text-xl lg:text-2xl  tracking-tighter">
+                    ¿Planazo, verdad?
                 </p>
                 <a 
                 href="https://book.stripe.com/bJebJ3gex0Kx4DjehEgA804"
@@ -15,7 +24,7 @@ export const Seccion1Video = () => {
                 rel="noreferrer noopener"
                 className="hidden lg:block button m-10 self-center uppercase"
                 >
-                    Reservar ahora
+                    Ya me lo dirás 🙃
                 </a>
             </div>           
             <video 
@@ -34,7 +43,7 @@ export const Seccion1Video = () => {
             rel="noreferrer noopener"
             className="block lg:hidden button self-center uppercase"
             >
-                Reservar ahora
+                Ya me lo dirás 🙃
             </a>
         </>
     )
