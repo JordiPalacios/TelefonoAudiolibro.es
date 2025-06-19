@@ -17,6 +17,7 @@
     "@fontsource-variable/space-grotesk": "^5.2.8",
     "@fontsource/lobster": "^5.2.5",
     "@fontsource/tinos": "^5.2.6",
+    "@fontsource/tiro-tamil": "^5.2.6",
     "@tailwindcss/vite": "^4.1.4",
     "prop-types": "^15.8.1",
     "react": "^19.0.0",

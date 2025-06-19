@@ -17,6 +17,9 @@ import '@fontsource-variable/cormorant';
 // Supports weights 400-700 and italic
 import '@fontsource/tinos/400-italic.css';
 import '@fontsource/tinos/700-italic.css';
+// Supports weights 400 and italic
+import '@fontsource/tiro-tamil/400-italic.css';
+
 // Slider
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
