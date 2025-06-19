@@ -20,7 +20,7 @@ export const TelefonoAudiolibro = () => {
                 <InfiniteLoopSection 
                 equal={true} 
                 />
-                <Section as="section" id='audios' className="componentAnimation relative px-10 md:px-20 mb-10 flex flex-col lg:flex-row items-stretch justify-between gap-4 lg:gap-0 text-center overflow-hidden">
+                <Section as="section" id='audios' className="componentAnimation relative px-10 md:px-20 mb-10 flex flex-col lg:flex-row items-center justify-around 2xl:justify-center gap-4 lg:gap-0 text-center overflow-hidden">
                     <Seccion2Audios />
                 </Section>
                 <Voice 
