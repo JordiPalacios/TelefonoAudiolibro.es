@@ -87,7 +87,7 @@ h1,h2 {
 }
 
 .subtitle {
-    @apply text-xl md:text-2xl underline font-semibold mb-2;
+    @apply text-xl md:text-2xl underline underline-offset-2 font-semibold mb-2;
 }
 
 .button {
