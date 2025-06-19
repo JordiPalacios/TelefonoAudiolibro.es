@@ -8,11 +8,11 @@ export const Seccion0Presentacion = () => {
     return (
         <>
             <div className="text-center mb-10">
-                <h2 className="title">                       
-                    ¿QUÉ DARÍAS POR VOLVER A ESCUCHAR LA VOZ DE TU ABUELOS?
+                <h2 className="title title-main">                       
+                    ¿QUÉ DARÍAS POR VOLVER A ESCUCHAR LA VOZ DE TUS <span className="title-accent font-extrabold text-pink-500/90">ABUELOS</span>?
                 </h2>
-                <h3 className="subtitle text-pink-500 lg:max-w-3xl mx-auto">
-                    Tener junta a TODA tu <span className="font-extrabold text-pink-500">familia y amigos</span> en un solo lugar, pasa poco
+                <h3 className="subtitle text-pink-500/80 lg:max-w-3xl mx-auto">
+                    Tener junta a <span className="font-extrabold text-pink-500">TODA</span> tu <span className="font-extrabold text-pink-500">familia y amigos</span> en un solo lugar, pasa poco
                 </h3>
                 <p className="mb-10">
                     Muuy poco, así que aprovecha tu boda para crear el mejor
@@ -31,14 +31,9 @@ export const Seccion0Presentacion = () => {
                     Nada de eso, <span className="font-extrabold text-pink-500">no hace falta gastarse 5.000€ en robots
                     leds</span> ni pistolas de fuego para tener un recuerdo especial
                 </p>
-                <a 
-                href="https://book.stripe.com/bJebJ3gex0Kx4DjehEgA804"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="button self-center uppercase"
-                >
-                    Reservar ahora
-                </a>
+                <button className="button m-10">
+                    Ver disponibilidad
+                </button>
             </div>
             <Voice 
             numPC="10"
