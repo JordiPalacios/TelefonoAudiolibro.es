@@ -39,6 +39,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-family: 'Tiro Tamil', serif;
 }
 
 @media (min-width: 1200px) {

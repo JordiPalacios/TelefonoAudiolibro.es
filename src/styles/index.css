@@ -67,7 +67,11 @@ h1,h2 {
     font-family: 'Tiro Tamil', serif;
 }
 
-p, span, li {
+li {
+    font-family: 'Tinos', serif;
+}
+
+.font-serif {
     font-family: 'Tinos', serif;
 }
 
