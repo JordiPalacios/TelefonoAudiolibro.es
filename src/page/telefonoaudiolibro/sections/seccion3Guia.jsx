@@ -3,7 +3,7 @@ import { Card } from "../../../components"
 export const Seccion3Guia = () => {
   return (
     <div className="relative flex flex-col py-5 overflow-hidden">
-      <h2 className="title text-center mt-5 underline decoration-pink-500/80 decoration-4 underline-offset-8">
+      <h2 className="title title-main text-center mt-5 underline decoration-pink-500/80 decoration-4 underline-offset-8">
         ¿CÓMO 
         <span className="title-accent font-light text-pink-500"> FUNCIONA? </span>
       </h2>
