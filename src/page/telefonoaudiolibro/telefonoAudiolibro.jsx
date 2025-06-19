@@ -36,12 +36,6 @@ export const TelefonoAudiolibro = () => {
                 <InfiniteLoopSection 
                 equal={true} 
                 />
-                {/* ***************************************************************************** */}
-                {/* De momento se oculta porque no lo usamos, si al final no se usa lo borro      */}
-                <Section as="section" className="hidden px-10 my-10">
-                    <Seccion4Conclusion />
-                </Section>
-                {/* ***************************************************************************** */}
                 <Section as="section" className="px-10 bg-accent">
                     <Seccion5ProsContras />
                 </Section>

@@ -3,11 +3,6 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router'
 import Web from './web.jsx'
 // Fonts
-// Supports weights 100-900
-import '@fontsource-variable/outfit';
-import '@fontsource-variable/inter/opsz-italic.css';
-// Supports weights 300-700
-import '@fontsource-variable/space-grotesk';
 // Supports weights 400-900
 import '@fontsource-variable/playfair-display';
 // Supports weights 400
@@ -18,6 +13,7 @@ import '@fontsource-variable/cormorant';
 import '@fontsource/tinos/400-italic.css';
 import '@fontsource/tinos/700-italic.css';
 // Supports weights 400 and italic
+import '@fontsource/tiro-tamil';
 import '@fontsource/tiro-tamil/400-italic.css';
 
 // Slider
