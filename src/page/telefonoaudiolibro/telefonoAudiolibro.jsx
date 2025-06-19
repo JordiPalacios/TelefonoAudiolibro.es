@@ -11,26 +11,7 @@ export const TelefonoAudiolibro = () => {
             <Section as="header" className="px-10 headerContainer">
                 <HeaderTelefonoAudilibro />
             </Section>
-            <main>         
-                {/* ***************************************************************************** */}
-                {/* De momento se oculta porque no lo usamos, si al final no se usa lo borro      */}
-                <Section as="section" className='hidden px-10 my-25'>
-                    <MainSlider
-                    type="frases"
-                    draggable={false}
-                    swipe={false}
-                    touchMove={false}
-                    dots={false}
-                    arrows={false}
-                    infinite={true}
-                    speed={5000}
-                    slidesToShow={1}
-                    slidesToScroll={1}
-                    autoplay={true}
-                    autoplaySpeed={7500}
-                    />
-                </Section>
-                {/* ***************************************************************************** */}
+            <main>                         
                 <Section as="section" className='px-10 my-10'>
                     <Seccion0Presentacion />
                 </Section>
