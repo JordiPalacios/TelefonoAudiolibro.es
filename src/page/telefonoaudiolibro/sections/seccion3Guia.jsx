@@ -23,7 +23,7 @@ export const Seccion3Guia = () => {
         </h2>
       </div>
       <div className="flex flex-col justify-center lg:flex-row-reverse">
-        <div className="flex flex-col items-center justify-around px-15">          
+        <div className="flex flex-col items-center justify-around lg:px-15">          
           <video 
           src="/video/videoGuia.mov" 
           itemType="video/mov"
