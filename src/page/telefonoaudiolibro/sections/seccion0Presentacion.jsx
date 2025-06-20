@@ -8,10 +8,10 @@ export const Seccion0Presentacion = () => {
     return (
         <>
             <div className="text-center mb-10">
-                <h2 className="title-main text-3xl md:text-5xl font-extrabold mb-5 md:mb-10 xl:mb-15 2xl:mb-10">                       
+                <h2 className="title-font title-small ">                       
                     ¿QUÉ DARÍAS POR VOLVER A ESCUCHAR LA VOZ DE TUS <span className="title-accent font-extrabold text-pink-500/90">ABUELOS</span>?
                 </h2>
-                <h3 className="subtitle text-pink-500/80 lg:max-w-3xl mx-auto">
+                <h3 className="subtitle text-pink-500/80 lg:max-w-3xl mx-auto underline underline-offset-2 decoration-dotted">
                     Tener junta a <span className="font-extrabold text-pink-500">TODA</span> tu <span className="font-extrabold text-pink-500">familia y amigos</span> en un solo lugar, pasa poco
                 </h3>
                 <p className="mb-10">
@@ -40,24 +40,58 @@ export const Seccion0Presentacion = () => {
             numTablet="4"
             numMobile="2"
             color="#f472b6"
-            />               
-            <MainSlider
-            type="videos"
-            draggable={true}
-            swipe={true}
-            touchMove={true}
-            dots={false}
-            arrows={true}
-            infinite={true}
-            speed={500}
-            {...(workingMode === "PC" 
-                ? {slidesToShow: 3} 
-                : {slidesToShow: 1}
-            )}
-            slidesToScroll={1}
-            autoplay={false}
-            autoplaySpeed={0}
-            />
+            />      
+            <div className="block lg:hidden">
+                <MainSlider
+                type="videos"
+                draggable={true}
+                swipe={true}
+                touchMove={true}
+                dots={false}
+                arrows={true}
+                infinite={true}
+                speed={500}
+                {...(workingMode === "PC" 
+                    ? {slidesToShow: 3} 
+                    : {slidesToShow: 1}
+                )}
+                slidesToScroll={1}
+                autoplay={false}
+                autoplaySpeed={0}
+                />
+            </div>  
+            <div className="hidden lg:flex flex-row items-center justify-center my-20 gap-4 xl:gap-15 2xl:gap-30 overflow-hidden">
+                <video 
+                src="/video/videoTelf06.mov"
+                itemType='video/mov' 
+                preload='metadata' 
+                controls 
+                controlsList='nodownload' 
+                poster='/video/poster/poster06.webp'
+                playsInline
+                className='max-w-75 xl:max-w-sm 2xl:max-w-lg object-cover rounded-2xl aspect-[3/4]'
+                />
+                <video 
+                src="/video/videoTelf06.mov"
+                itemType='video/mov' 
+                preload='metadata' 
+                controls 
+                controlsList='nodownload' 
+                poster='/video/poster/poster06.webp'
+                playsInline
+                className='max-w-75 xl:max-w-sm 2xl:max-w-lg object-cover rounded-2xl aspect-[3/4]'
+                />
+                <video 
+                src="/video/videoTelf06.mov"
+                itemType='video/mov' 
+                preload='metadata' 
+                controls 
+                controlsList='nodownload' 
+                poster='/video/poster/poster06.webp'
+                playsInline
+                className='max-w-75 xl:max-w-sm 2xl:max-w-lg object-cover rounded-2xl aspect-[3/4]'
+                />
+            </div>       
         </>
     )
 }
