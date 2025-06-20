@@ -3,19 +3,19 @@ export const Seccion1Video = () => {
     return (
         <>
             <div className="flex flex-col items-center justify-center">            
-                <p className="title-main title-small font-extrabold mt-5 md:mt-10 py-3 px-3 bg-white/30 -rotate-6 tracking-tighter">
+                <p className="title-main title-small font-extrabold mt-5 md:mt-10 lg:mt-5 py-3 px-3 bg-white/30 -rotate-6">
                     ESTOS PRODRÍAIS
                 </p>
-                <p className="subtitle italic text-4xl md:text-5xl text-pink-600/90 -mt-4 z-10 tracking-tighter">
+                <p className="title-small italic text-pink-600/90 -mt-10 md:-mt-16 lg:-mt-18 xl:-mt-22 2xl:-mt-18 z-10">
                     ser vosotros
                 </p>
-                <p className="italic font-light text-lg md:text-xl lg:text-2xl mt-5 tracking-tighter leading-tight">
+                <p className="italic font-semibold text-lg md:text-xl lg:text-2xl tracking-tighter leading-tight">
                     Reviviendo de <span className="text-pink-600/90 font-extrabold">nuevo</span> la boda, al día siguiente.
                 </p>
                 <p className="italic font-light text-lg md:text-xl lg:text-2xl mb-5 tracking-tighter leading-tight">
                     La boda se terminará... pero os queda escuchar <span className="text-pink-600/90 font-extrabold">todos los mensajes</span>.
                 </p>
-                <p className="italic font-light text-lg md:text-xl lg:text-2xl tracking-tighter">
+                <p className="italic font-light text-lg md:text-xl lg:text-2xl mb-5 tracking-tighter">
                     ¿Planazo, verdad?
                 </p>
                 <a 
