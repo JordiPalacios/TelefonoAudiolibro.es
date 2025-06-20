@@ -65,6 +65,10 @@ h1,h2 {
     font-family: 'Tiro Tamil', serif;
 }
 
+video {
+    aspect-ratio: 3/4;
+}
+
 .tinos {
     font-family: 'Tinos', serif;
 }
@@ -81,17 +85,21 @@ h1,h2 {
     font-family: 'Lobster', system-ui;
 }
 
-.title-main {
+.title-font {
     font-family: 'Playfair Display Variable', serif;
 }
 
 /** Estilos tailwind personalizados */
 .title {
-    @apply text-3xl md:text-6xl font-extrabold mb-5 md:mb-10 xl:mb-15 2xl:mb-10;
+    @apply text-5xl md:text-7xl font-extrabold mb-5 md:mb-10 xl:mb-15 2xl:mb-10 tracking-tighter leading-tight;
+}
+
+.title-small {
+    @apply text-4xl md:text-6xl mb-5 md:mb-10 xl:mb-15 2xl:mb-10 tracking-tighter leading-tight;
 }
 
 .subtitle {
-    @apply text-xl md:text-2xl underline underline-offset-2 font-semibold mb-2;
+    @apply text-xl md:text-2xl font-semibold mb-4;
 }
 
 .button {

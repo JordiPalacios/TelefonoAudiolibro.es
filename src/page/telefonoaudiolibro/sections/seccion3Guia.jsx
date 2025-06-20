@@ -31,7 +31,7 @@ export const Seccion3Guia = () => {
           controlsList="nodownload"
           poster="/video/poster/poster08.webp"
           playsInline
-          className="mb-5 rounded-2xl shadow-xl max-w-3/4 md:max-w-xs xl:max-w-xs 2xl:max-w-sm object-cover"
+          className="mb-5 rounded-2xl shadow-xl max-w-3/4 md:max-w-xs 2xl:max-w-sm object-cover"
           />
           <img 
           src="/img/auxiliares/telefonoMuestra04.webp" 
