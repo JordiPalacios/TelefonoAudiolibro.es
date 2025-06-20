@@ -67,6 +67,7 @@ h1,h2 {
 
 video {
     aspect-ratio: 3/4;
+    object-fit: cover;
 }
 
 .tinos {
