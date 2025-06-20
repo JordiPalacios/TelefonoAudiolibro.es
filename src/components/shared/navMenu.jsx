@@ -35,7 +35,7 @@ export const NavMenu = () => {
                 <NavSections section="audios" />
                 <NavSections section="opiniones" />
             </div>
-            <h1 className="w-full title-font text-sm lg:mb-4 text-white/90 hover:text-white/70 transition-colors duration-300">
+            <h1 className="w-full title-font text-sm lg:text-lg lg:mb-4 text-white/90 hover:text-white/70 transition-colors duration-300">
                 <a href="/">                    
                     telefonoaudiolibro.es
                 </a>

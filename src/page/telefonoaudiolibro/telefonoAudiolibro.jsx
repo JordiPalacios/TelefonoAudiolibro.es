@@ -7,7 +7,7 @@ export const TelefonoAudiolibro = () => {
 
     return (
         <>
-            <Section as="header" className="px-10 headerContainer">
+            <Section as="header" id='inicio' className="px-10 headerContainer">
                 <HeaderTelefonoAudilibro />
             </Section>
             <main>                         
@@ -41,7 +41,7 @@ export const TelefonoAudiolibro = () => {
                 <Section as="section">
                     <Seccion6FraseImpactante />
                 </Section>
-                <Section as="section" id='opiniones' className="px-10 py-20 bg-accent-2 xl:py-60">
+                <Section as="section" id='opiniones' className="px-10 py-20 bg-accent-2">
                     <Reviews />
                 </Section>
                 <div className='w-full bg-white/10' style={{ height:"8px" }} />

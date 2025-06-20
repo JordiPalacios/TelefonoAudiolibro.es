@@ -94,7 +94,7 @@ export const SliderMedia = ({typeMedia, url, name , poster, frase, stars, descri
                         ))}
                     </div>
                     <div className='flex flex-row justify-start items-center gap-1 pb-5 pl-5'>                            
-                        <VerifiedIcon className='w-5 h-5 md:w-8 md:h-8 text-pink-400/80' />
+                        <VerifiedIcon className='w-5 h-5 md:w-6 md:h-6 text-pink-400/80' />
                         <span className='font-sans text-xs text-black/40'>
                             Opinión verificada
                         </span>
