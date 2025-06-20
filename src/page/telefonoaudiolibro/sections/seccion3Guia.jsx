@@ -18,8 +18,7 @@ export const Seccion3Guia = () => {
         <h2 className="title title-font text-center -mt-4">
           ¿Cómo
         </h2>
-        {/* text-4xl md:text-7xl mt-2 mb-5 md:mb-10 xl:mb-15 2xl:mb-10 title-accent text-center text-pink-500 */}
-        <h2 className="title-small title-font font-semibold">
+        <h2 className="title-small title-font font-semibold text-pink-500 mt-2">
           funciona?
         </h2>
       </div>
