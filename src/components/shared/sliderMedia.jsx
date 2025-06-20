@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types'
 import { VerifiedIcon } from '../icons/verifiedIcon';
 
-export const SliderMedia = ({typeMedia, url, name , poster, frase, stars, description, date}) => {
+export const SliderMedia = ({typeMedia, url, name , poster, frase, stars, description, fotosDescripcion, date}) => {
       //Decido con la clase a trabajar en el slider
     let className
 
@@ -58,30 +58,46 @@ export const SliderMedia = ({typeMedia, url, name , poster, frase, stars, descri
                 />
             )}
             {typeMedia === 'reviews' && (
-                <div className='flex flex-col items-center h-72 text-balance justify-center gap-4'>
-                    <div className='flex flex-row items-center justify-center gap-3 md:gap-6'>                        
-                        <h4 className='text-xl md:text-3xl font-bold'>
-                            {stars}
-                        </h4>
-                        <span>
-                            <small className='font-extrabold text-sm md:text-lg text-gray-900/80'>                            
-                                {date}
-                            </small>
-                        </span>
+                <div className='flex flex-col justify-between text-balance gap-4 tracking-tighter leading-tight'>
+                    <div className='flex flex-row items-center justify-start pt-5 pl-5 gap-5 md:gap-10'>   
+                        <img 
+                        src={url} 
+                        alt={name} 
+                        loading='lazy'
+                        className='max-w-15 rounded-full object-cover aspect-[3/4]'
+                        /> 
+                        <div className='flex flex-col items-start justify-center'>
+                            <h4 className='text-xl md:text-3xl font-bold'>
+                                {stars}
+                            </h4>
+                            <p className='text-lg md:text-2xl font-bold'>
+                                {name}
+                            </p>
+                            <span>
+                                <small className='font-semibold italic text-xs md:text-lg text-gray-900/80'>                            
+                                    {date}
+                                </small>
+                            </span>
+                        </div>                    
                     </div>
-                    <p className='text-lg md:text-2xl px-5 py-10'>
+                    <p className='text-start text-lg md:text-2xl px-5 mb-2 flex-grow h-25'>
                         {description}
                     </p>
-                    <div className='flex flex-row items-center justify-around md:justify-start w-full md:gap-20 px-5'>
-                        <div className='flex flex-row justify-center items-center gap-1'>                            
-                            <VerifiedIcon className='w-5 h-5 md:w-8 md:h-8 text-pink-400/80' />
-                            <span className='font-sans text-xs text-black/40 mr-2'>
-                                Opinión verificada
-                            </span>
-                        </div>
-                        <p className='text-lg md:text-2xl font-bold'>
-                            {name}
-                        </p>
+                    <div className='flex flex-row items-center justify-start gap-2 md:gap-4 px-5'>
+                        {fotosDescripcion.map((foto) => (
+                            <img 
+                            src={foto.url} 
+                            alt={foto.alt} 
+                            loading='lazy'
+                            className='max-w-15 rounded-full object-cover aspect-[3/4]'
+                            />
+                        ))}
+                    </div>
+                    <div className='flex flex-row justify-start items-center gap-1 pb-5 pl-5'>                            
+                        <VerifiedIcon className='w-5 h-5 md:w-8 md:h-8 text-pink-400/80' />
+                        <span className='font-sans text-xs text-black/40'>
+                            Opinión verificada
+                        </span>
                     </div>
                 </div>
             )}

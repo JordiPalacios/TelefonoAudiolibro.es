@@ -97,8 +97,10 @@ export const MainSlider = ({type, draggable, swipe, touchMove , dots, arrows, in
             case 'reviews':
                 return {
                     stars: data.stars,
+                    url: data.fotoPerfil,
                     name: data.nombre,
                     description: data.descripcion,
+                    fotosDescripcion: data.fotosDescripcion,
                     date: data.date,
                     typeMedia: type
                 }

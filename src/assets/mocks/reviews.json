@@ -2,29 +2,89 @@
     {
         "id": 0,
         "stars": "★★★★★",
-        "nombre": "Liran Gadvi",
-        "descripcion": "Excelente servicio y atención al cliente. Muy recomendable.",
-        "date": "Enero 15, 2025"
+        "fotoPerfil": "/img/telf02.webp",
+        "nombre": "Sonia y borja",
+        "descripcion": "Excelente agencia, son muy amables y brindan muy buena atención. Los vehículos son nuevos y limpios. En fin, es un placer recorrer Cancún gracias a Ensigna.",
+        "fotosDescripcion":
+        [
+            {
+                "url": "/img/telf04.webp",
+                "alt": "Foto de María García"
+            },
+            {
+                "url": "/img/telf05.webp",
+                "alt": "Foto de María García"
+            },
+            {
+                "url": "/img/telf04.webp",
+                "alt": "Foto de María García"
+            }
+        ],
+        "date": "Junio 20, 2025"
     },
     {
         "id": 1,
-        "stars": "★★★★☆",
-        "nombre": "Ana Pérez",
-        "descripcion": "Muy buena experiencia, aunque el tiempo de espera fue un poco largo.",
-        "date": "Marzo 27, 2025"
+        "stars": "★★★★★",
+        "fotoPerfil": "/img/telf07.webp",
+        "nombre": "Ana y Carlos",
+        "descripcion": "Excelente agencia, son muy amables y brindan muy buena atención. Los vehículos son nuevos y limpios. En fin, es un placer recorrer Cancún gracias a Ensigna.",
+        "fotosDescripcion":
+        [
+            {
+                "url": "/img/telf04.webp",
+                "alt": "Foto de María García"
+            },
+            {
+                "url": "/img/telf05.webp",
+                "alt": "Foto de María García"
+            },
+            {
+                "url": "/img/telf04.webp",
+                "alt": "Foto de María García"
+            },
+            {
+                "url": "/img/telf05.webp",
+                "alt": "Foto de María García"
+            }
+        ],
+        "date": "Junio 15, 2025"
     },
     {
         "id": 2,
         "stars": "★★★★★",
+        "fotoPerfil": "/img/telf06.webp",
         "nombre": "Carlos López",
-        "descripcion": "Productos de alta calidad y atención excepcional. Volveré sin duda.",
-        "date": "Julio 05, 2024"
+        "descripcion": "Excelente agencia, son muy amables y brindan muy buena atención. Los vehículos son nuevos y limpios",
+        "fotosDescripcion":
+        [
+            {
+                "url": "/img/telf04.webp",
+                "alt": "Foto de María García"
+            },
+            {
+                "url": "/img/telf05.webp",
+                "alt": "Foto de María García"
+            }
+        ],
+        "date": "Junio 14, 2025"
     },
     {
         "id": 3,
-        "stars": "★★★☆☆",
+        "stars": "★★★★★",
+        "fotoPerfil": "/img/telf05.webp",
         "nombre": "María García",
-        "descripcion": "El servicio fue bueno, pero creo que podrían mejorar en la variedad de productos.",
-        "date": "Abril 19, 2025"
+        "descripcion": "Excelente agencia, son muy amables y brindan muy buena atención. Los vehículos son nuevos y limpios.",
+        "fotosDescripcion":
+        [
+            {
+                "url": "/img/telf04.webp",
+                "alt": "Foto de María García"
+            },
+            {
+                "url": "/img/telf05.webp",
+                "alt": "Foto de María García"
+            }
+        ],
+        "date": "Junio 10, 2025"
     }
 ]
