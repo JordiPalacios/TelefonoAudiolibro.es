@@ -35,7 +35,7 @@ export const Seccion1Video = () => {
                 controlsList='nodownload' 
                 poster='/video/poster/poster02.webp' 
                 playsInline
-                className={`m-5 lg:m-10 rounded-tl-4xl rounded-br-4xl max-w-3/4 md:max-w-xs object-cover`}
+                className={`m-5 lg:m-10 rounded-tl-4xl rounded-br-4xl max-w-3/4 md:max-w-xs`}
             />
             <a 
             href="https://book.stripe.com/bJebJ3gex0Kx4DjehEgA804"

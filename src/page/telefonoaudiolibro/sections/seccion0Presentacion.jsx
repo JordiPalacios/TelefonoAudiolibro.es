@@ -69,7 +69,7 @@ export const Seccion0Presentacion = () => {
                 controlsList='nodownload' 
                 poster='/video/poster/poster06.webp'
                 playsInline
-                className='max-w-75 xl:max-w-sm 2xl:max-w-lg object-cover rounded-2xl aspect-[3/4]'
+                className='max-w-75 xl:max-w-sm 2xl:max-w-lg rounded-2xl'
                 />
                 <video 
                 src="/video/videoTelf06.mov"
@@ -79,7 +79,7 @@ export const Seccion0Presentacion = () => {
                 controlsList='nodownload' 
                 poster='/video/poster/poster06.webp'
                 playsInline
-                className='max-w-75 xl:max-w-sm 2xl:max-w-lg object-cover rounded-2xl aspect-[3/4]'
+                className='max-w-75 xl:max-w-sm 2xl:max-w-lg rounded-2xl'
                 />
                 <video 
                 src="/video/videoTelf06.mov"
@@ -89,7 +89,7 @@ export const Seccion0Presentacion = () => {
                 controlsList='nodownload' 
                 poster='/video/poster/poster06.webp'
                 playsInline
-                className='max-w-75 xl:max-w-sm 2xl:max-w-lg object-cover rounded-2xl aspect-[3/4]'
+                className='max-w-75 xl:max-w-sm 2xl:max-w-lg rounded-2xl'
                 />
             </div>       
         </>

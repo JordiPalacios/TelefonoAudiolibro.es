@@ -30,7 +30,7 @@ export const Seccion2Audios = () => {
                     controlsList='nodownload' 
                     poster='/video/poster/poster00.webp' 
                     playsInline
-                    className="rounded-2xl md:max-w-xs object-cover"
+                    className="rounded-2xl md:max-w-xs"
                 />
             </div>
             <div className="flex flex-col items-center justify-center text-cente mt-10 z-10">
