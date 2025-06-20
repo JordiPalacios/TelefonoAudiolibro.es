@@ -30,23 +30,20 @@ export const NavMenu = () => {
                 >
             <Hamburger onChange={toggleMenu} />
             <div className="hidden w-full lg:flex flex-row items-start justify-end lg:gap-10 px-6">
-                <a 
-                    href="/"
-                    className="mb-4 text-lg font-semibold text-white hover:text-white/70 transition-colors duration-300" >
-                    Inicio
-                </a>
+                <NavSections section="inicio" />
                 <NavSections section="guia"/>
                 <NavSections section="audios" />
                 <NavSections section="opiniones" />
             </div>
-            <h1 className="w-full text-md text-white/90 font-serif font-bold hover:text-white/70 transition-colors duration-300">
+            <h1 className="w-full title-font text-sm lg:mb-4 text-white/90 hover:text-white/70 transition-colors duration-300">
                 <a href="/">                    
                     telefonoaudiolibro.es
                 </a>
             </h1>
         </nav>
         {isOpen && (
-            <aside className="fixed top-18 right-0 w-fit h-full z-50  flex flex-col items-start py-2 px-6 bg-black/20 backdrop-blur-md shadow">
+            <aside className="fixed top-18 right-0 w-fit h-full z-50 flex flex-col items-start py-2 px-6 bg-black/20 backdrop-blur-md shadow">
+                <NavSections section="inicio" />
                 <NavSections section="guia" />
                 <NavSections section="audios" />
                 <NavSections section="opiniones" />
