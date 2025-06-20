@@ -5,7 +5,7 @@ export const Seccion5ProsContras = () => {
     const prosVSconts = ProsVSContsData
     return (
         <div className="py-10">
-            <h2 className="title-main font-extrabold text-3xl md:text-7xl tracking-tighter text-center mb-5">
+            <h2 className="title-font title-small font-extrabold text-center mb-5">
                 ¿CON <span className="title-accent font-extrabold text-pink-600/90">CÚAL</span> TE QUEDAS?
             </h2>
             <div className="comparisonAnimation flex flex-col items-center justify-center w-full">                
