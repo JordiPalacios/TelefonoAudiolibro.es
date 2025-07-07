@@ -6,6 +6,7 @@ export * from "./shared/footer.jsx";
 export * from "./shared/whatsApp.jsx";
 export * from "./shared/infiniteLoop.jsx";
 export * from "./shared/voice.jsx";
+export * from "./shared/cardIncluye.jsx";
 
 //* Components
 export * from "./hamburger.jsx";
