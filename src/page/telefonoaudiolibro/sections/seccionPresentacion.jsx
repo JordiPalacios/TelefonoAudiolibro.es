@@ -60,7 +60,7 @@ export const SeccionPresentacion = () => {
                 autoplaySpeed={0}
                 />
             </div>  
-            <div className="hidden lg:flex flex-row items-center justify-center my-20 gap-4 xl:gap-15 2xl:gap-30 overflow-hidden">
+            <div className="componentAnimation hidden lg:flex flex-row items-center justify-center my-20 gap-4 xl:gap-15 2xl:gap-30 overflow-hidden">
                 <video 
                 src="/video/videoTelf06.mov"
                 itemType='video/mov' 
@@ -69,7 +69,7 @@ export const SeccionPresentacion = () => {
                 controlsList='nodownload' 
                 poster='/video/poster/poster06.webp'
                 playsInline
-                className='max-w-75 xl:max-w-sm 2xl:max-w-lg rounded-2xl'
+                className='max-w-75 xl:max-w-sm 3xl:max-w-sm rounded-2xl'
                 />
                 <video 
                 src="/video/videoTelf06.mov"
@@ -79,7 +79,7 @@ export const SeccionPresentacion = () => {
                 controlsList='nodownload' 
                 poster='/video/poster/poster06.webp'
                 playsInline
-                className='max-w-75 xl:max-w-sm 2xl:max-w-lg rounded-2xl'
+                className='max-w-75 xl:max-w-sm 3xl:max-w-lg rounded-2xl'
                 />
                 <video 
                 src="/video/videoTelf06.mov"
@@ -89,7 +89,7 @@ export const SeccionPresentacion = () => {
                 controlsList='nodownload' 
                 poster='/video/poster/poster06.webp'
                 playsInline
-                className='max-w-75 xl:max-w-sm 2xl:max-w-lg rounded-2xl'
+                className='max-w-75 xl:max-w-sm 3xl:max-w-lg rounded-2xl'
                 />
             </div>       
         </>
