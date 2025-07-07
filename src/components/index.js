@@ -14,3 +14,5 @@ export * from "./card.jsx";
 export * from "./icons/crossIcon.jsx";
 export * from "./icons/tickIcon.jsx";
 export * from "./icons/voiceIcon.jsx";
+export * from "./icons/arrowDownLeft.jsx";
+export * from "./icons/arrowDownRight.jsx";
