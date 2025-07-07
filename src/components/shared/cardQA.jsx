@@ -2,7 +2,7 @@ import { useState } from "react"
 import { ArrowDown } from "../icons/arrowDown"
 
 export const CardQA = ({ question, answer }) => {
-    const [openAnswer, setOpenAnswer] = useState(true)
+    const [openAnswer, setOpenAnswer] = useState(false)
     return (
         <section className="componentAnimation hidden lg:flex flex-col items-center justify-center text-center w-full 2xl:w-3xl my-2 bg-pink-100/50 shadow-lg shadow-black/20 rounded-md">
             <div 
