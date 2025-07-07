@@ -7,6 +7,7 @@ export * from "./shared/whatsApp.jsx";
 export * from "./shared/infiniteLoop.jsx";
 export * from "./shared/voice.jsx";
 export * from "./shared/cardIncluye.jsx";
+export * from "./shared/cardQA.jsx";
 
 //* Components
 export * from "./hamburger.jsx";
@@ -16,3 +17,4 @@ export * from "./icons/tickIcon.jsx";
 export * from "./icons/voiceIcon.jsx";
 export * from "./icons/arrowDownLeft.jsx";
 export * from "./icons/arrowDownRight.jsx";
+export * from "./icons/arrowDown.jsx";
