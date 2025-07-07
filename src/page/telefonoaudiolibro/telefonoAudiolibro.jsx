@@ -1,6 +1,6 @@
 import { Section } from '../../components/shared/section'
 import { HeaderTelefonoAudilibro } from './sections/headerTelefonoAudilibro'
-import { InfiniteLoopSection, Reviews, SeccionAudios, SeccionFraseImpactante, SeccionGuia, SeccionPresentacion, SeccionProsContras, SeccionVideo } from './sections'
+import { InfiniteLoopSection, Reviews, SeccionAudios, SeccionDescripcionInvitados, SeccionFraseImpactante, SeccionGuia, SeccionPresentacion, SeccionProsContras, SeccionQueIncluye, SeccionVideo } from './sections'
 import { Voice, WhatsApp } from '../../components'
 
 export const TelefonoAudiolibro = () => {  
@@ -19,6 +19,18 @@ export const TelefonoAudiolibro = () => {
                 </Section>
                 <InfiniteLoopSection 
                 equal={true} 
+                />
+                <Section as='section' id='queIncluye' className="px-10 my-10 text-center">
+                    <SeccionQueIncluye />
+                </Section>
+                <Section as='section' id='descripcionInvitados' className="px-10 my-10 text-center bg-accent">
+                    <SeccionDescripcionInvitados />
+                </Section>
+                <Voice 
+                numPC="8"
+                numTablet="4"
+                numMobile="2"
+                color="#c22f8e"
                 />
                 <Section as="section" id='audios' className="componentAnimation relative px-10 md:px-20 mb-5 flex flex-col lg:flex-row items-center justify-around xl:justify-center 2xl:justify-center gap-4 lg:gap-0 xl:gap-16 overflow-hidden">
                     <SeccionAudios />
