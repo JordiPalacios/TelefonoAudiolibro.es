@@ -1,7 +1,7 @@
 import ProsVSContsData from "../../../assets/mocks/prosVSconts.json"
 import { CrossIcon, TickIcon } from "../../../components"
 
-export const Seccion5ProsContras = () => {
+export const SeccionProsContras = () => {
     const prosVSconts = ProsVSContsData
     return (
         <div className="py-10">

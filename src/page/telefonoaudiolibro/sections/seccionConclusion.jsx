@@ -1,5 +1,5 @@
 
-export const Seccion4Conclusion = () => {
+export const SeccionConclusion = () => {
     return (
         <div className="flex flex-col lg:flex-row items-center justify-between gap-4 text-center overflow-hidden">
             <div className="lg:flex lg:flex-col lg:items-center lg:justify-between lg:text-center mb-5 lg:ml-50">

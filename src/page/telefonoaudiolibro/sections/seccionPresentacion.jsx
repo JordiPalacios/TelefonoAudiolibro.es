@@ -2,14 +2,14 @@ import { Voice } from "../../../components"
 import { useWorkingMode } from "../../../assets/customHooks"
 import { MainSlider } from "../../../components/shared/mainSlider"
 
-export const Seccion0Presentacion = () => {
+export const SeccionPresentacion = () => {
     const workingMode = useWorkingMode('Mobile')
 
     return (
         <>
             <div className="text-center mb-10">
                 <h2 className="title-font title-small font-extrabold">                       
-                    ¿QUÉ DARÍAS POR VOLVER A ESCUCHAR LA VOZ DE TUS <span className="title-accent font-extrabold text-pink-500/90">ABUELOS</span>?
+                    ¿QUÉ DARÍAS POR <span className="title-accent font-extrabold text-pink-500/90">VOLVER A ESCUCHAR</span> LA VOZ DE TUS ABUELOS ?
                 </h2>
                 <h3 className="subtitle text-pink-500/80 lg:max-w-3xl mx-auto underline underline-offset-2 decoration-dotted">
                     Tener junta a <span className="font-extrabold text-pink-500">TODA</span> tu <span className="font-extrabold text-pink-500">familia y amigos</span> en un solo lugar, pasa poco

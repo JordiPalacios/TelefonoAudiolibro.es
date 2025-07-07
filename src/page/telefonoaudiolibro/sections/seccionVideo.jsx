@@ -1,5 +1,5 @@
 
-export const Seccion1Video = () => {
+export const SeccionVideo = () => {
     return (
         <>
             <div className="flex flex-col items-center justify-center">            

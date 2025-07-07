@@ -1,5 +1,5 @@
 
-export const Seccion6FraseImpactante = () => {
+export const SeccionFraseImpactante = () => {
     return (
         <div className="relative w-full h-96 lg:h-[50rem] md:h-125 flex items-center justify-center shadow-2xl">
             <img 

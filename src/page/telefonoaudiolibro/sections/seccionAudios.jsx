@@ -1,4 +1,4 @@
-export const Seccion2Audios = () => {
+export const SeccionAudios = () => {
     
     return (
         <>      

@@ -1,6 +1,6 @@
 import { Card } from "../../../components"
 
-export const Seccion3Guia = () => {
+export const SeccionGuia = () => {
   return (
     <div className="relative flex flex-col py-5 overflow-hidden">
       <div className="flex flex-row justify-center items-center gap-1">        

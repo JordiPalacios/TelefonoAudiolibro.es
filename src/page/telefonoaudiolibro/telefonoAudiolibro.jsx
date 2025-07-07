@@ -1,6 +1,6 @@
 import { Section } from '../../components/shared/section'
 import { HeaderTelefonoAudilibro } from './sections/headerTelefonoAudilibro'
-import { InfiniteLoopSection, Reviews, Seccion0Presentacion, Seccion1Video, Seccion2Audios, Seccion3Guia, Seccion5ProsContras, Seccion6FraseImpactante } from './sections'
+import { InfiniteLoopSection, Reviews, SeccionAudios, SeccionFraseImpactante, SeccionGuia, SeccionPresentacion, SeccionProsContras, SeccionVideo } from './sections'
 import { Voice, WhatsApp } from '../../components'
 
 export const TelefonoAudiolibro = () => {  
@@ -12,16 +12,16 @@ export const TelefonoAudiolibro = () => {
             </Section>
             <main>                         
                 <Section as="section" className='px-10 my-10'>
-                    <Seccion0Presentacion />
+                    <SeccionPresentacion />
                 </Section>
                 <Section as="section" id='guia' className="px-10 bg-accent">
-                    <Seccion3Guia />
+                    <SeccionGuia />
                 </Section>
                 <InfiniteLoopSection 
                 equal={true} 
                 />
                 <Section as="section" id='audios' className="componentAnimation relative px-10 md:px-20 mb-5 flex flex-col lg:flex-row items-center justify-around xl:justify-center 2xl:justify-center gap-4 lg:gap-0 xl:gap-16 overflow-hidden">
-                    <Seccion2Audios />
+                    <SeccionAudios />
                 </Section>
                 <Voice 
                 numPC="8"
@@ -30,16 +30,16 @@ export const TelefonoAudiolibro = () => {
                 color="#c22f8e"
                 />
                 <Section as="section" className="componentAnimation relative px-10 my-10 flex flex-col lg:flex-row items-center justify-between lg:justify-around text-center overflow-hidden">
-                    <Seccion1Video />
+                    <SeccionVideo />
                 </Section>
                 <InfiniteLoopSection 
                 equal={true} 
                 />
                 <Section as="section" className="px-10 bg-accent">
-                    <Seccion5ProsContras />
+                    <SeccionProsContras />
                 </Section>
                 <Section as="section">
-                    <Seccion6FraseImpactante />
+                    <SeccionFraseImpactante />
                 </Section>
                 <Section as="section" id='opiniones' className="px-10 py-20 bg-accent-2">
                     <Reviews />
