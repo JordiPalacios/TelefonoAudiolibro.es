@@ -21,7 +21,7 @@ export const PagoRealizado = () => {
                     Tu fecha se ha bloqueado correctamente ¡Os contactaremos por orden junto con el contrato de reserva!
 
                 </h2>
-                <p className="text-center mb-5 text-white/90 font-semibold mb-10">
+                <p className="text-center text-white/90 font-semibold mb-10">
                     Gracias por confiar en <span className="text-pink-500 underline underline-offset-2">telefonoaudiolibro.es</span>
                 </p>
                 <a 
