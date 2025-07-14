@@ -41,7 +41,7 @@ export const SeccionPresentacion = () => {
             numMobile="2"
             color="#f472b6"
             />      
-            <div className="block lg:hidden">
+            <div className="block lg:hidden px-5">
                 <MainSlider
                 type="videos"
                 draggable={true}
