@@ -2,14 +2,10 @@
 export const Footer = () => {
     return (
         <footer className="flex flex-col lg:flex-row items-center justify-center lg:justify-between lg:gap-4 py-10 bg-footer px-15">
-            <img src="/img/logo.webp" alt="logo" className="hidden lg:block w-45 h-45"/>
+            <a href="/" className="cursor-pointer transition-transform duration-500 hover:scale-110">                
+                <img src="/img/logoTelefonoAudiolibro.webp" alt="logo" className="w-45" />
+            </a>
             <div className="flex flex-col items-center justify-center gap-4 py-5 lg:py-10">                
-                <h1 className="font-bold text-sm md:text-xl text-center">
-                    telefonoaudiolibro.es
-                </h1>
-                <small className="text-xs md:text-base text-center">
-                    © 2025 telefonoaudiolibro.es - Todos los derechos reservados. 
-                </small>
                 <div className="flex flex-row gap-2 items-center justify-center">
                     <a 
                         href="https://www.instagram.com/telefonoaudiolibro/"
@@ -28,11 +24,14 @@ export const Footer = () => {
                         <img src="/icons/tiktok.svg" alt="tiktok icon" className="w-8 h-8 aspect-[3/4]" loading="lazy"/>
                     </a>
                 </div>
+                <small className="text-xs text-center font-bold">
+                    © 2025 telefonoaudiolibro.es - Todos los derechos reservados. 
+                </small>
             </div>
-            <div className="flex flex-col items-center justify-center gap-4 py-10">
-                <a href="/">Aviso Legal</a>
-                <a href="/">Política de Privacidad</a>
-                <a href="/">Términos y condiciones</a>
+            <div className="flex flex-col items-center justify-center gap-4 py-10 text-xs lg:text-sm underline underline-offset-2 tracking-tighter leading-tight">
+                <a href="/aviso-legal" className="footerDescription">Aviso Legal</a>
+                <a href="/politica-privacidad" className="footerDescription">Política de Privacidad</a>
+                <a href="/terminos-condiciones" className="footerDescription">Términos y condiciones</a>
             </div>
         </footer>
     )
