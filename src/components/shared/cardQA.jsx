@@ -5,12 +5,12 @@ export const CardQA = ({ question, answer }) => {
     const [openAnswer, setOpenAnswer] = useState(false)
 
     return (
-        <section className="componentAnimation hidden lg:flex flex-col items-center justify-center text-center w-full 2xl:w-3xl my-2 bg-pink-100/50 shadow-lg shadow-black/20 rounded-md">
+        <section className="componentAnimation text-center w-full 2xl:w-3xl my-2 bg-pink-100/50 shadow-lg shadow-black/20 rounded-md">
             <div 
             className="relative w-full cursor-pointer select-none"
             onClick={() => setOpenAnswer(!openAnswer)}
             >
-                <ArrowDown className="absolute left-5 top-2"/>
+                <ArrowDown className="absolute left-2 md:left-5 top-2"/>
                 <h1 
                 className="title-font font-semibold text-lg md:text-xl 2xl:text-2xl py-2 px-5 mx-2"
                 >
