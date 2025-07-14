@@ -8,14 +8,17 @@
         "fotosDescripcion":
         [
             {
+                "id":1,
                 "url": "/img/telf04.webp",
                 "alt": "Foto de María García"
             },
             {
+                "id":2,
                 "url": "/img/telf05.webp",
                 "alt": "Foto de María García"
             },
             {
+                "id":3,
                 "url": "/img/telf04.webp",
                 "alt": "Foto de María García"
             }
@@ -31,18 +34,22 @@
         "fotosDescripcion":
         [
             {
+                "id":1,
                 "url": "/img/telf04.webp",
                 "alt": "Foto de María García"
             },
             {
+                "id":2,
                 "url": "/img/telf05.webp",
                 "alt": "Foto de María García"
             },
             {
+                "id":3,
                 "url": "/img/telf04.webp",
                 "alt": "Foto de María García"
             },
             {
+                "id":4,
                 "url": "/img/telf05.webp",
                 "alt": "Foto de María García"
             }
@@ -58,10 +65,12 @@
         "fotosDescripcion":
         [
             {
+                "id":1,
                 "url": "/img/telf04.webp",
                 "alt": "Foto de María García"
             },
             {
+                "id":2,
                 "url": "/img/telf05.webp",
                 "alt": "Foto de María García"
             }
@@ -77,10 +86,12 @@
         "fotosDescripcion":
         [
             {
+                "id":1,
                 "url": "/img/telf04.webp",
                 "alt": "Foto de María García"
             },
             {
+                "id":2,
                 "url": "/img/telf05.webp",
                 "alt": "Foto de María García"
             }
