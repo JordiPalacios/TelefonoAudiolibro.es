@@ -58,8 +58,8 @@ export const SliderMedia = ({typeMedia, url, name , poster, frase, stars, descri
                 />
             )}
             {typeMedia === 'reviews' && (
-                <div className='flex flex-col justify-between text-balance gap-4 tracking-tighter leading-tight'>
-                    <div className='flex flex-row items-center justify-start pt-5 pl-5 gap-5 md:gap-10'>   
+                <div className='flex flex-col justify-between items-start min-h-80 md:min-h-[28rem] text-balance gap-4 tracking-tighter leading-tight'>
+                    <div className='flex flex-row items-center justify-start pt-5 px-2 md:px-5 gap-5 md:gap-10'>   
                         <img 
                         src={url} 
                         alt={name} 
@@ -80,12 +80,13 @@ export const SliderMedia = ({typeMedia, url, name , poster, frase, stars, descri
                             </span>
                         </div>                    
                     </div>
-                    <p className='text-start text-lg md:text-2xl px-5 mb-2 flex-grow h-25'>
+                    <p className='flex items-center text-start px-2 md:px-5 text-lg md:text-2xl flex-grow'>
                         {description}
                     </p>
-                    <div className='flex flex-row items-center justify-start gap-2 md:gap-4 px-5'>
+                    <div className='flex flex-row items-center justify-start px-2 md:px-5 gap-1 md:gap-4'>
                         {fotosDescripcion.map((foto) => (
                             <img 
+                            key={foto.id}
                             src={foto.url} 
                             alt={foto.alt} 
                             loading='lazy'
@@ -93,7 +94,7 @@ export const SliderMedia = ({typeMedia, url, name , poster, frase, stars, descri
                             />
                         ))}
                     </div>
-                    <div className='flex flex-row justify-start items-center gap-1 pb-5 pl-5'>                            
+                    <div className='flex flex-row justify-start items-center px-2 md:px-5 gap-1 mb-5 '>                            
                         <VerifiedIcon className='w-5 h-5 md:w-6 md:h-6 text-pink-400/80' />
                         <span className='font-sans text-xs text-black/40'>
                             Opinión verificada
