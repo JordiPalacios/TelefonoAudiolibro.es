@@ -8,7 +8,7 @@ return (
             {equal
                 ? (
                 <InfiniteLoop
-                urlImg="/img/logo.webp"
+                urlImg="/img/logoTelefonoAudiolibro.webp"
                 nameImg="logo telefonoaudiolibro.es"
                 equal={true}
                 />
