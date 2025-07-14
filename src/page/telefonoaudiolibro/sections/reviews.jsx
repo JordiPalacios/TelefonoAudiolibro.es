@@ -17,20 +17,22 @@ export const Reviews = () => {
                     Esto es lo que dicen de nosotros algunas parejas
                 </small>
             </div>
-            <MainSlider 
-                type="reviews"
-                draggable={true}
-                swipe={true}
-                touchMove={true}
-                dots={false}
-                arrows={true}
-                infinite={true}
-                speed={500}
-                slidesToShow={1}
-                slidesToScroll={1}
-                autoplay={false}
-                autoplaySpeed={0}
-            />
+            <div className="px-5">                
+                <MainSlider 
+                    type="reviews"
+                    draggable={true}
+                    swipe={true}
+                    touchMove={true}
+                    dots={false}
+                    arrows={true}
+                    infinite={true}
+                    speed={500}
+                    slidesToShow={1}
+                    slidesToScroll={1}
+                    autoplay={false}
+                    autoplaySpeed={0}
+                />
+            </div>
         </>
     )
 }
