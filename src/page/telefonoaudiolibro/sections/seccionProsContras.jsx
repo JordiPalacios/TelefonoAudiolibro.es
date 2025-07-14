@@ -8,7 +8,7 @@ export const SeccionProsContras = () => {
             <h2 className="title-font title-small font-extrabold text-center mb-5">
                 ¿CON <span className="title-accent font-extrabold text-pink-600/90">CÚAL</span> TE QUEDAS?
             </h2>
-            <div className="flex flex-row items-center justify-center gap-5 px-10">
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-5 px-5">
                 <div className="comparisonAnimation flex flex-col items-center justify-center w-full">                
                     <table className="max-w-md w-full text-center px-5 py-2 border-separate border-spacing-y-4 bg-pink-100/50 shadow-lg shadow-black/30 rounded-xl border border-pink-600/10">
                         <thead>                    
@@ -49,7 +49,7 @@ export const SeccionProsContras = () => {
                         </tbody>
                     </table>
                 </div>
-                <div className="hidden lg:flex flex-col items-center justify-center w-full">                
+                <div className="flex flex-col items-center justify-center w-full">                
                     <CardQA 
                     question="¿Cuando recibiré el teléfono?"
                     answer="Una vez realizado el pedido, recibirás el teléfono en un plazo de 3 a 5 días laborables. El envío es gratuito y se realiza a través de Correos Express."
