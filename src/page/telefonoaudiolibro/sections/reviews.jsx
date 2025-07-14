@@ -3,7 +3,7 @@ import { MainSlider } from "../../../components/shared/mainSlider"
 export const Reviews = () => {
     return (
         <>
-            <div className="felx flex-col items-center justify-center text-center mb-10">
+            <div className="flex flex-col items-center justify-center text-center mb-10">
                 <p className="text-2xl md:text-4xl font-extrabold text-yellow-500 -rotate-3 leading-tight tracking-tighter">
                     ★★★★★
                 </p>
