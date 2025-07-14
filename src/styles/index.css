@@ -89,6 +89,15 @@ video {
     font-family: 'Playfair Display Variable', serif;
 }
 
+.footerDescription {
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+.footerDescription:hover {
+    transform: scale(1.10);
+}
+
 /** Estilos tailwind personalizados */
 .title {
     @apply text-5xl md:text-7xl font-extrabold mb-5 md:mb-10 xl:mb-15 2xl:mb-10 tracking-tighter leading-tight;
