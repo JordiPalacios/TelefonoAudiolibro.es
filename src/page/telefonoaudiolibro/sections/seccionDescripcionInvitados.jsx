@@ -5,7 +5,7 @@ export const SeccionDescripcionInvitados = () => {
     return (
         <>
             <h1 className="title pt-10">
-                <span className="title-font">Entretén a tus</span> <span className="title-accent font-extrabold text-pink-500/90">invitados</span>
+                <span className="title-font">Entretén a tus</span> <span className="text-pink-500 font-accent italic">invitados</span>
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl md:mb-10 lg:mb-15 tracking-tighter leading-tight">
                 Creen que están jugando con un teléfono antiguo.

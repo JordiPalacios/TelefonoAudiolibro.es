@@ -18,7 +18,7 @@ export const SeccionGuia = () => {
         <h2 className="title title-font text-center -mt-4">
           ¿Cómo
         </h2>
-        <h2 className="title-small title-font font-semibold text-pink-500 mt-2">
+        <h2 className="title-small text-pink-500 font-accent italic mt-5 md:mt-10">
           funciona?
         </h2>
       </div>
