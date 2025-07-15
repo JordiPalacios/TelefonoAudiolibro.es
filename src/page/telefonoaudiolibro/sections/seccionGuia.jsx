@@ -67,12 +67,12 @@ export const SeccionGuia = () => {
         </div>
       </div>
       <a 
-      href="https://book.stripe.com/bJebJ3gex0Kx4DjehEgA804"
+      href="https://wa.me/message/2RM67GODIWVUE1"
       target="_blank"
       rel="noreferrer noopener"
       className="button self-center sm:mr-10 uppercase"
       >
-        Ya me lo dirás 🙃
+        Consultar fecha
       </a>
 </div>
   )
