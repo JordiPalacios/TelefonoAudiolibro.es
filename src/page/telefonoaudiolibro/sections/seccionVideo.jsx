@@ -24,7 +24,7 @@ export const SeccionVideo = () => {
                 rel="noreferrer noopener"
                 className="hidden lg:block button m-10 self-center uppercase"
                 >
-                    Ya me lo dirás 🙃
+                    Lo quiero en mi boda
                 </a>
             </div>           
             <video 
@@ -43,7 +43,7 @@ export const SeccionVideo = () => {
             rel="noreferrer noopener"
             className="block lg:hidden button self-center uppercase"
             >
-                Ya me lo dirás 🙃
+                Lo quiero en mi boda
             </a>
         </>
     )
