@@ -1,6 +1,7 @@
 //* Shared
 export * from "./shared/navMenu.jsx";
 export * from "./shared/navSections.jsx";
+export * from "./shared/scrollToHash.jsx";
 export * from "./shared/section.jsx";
 export * from "./shared/footer.jsx";
 export * from "./shared/whatsApp.jsx";
