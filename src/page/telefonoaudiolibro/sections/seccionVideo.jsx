@@ -22,7 +22,7 @@ export const SeccionVideo = () => {
                 href="https://book.stripe.com/bJebJ3gex0Kx4DjehEgA804"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="hidden lg:block button m-10 self-center uppercase"
+                className="hidden lg:inline-block button m-10 self-center uppercase"
                 >
                     Lo quiero en mi boda
                 </a>
@@ -41,7 +41,7 @@ export const SeccionVideo = () => {
             href="https://book.stripe.com/bJebJ3gex0Kx4DjehEgA804"
             target="_blank"
             rel="noreferrer noopener"
-            className="block lg:hidden button self-center uppercase"
+            className="inline-block lg:hidden button self-center uppercase"
             >
                 Lo quiero en mi boda
             </a>
