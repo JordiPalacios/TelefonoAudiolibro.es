@@ -8,8 +8,8 @@ export const SeccionPresentacion = () => {
     return (
         <>
             <div className="text-center mb-10">
-                <h2 className="title-font title-small font-extrabold">                       
-                    ¿QUÉ DARÍAS POR <span className="title-accent font-extrabold text-pink-500/90">VOLVER A ESCUCHAR</span> LA VOZ DE TUS ABUELOS ?
+                <h2 className="title-font title-small font-extrabold lg:px-10">                       
+                    ¿QUÉ DARÍAS POR VOLVER A ESCUCHAR LA VOZ DE TUS ABUELOS ?
                 </h2>
                 <h3 className="subtitle text-pink-500/80 lg:max-w-3xl mx-auto underline underline-offset-2 decoration-dotted">
                     Tener junta a <span className="font-extrabold text-pink-500">TODA</span> tu <span className="font-extrabold text-pink-500">familia y amigos</span> en un solo lugar, pasa poco
@@ -31,9 +31,14 @@ export const SeccionPresentacion = () => {
                     Nada de eso, <span className="font-extrabold text-pink-500">no hace falta gastarse 5.000€ en robots
                     leds</span> ni pistolas de fuego para tener un recuerdo especial
                 </p>
-                <button className="button m-10">
+                <a
+                    href="https://wa.me/message/2RM67GODIWVUE1"
+                    className="button self-center inline-block uppercase mb-10 hover:scale-105 transition-transform duration-500"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    >
                     Ver disponibilidad
-                </button>
+                </a>
             </div>
             <Voice 
             numPC="10"
