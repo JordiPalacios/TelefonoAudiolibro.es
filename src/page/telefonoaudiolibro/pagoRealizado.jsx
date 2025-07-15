@@ -1,6 +1,6 @@
 export const PagoRealizado = () => {
     return (
-        <div className="relative w-full h-full flex items-center justify-center shadow-2xl">
+        <div className="fixed inset-0 w-full h-lvh flex items-center justify-center shadow-2xl overflow-hidden">
             <img 
             src="/img/telf21.webp" 
             alt="Fondo de la frase impactante" 
