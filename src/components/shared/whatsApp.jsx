@@ -1,19 +1,20 @@
 import PropTypes from 'prop-types'
 
-export const WhatsApp = ({ msg, className, label, colorText }) => {
+export const WhatsApp = ({ msg, className="", label, colorText }) => {
     let content 
 
     if (className === "contactFixed") {
         content = 
-        <div className="componentAnimation fixed mr-0 bottom-14 right-2 z-50 transition-transform duration-500 hover:scale-110">
-                <a 
-                href={msg} 
-                target="_blank" 
-                rel="noopener noreferrer"                
-                aria-label='Enlace al WhatsApp de VisualShow360 para pedir información'>
-                    <img id="whatsScroll" src="/icons/whatsapp.svg" alt='whatsAppSvg' loading='lazy'/>
-                </a>
-            </div>
+        <div className="componentAnimation fixed mr-0 bottom-14 right-2 z-50 hover:scale-125 transition-transform duration-500">
+            <a 
+            href={msg} 
+            target="_blank" 
+            rel="noopener noreferrer"                
+            aria-label='Enlace al WhatsApp de Telefonoaduiolibro.es para pedir información'
+            >
+                <img id="whatsScroll" src="/icons/whatsapp.svg" alt='whatsAppSvg' loading='lazy'/>
+            </a>
+        </div>
     } else {
         content = 
         <a 
@@ -21,7 +22,7 @@ export const WhatsApp = ({ msg, className, label, colorText }) => {
         target="_blank" 
         rel="noopener noreferrer" 
         style={{ color: colorText }}        
-        aria-label='Enlace al WhatsApp de VisualShow360 para pedir información'>
+        aria-label='Enlace al WhatsApp de Telefonoaduiolibro.es para pedir información'>
             {label}
         </a>
     }
