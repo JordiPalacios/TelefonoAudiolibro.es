@@ -9,11 +9,15 @@ export function ScrollToHash() {
         const id = hash.replace("#", "");
         const el = document.getElementById(id);
         if (el) {
-            const offset = -150; 
-            const y = el.getBoundingClientRect().top + window.pageYOffset - offset;
-            window.scrollTo({ top: y, behavior: "smooth" })
-            window.history.replaceState(null, "", window.location.pathname);
-        }
+            const offset = -10; 
+            const scrollToEl = () => {
+                const y = el.getBoundingClientRect().top + window.pageYOffset - offset;
+                window.scrollTo({ top: y, behavior: "smooth" })
+                window.history.replaceState(null, "", window.location.pathname);
+            }
+            scrollToEl()
+            setTimeout(scrollToEl, 300)
+            }
         }
     }, [hash]);
 
