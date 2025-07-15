@@ -33,9 +33,14 @@ export const SeccionAudios = () => {
                 </p>                        
                 <audio className="w-xs my-3" src="/audio/audio.mp4" controls controlsList="nodownload" />
                 <audio className="w-xs my-3" src="/audio/audio.mp4" controls controlsList="nodownload" />       
-                <button className="button mt-10">
-                    Ya me lo dirás 🙃
-                </button>
+                <a 
+                href="https://book.stripe.com/bJebJ3gex0Kx4DjehEgA804"
+                className="button mt-10 uppercase"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                    Reservar fecha
+                </a>
             </div>
         </>
     )
