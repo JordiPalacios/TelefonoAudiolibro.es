@@ -57,7 +57,7 @@ export const TelefonoAudiolibro = () => {
                     <Reviews />
                 </Section>
                 <div className='w-full bg-white/10' style={{ height:"8px" }} />
-                <WhatsApp className="contactFixed" msg="https://wa.me/34653781239?text=¡Quiero%20más%20información%20sobre%20VisualShow!" />
+                <WhatsApp className="contactFixed" msg="https://wa.me/message/2RM67GODIWVUE1" />
             </main>
         </>
     )
