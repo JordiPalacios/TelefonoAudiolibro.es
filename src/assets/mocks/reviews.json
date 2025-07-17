@@ -3,8 +3,8 @@
         "id": 0,
         "stars": "★★★★★",
         "fotoPerfil": "/img/telf02.webp",
-        "nombre": "Sonia y borja",
-        "descripcion": "Excelente agencia, son muy amables y brindan muy buena atención. Los vehículos son nuevos y limpios. En fin, es un placer recorrer Cancún gracias a Ensigna.",
+        "nombre": "Cristina",
+        "descripcion": "Lo recomiendo al 100% es una recuerdo precioso !!!! El oír a tus seres queridos....hablando desde el corazón!!!! Y ya cusndo llegsmos a unas a horas de la noche..... ja jabja ja los mensajes más divertidos q e oído nunca!!!! ",
         "fotosDescripcion":
         [
             {
@@ -29,8 +29,8 @@
         "id": 1,
         "stars": "★★★★★",
         "fotoPerfil": "/img/telf07.webp",
-        "nombre": "Ana y Carlos",
-        "descripcion": "Excelente agencia, son muy amables y brindan muy buena atención. Los vehículos son nuevos y limpios. En fin, es un placer recorrer Cancún gracias a Ensigna.",
+        "nombre": "Claudia C",
+        "descripcion": "Un servicio 100% recomendable! Te alegra la fiesta, la gente se divierte y luego te queda un recuerdo inmejorable. Además, el trato por parte del equipo fue excepcional. Un 10 de 10. Muchas gracias!",
         "fotosDescripcion":
         [
             {
@@ -60,8 +60,8 @@
         "id": 2,
         "stars": "★★★★★",
         "fotoPerfil": "/img/telf06.webp",
-        "nombre": "Carlos López",
-        "descripcion": "Excelente agencia, son muy amables y brindan muy buena atención. Los vehículos son nuevos y limpios",
+        "nombre": "Sonia",
+        "descripcion": "Nos casamos el 19 de Abril y a dia de hoy nos partimos de risa con todos los mensajes. Esto y los fotografos son lo unico que nos queda de recuerdo.",
         "fotosDescripcion":
         [
             {
@@ -81,8 +81,155 @@
         "id": 3,
         "stars": "★★★★★",
         "fotoPerfil": "/img/telf05.webp",
-        "nombre": "María García",
-        "descripcion": "Excelente agencia, son muy amables y brindan muy buena atención. Los vehículos son nuevos y limpios.",
+        "nombre": "Carla Gonzalez",
+        "descripcion": "Acabamos de escuchar los audios y a sido espectacular la experiencia Divertido y emocionante!!!!!",
+        "fotosDescripcion":
+        [
+            {
+                "id":1,
+                "url": "/img/telf04.webp",
+                "alt": "Foto de María García"
+            },
+            {
+                "id":2,
+                "url": "/img/telf05.webp",
+                "alt": "Foto de María García"
+            }
+        ],
+        "date": "Junio 10, 2025"
+    },
+    {
+        "id": 4,
+        "stars": "★★★★★",
+        "fotoPerfil": "/img/telf05.webp",
+        "nombre": "Christian",
+        "descripcion": "Buen servicio exelente responden rapido",
+        "fotosDescripcion":
+        [
+            {
+                "id":1,
+                "url": "/img/telf04.webp",
+                "alt": "Foto de María García"
+            },
+            {
+                "id":2,
+                "url": "/img/telf05.webp",
+                "alt": "Foto de María García"
+            }
+        ],
+        "date": "Junio 10, 2025"
+    },
+    {
+        "id": 5,
+        "stars": "★★★★★",
+        "fotoPerfil": "/img/telf05.webp",
+        "nombre": "Sandra",
+        "descripcion": "Con ganas de que pasen los años y pueda volver a escuchar todas las voces, ideaza 10 de 10",
+        "fotosDescripcion":
+        [
+            {
+                "id":1,
+                "url": "/img/telf04.webp",
+                "alt": "Foto de María García"
+            },
+            {
+                "id":2,
+                "url": "/img/telf05.webp",
+                "alt": "Foto de María García"
+            }
+        ],
+        "date": "Junio 10, 2025"
+    },
+    {
+        "id": 6,
+        "stars": "★★★★★",
+        "fotoPerfil": "/img/telf05.webp",
+        "nombre": "Clara y Andrés",
+        "descripcion": "Muy original. Lo recomiendo a mis amigos",
+        "fotosDescripcion":
+        [
+            {
+                "id":1,
+                "url": "/img/telf04.webp",
+                "alt": "Foto de María García"
+            },
+            {
+                "id":2,
+                "url": "/img/telf05.webp",
+                "alt": "Foto de María García"
+            }
+        ],
+        "date": "Junio 10, 2025"
+    },
+    {
+        "id": 7,
+        "stars": "★★★★★",
+        "fotoPerfil": "/img/telf05.webp",
+        "nombre": "Dúnia C ",
+        "descripcion": "Nos hemos partido de risa escuchando todos los audios, enhorabuena chicos por la ideaza",
+        "fotosDescripcion":
+        [
+            {
+                "id":1,
+                "url": "/img/telf04.webp",
+                "alt": "Foto de María García"
+            },
+            {
+                "id":2,
+                "url": "/img/telf05.webp",
+                "alt": "Foto de María García"
+            }
+        ],
+        "date": "Junio 10, 2025"
+    },
+    {
+        "id": 8,
+        "stars": "★★★★★",
+        "fotoPerfil": "/img/telf05.webp",
+        "nombre": "Carlota",
+        "descripcion": "La gente se volvió loca con el teléfono, deseando oír los mensajes que dejaron. Gracias a vosotros, tuve a mis invitados a topeeeeeee",
+        "fotosDescripcion":
+        [
+            {
+                "id":1,
+                "url": "/img/telf04.webp",
+                "alt": "Foto de María García"
+            },
+            {
+                "id":2,
+                "url": "/img/telf05.webp",
+                "alt": "Foto de María García"
+            }
+        ],
+        "date": "Junio 10, 2025"
+    },
+    {
+        "id": 9,
+        "stars": "★★★★★",
+        "fotoPerfil": "/img/telf05.webp",
+        "nombre": "CBorja Canudas",
+        "descripcion": "El viernes pasado nos casamos y contamos con su servicio, desde el principio súper encantadores y profesionales. Lo gestionaron todo junto con los de la finca y eso fue un alivio. Repetiríamos seguro! ",
+        "fotosDescripcion":
+        [
+            {
+                "id":1,
+                "url": "/img/telf04.webp",
+                "alt": "Foto de María García"
+            },
+            {
+                "id":2,
+                "url": "/img/telf05.webp",
+                "alt": "Foto de María García"
+            }
+        ],
+        "date": "Junio 10, 2025"
+    },
+    {
+        "id": 10,
+        "stars": "★★★★★",
+        "fotoPerfil": "/img/telf05.webp",
+        "nombre": "Pilar B",
+        "descripcion": "Fueron muy rápidos en responder y todo funcionó de maravilla, hay un videotutorial muy visual y los servicios son excelentes.",
         "fotosDescripcion":
         [
             {
