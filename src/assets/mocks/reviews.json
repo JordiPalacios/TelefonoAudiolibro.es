@@ -10,20 +10,20 @@
             {
                 "id":1,
                 "url": "/img/telf04.webp",
-                "alt": "Foto de María García"
+                "alt": "Foto de Cristina"
             },
             {
                 "id":2,
                 "url": "/img/telf05.webp",
-                "alt": "Foto de María García"
+                "alt": "Foto de Cristina"
             },
             {
                 "id":3,
-                "url": "/img/telf04.webp",
-                "alt": "Foto de María García"
+                "url": "/img/telf06.webp",
+                "alt": "Foto de Cristina"
             }
         ],
-        "date": "Junio 20, 2025"
+        "date": "Julio 20, 2025"
     },
     {
         "id": 1,
@@ -35,214 +35,139 @@
         [
             {
                 "id":1,
-                "url": "/img/telf04.webp",
-                "alt": "Foto de María García"
+                "url": "/img/telf00.webp",
+                "alt": "Foto de Claudia C"
             },
             {
                 "id":2,
-                "url": "/img/telf05.webp",
-                "alt": "Foto de María García"
-            },
-            {
-                "id":3,
-                "url": "/img/telf04.webp",
-                "alt": "Foto de María García"
-            },
-            {
-                "id":4,
-                "url": "/img/telf05.webp",
-                "alt": "Foto de María García"
+                "url": "/img/telf10.webp",
+                "alt": "Foto de Claudia C"
             }
         ],
-        "date": "Junio 15, 2025"
+        "date": "Julio 18, 2025"
     },
     {
         "id": 2,
         "stars": "★★★★★",
-        "fotoPerfil": "/img/telf06.webp",
+        "fotoPerfil": "",
         "nombre": "Sonia",
         "descripcion": "Nos casamos el 19 de Abril y a dia de hoy nos partimos de risa con todos los mensajes. Esto y los fotografos son lo unico que nos queda de recuerdo.",
-        "fotosDescripcion":
-        [
-            {
-                "id":1,
-                "url": "/img/telf04.webp",
-                "alt": "Foto de María García"
-            },
-            {
-                "id":2,
-                "url": "/img/telf05.webp",
-                "alt": "Foto de María García"
-            }
-        ],
-        "date": "Junio 14, 2025"
+        "fotosDescripcion": "",
+        "date": "Julio 16, 2025"
     },
     {
         "id": 3,
         "stars": "★★★★★",
-        "fotoPerfil": "/img/telf05.webp",
+        "fotoPerfil": "/img/telf21.webp",
         "nombre": "Carla Gonzalez",
         "descripcion": "Acabamos de escuchar los audios y a sido espectacular la experiencia Divertido y emocionante!!!!!",
         "fotosDescripcion":
         [
             {
                 "id":1,
-                "url": "/img/telf04.webp",
-                "alt": "Foto de María García"
+                "url": "/img/telf31.webp",
+                "alt": "Foto de Carla Gonzalez"
             },
             {
                 "id":2,
-                "url": "/img/telf05.webp",
-                "alt": "Foto de María García"
+                "url": "/img/telf15.webp",
+                "alt": "Foto de Carla Gonzalez"
             }
         ],
-        "date": "Junio 10, 2025"
+        "date": "Julio 16, 2025"
     },
     {
         "id": 4,
         "stars": "★★★★★",
-        "fotoPerfil": "/img/telf05.webp",
+        "fotoPerfil": "",
         "nombre": "Christian",
         "descripcion": "Buen servicio exelente responden rapido",
-        "fotosDescripcion":
-        [
-            {
-                "id":1,
-                "url": "/img/telf04.webp",
-                "alt": "Foto de María García"
-            },
-            {
-                "id":2,
-                "url": "/img/telf05.webp",
-                "alt": "Foto de María García"
-            }
-        ],
-        "date": "Junio 10, 2025"
+        "fotosDescripcion": "",
+        "date": "Julio 11, 2025"
     },
     {
         "id": 5,
         "stars": "★★★★★",
-        "fotoPerfil": "/img/telf05.webp",
+        "fotoPerfil": "/img/telf34.webp",
         "nombre": "Sandra",
         "descripcion": "Con ganas de que pasen los años y pueda volver a escuchar todas las voces, ideaza 10 de 10",
         "fotosDescripcion":
         [
             {
                 "id":1,
-                "url": "/img/telf04.webp",
-                "alt": "Foto de María García"
-            },
-            {
-                "id":2,
-                "url": "/img/telf05.webp",
-                "alt": "Foto de María García"
+                "url": "/img/telf33.webp",
+                "alt": "Foto de Sandra"
             }
         ],
-        "date": "Junio 10, 2025"
+        "date": "Julio 10, 2025"
     },
     {
         "id": 6,
         "stars": "★★★★★",
-        "fotoPerfil": "/img/telf05.webp",
+        "fotoPerfil": "/img/telf10.webp",
         "nombre": "Clara y Andrés",
         "descripcion": "Muy original. Lo recomiendo a mis amigos",
         "fotosDescripcion":
         [
             {
                 "id":1,
-                "url": "/img/telf04.webp",
-                "alt": "Foto de María García"
+                "url": "/img/telf16.webp",
+                "alt": "Foto de Clara y Andrés"
             },
             {
                 "id":2,
-                "url": "/img/telf05.webp",
-                "alt": "Foto de María García"
+                "url": "/img/telf15.webp",
+                "alt": "Foto de Clara y Andrés"
             }
         ],
-        "date": "Junio 10, 2025"
+        "date": "Julio 09, 2025"
     },
     {
         "id": 7,
         "stars": "★★★★★",
-        "fotoPerfil": "/img/telf05.webp",
-        "nombre": "Dúnia C ",
+        "fotoPerfil": "",
+        "nombre": "Dúnia C",
         "descripcion": "Nos hemos partido de risa escuchando todos los audios, enhorabuena chicos por la ideaza",
-        "fotosDescripcion":
-        [
-            {
-                "id":1,
-                "url": "/img/telf04.webp",
-                "alt": "Foto de María García"
-            },
-            {
-                "id":2,
-                "url": "/img/telf05.webp",
-                "alt": "Foto de María García"
-            }
-        ],
-        "date": "Junio 10, 2025"
+        "fotosDescripcion":"",
+        "date": "Julio 06, 2025"
     },
     {
         "id": 8,
         "stars": "★★★★★",
-        "fotoPerfil": "/img/telf05.webp",
+        "fotoPerfil": "",
         "nombre": "Carlota",
         "descripcion": "La gente se volvió loca con el teléfono, deseando oír los mensajes que dejaron. Gracias a vosotros, tuve a mis invitados a topeeeeeee",
-        "fotosDescripcion":
-        [
-            {
-                "id":1,
-                "url": "/img/telf04.webp",
-                "alt": "Foto de María García"
-            },
-            {
-                "id":2,
-                "url": "/img/telf05.webp",
-                "alt": "Foto de María García"
-            }
-        ],
-        "date": "Junio 10, 2025"
+        "fotosDescripcion": "",
+        "date": "Julio 05, 2025"
     },
     {
         "id": 9,
         "stars": "★★★★★",
-        "fotoPerfil": "/img/telf05.webp",
+        "fotoPerfil": "",
         "nombre": "Borja Canudas",
         "descripcion": "El viernes pasado nos casamos y contamos con su servicio, desde el principio súper encantadores y profesionales. Lo gestionaron todo junto con los de la finca y eso fue un alivio. Repetiríamos seguro! ",
-        "fotosDescripcion":
-        [
-            {
-                "id":1,
-                "url": "/img/telf04.webp",
-                "alt": "Foto de María García"
-            },
-            {
-                "id":2,
-                "url": "/img/telf05.webp",
-                "alt": "Foto de María García"
-            }
-        ],
-        "date": "Junio 10, 2025"
+        "fotosDescripcion": "",
+        "date": "Julio 02, 2025"
     },
     {
         "id": 10,
         "stars": "★★★★★",
-        "fotoPerfil": "/img/telf05.webp",
+        "fotoPerfil": "/img/telf28.webp",
         "nombre": "Pilar B",
         "descripcion": "Fueron muy rápidos en responder y todo funcionó de maravilla, hay un videotutorial muy visual y los servicios son excelentes.",
         "fotosDescripcion":
         [
             {
                 "id":1,
-                "url": "/img/telf04.webp",
-                "alt": "Foto de María García"
+                "url": "/img/telf24.webp",
+                "alt": "Foto de Pilar B"
             },
             {
                 "id":2,
-                "url": "/img/telf05.webp",
-                "alt": "Foto de María García"
+                "url": "/img/telf03.webp",
+                "alt": "Foto de Pilar B"
             }
         ],
-        "date": "Junio 10, 2025"
+        "date": "Julio 01, 2025"
     }
 ]
