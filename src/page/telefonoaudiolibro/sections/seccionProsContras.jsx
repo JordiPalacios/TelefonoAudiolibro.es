@@ -10,7 +10,7 @@ export const SeccionProsContras = () => {
             </h2>
             <div className="flex flex-col lg:flex-row items-center justify-center gap-5 px-5">
                 <div className="comparisonAnimation flex flex-col items-center justify-center w-full">                
-                    <table className="max-w-md w-full text-center px-5 py-2 border-separate border-spacing-y-4 bg-pink-100/50 shadow-lg shadow-black/30 rounded-xl border border-pink-600/10">
+                    <table className="max-w-md w-full text-center px-5 py-2 border-separate border-spacing-y-4 bg-pink-200/50 shadow-lg shadow-black/30 rounded-xl border border-pink-600/10">
                         <thead>                    
                             <tr>
                                 <th className="align-middle">
@@ -24,7 +24,7 @@ export const SeccionProsContras = () => {
                         </thead>
                         <tbody>                    
                             {prosVSconts.map((item) => (
-                                <tr key={item.id} className="align-middle shadow-md shadow-black/20 rounded-r-full rounded-l-full">
+                                <tr key={item.id} className="align-middle shadow-md shadow-black/30 rounded-r-full rounded-l-full">
                                     <td className="align-middle rounded-l-full">
                                         <div className="flex justify-center py-3">    
                                             {item.isCrossLeft 
@@ -36,7 +36,7 @@ export const SeccionProsContras = () => {
                                     <td className="align-middle font-semibold text-md md:text-lg">
                                         {item.tittle}
                                     </td>
-                                    <td className="align-middle bg-pink-200/50 shadow-lg shadow-black/20 rounded-r-full">
+                                    <td className="align-middle bg-pink-300/50 shadow-lg shadow-black/30 rounded-r-full">
                                         <div className="flex justify-center py-3">
                                             {item.isCrossRight 
                                                 ? <CrossIcon className="w-8 h-8 text-red-600" />
