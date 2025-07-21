@@ -7,10 +7,10 @@ export const SeccionQueIncluye = () => {
                 <span className="title-font">¿Qué me </span><span className="text-pink-500 font-accent italic">incluye?</span>
             </h1>
             <div className="componentAnimation relative flex flex-row items-end justify-center w-full h-40 md:h-80 mt-25 mb-10 md:my-15">                
-                <p className="italic font-bold text-lg md:text-xl lg:text-2xl tracking-tighter leading-tight absolute z-20 -ml-65 md:-ml-135 mb-60 w-20 text-center">
+                <p className="italic font-bold text-lg md:text-xl lg:text-2xl tracking-tighter leading-tight absolute z-20 -ml-70 md:-ml-135 mb-55 w-20 text-center">
                     Espejo decorativo
                 </p>
-                <ArrowDownRight className="w-8 h-8 absolute z-20 -ml-70 md:-ml-135 mb-50 text-pink-500" />
+                <ArrowDownRight className="w-8 h-8 absolute z-20 -ml-70 md:-ml-135 mb-45 text-pink-500" />
                 <img 
                 src="/img/auxiliares/espejo.webp" 
                 alt="espejo telefono audiolibro" 
