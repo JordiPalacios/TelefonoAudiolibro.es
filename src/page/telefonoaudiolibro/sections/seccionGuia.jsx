@@ -25,11 +25,11 @@ export const SeccionGuia = () => {
       <div className="flex flex-col justify-center lg:flex-row-reverse">
         <div className="flex flex-col items-center justify-around lg:px-15">          
           <video 
-          src="/video/videoGuia.mov" 
+          src="/video/videoInfluencer.mov" 
           itemType="video/mov"
           controls
           controlsList="nodownload"
-          poster="/video/poster/poster08.webp"
+          poster="/video/poster/posterGuiaInflu01.webp"
           playsInline
           className="mb-5 rounded-2xl shadow-xl max-w-3/4 md:max-w-xs 2xl:max-w-sm object-cover"
           />
