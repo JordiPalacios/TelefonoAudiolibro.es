@@ -3,7 +3,7 @@
         "id": "0",
         "url" : "/video/videoTelf07.mov",
         "name" : "video telefono audilibro 07",
-        "poster" : "/video/poster/poster00.webp"
+        "poster" : "/video/poster/poster07.webp"
     },
     {
         "id": "1",
@@ -16,5 +16,11 @@
         "url" : "/video/videoTelf04.mov",
         "name" : "video telefono audilibro 04",
         "poster" : "/video/poster/poster04.webp"
+    },
+    {
+        "id": "3",
+        "url" : "/video/videoTelf00.mov",
+        "name" : "video telefono audilibro 00",
+        "poster" : "/video/poster/poster00.webp"
     }
 ]
