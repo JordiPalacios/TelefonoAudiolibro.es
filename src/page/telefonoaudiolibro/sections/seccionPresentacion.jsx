@@ -77,22 +77,22 @@ export const SeccionPresentacion = () => {
                 className='max-w-75 xl:max-w-sm 3xl:max-w-sm rounded-2xl'
                 />
                 <video 
-                src="/video/videoTelf06.mov"
+                src="/video/videoTelf08.mov"
                 itemType='video/mov' 
                 preload='metadata' 
                 controls 
                 controlsList='nodownload' 
-                poster='/video/poster/poster06.webp'
+                poster='/video/poster/poster08.webp'
                 playsInline
                 className='max-w-75 xl:max-w-sm 3xl:max-w-lg rounded-2xl'
                 />
                 <video 
-                src="/video/videoTelf04.mov"
+                src="/video/videoTelf09.mov"
                 itemType='video/mov' 
                 preload='metadata' 
                 controls 
                 controlsList='nodownload' 
-                poster='/video/poster/poster04.webp'
+                poster='/video/poster/poster09.webp'
                 playsInline
                 className='max-w-75 xl:max-w-sm 3xl:max-w-lg rounded-2xl'
                 />
