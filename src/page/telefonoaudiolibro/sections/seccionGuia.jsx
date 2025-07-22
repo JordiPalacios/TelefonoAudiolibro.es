@@ -29,7 +29,7 @@ export const SeccionGuia = () => {
           itemType="video/mov"
           controls
           controlsList="nodownload"
-          poster="/video/poster/posterGuiaInflu01.webp"
+          poster="/video/poster/posterGuiaInflu02.webp"
           playsInline
           className="mb-5 rounded-2xl shadow-xl max-w-3/4 md:max-w-xs 2xl:max-w-sm object-cover"
           />

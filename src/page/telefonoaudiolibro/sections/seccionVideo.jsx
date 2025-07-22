@@ -33,7 +33,7 @@ export const SeccionVideo = () => {
                 preload='metadata' 
                 controls 
                 controlsList='nodownload' 
-                poster='/video/poster/poster02.webp' 
+                poster='/video/poster/posterVideoUnico00.webp' 
                 playsInline
                 className={`m-5 lg:m-10 rounded-tl-4xl rounded-br-4xl max-w-3/4 md:max-w-xs`}
             />

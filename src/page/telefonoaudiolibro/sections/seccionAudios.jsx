@@ -14,7 +14,7 @@ export const SeccionAudios = () => {
                     preload='metadata' 
                     controls 
                     controlsList='nodownload' 
-                    poster='/video/poster/poster00.webp' 
+                    poster='/video/poster/posterPresentacion00.webp' 
                     playsInline
                     className="rounded-2xl md:max-w-xs"
                 />

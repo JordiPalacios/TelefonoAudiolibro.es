@@ -3,24 +3,18 @@
         "id": "0",
         "url" : "/video/videoTelf07.mov",
         "name" : "video telefono audilibro 07",
-        "poster" : "/video/poster/poster07.webp"
+        "poster" : "/video/poster/posterPresentacion03.webp"
     },
     {
         "id": "1",
-        "url" : "/video/videoTelf08.mov",
-        "name" : "video telefono audilibro 08",
-        "poster" : "/video/poster/poster08.webp"
+        "url" : "/video/videoTelf06.mov",
+        "name" : "video telefono audilibro 06",
+        "poster" : "/video/poster/posterPresentacion01.webp"
     },
     {
         "id": "2",
-        "url" : "/video/videoTelf09.mov",
-        "name" : "video telefono audilibro 049",
-        "poster" : "/video/poster/poster09.webp"
-    },
-    {
-        "id": "3",
-        "url" : "/video/videoTelf10.mov",
-        "name" : "video telefono audilibro 10",
-        "poster" : "/video/poster/poster10.webp"
+        "url" : "/video/videoTelf04.mov",
+        "name" : "video telefono audilibro 04",
+        "poster" : "/video/poster/posterPresentacion02.webp"
     }
 ]

@@ -72,27 +72,27 @@ export const SeccionPresentacion = () => {
                 preload='metadata' 
                 controls 
                 controlsList='nodownload' 
-                poster='/video/poster/poster07.webp'
+                poster='/video/poster/posterPresentacion03.webp'
                 playsInline
                 className='max-w-75 xl:max-w-sm 3xl:max-w-sm rounded-2xl'
                 />
                 <video 
-                src="/video/videoTelf08.mov"
+                src="/video/videoTelf06.mov"
                 itemType='video/mov' 
                 preload='metadata' 
                 controls 
                 controlsList='nodownload' 
-                poster='/video/poster/poster08.webp'
+                poster='/video/poster/posterPresentacion01.webp'
                 playsInline
                 className='max-w-75 xl:max-w-sm 3xl:max-w-lg rounded-2xl'
                 />
                 <video 
-                src="/video/videoTelf09.mov"
+                src="/video/videoTelf04.mov"
                 itemType='video/mov' 
                 preload='metadata' 
                 controls 
                 controlsList='nodownload' 
-                poster='/video/poster/poster09.webp'
+                poster='/video/poster/posterPresentacion02.webp'
                 playsInline
                 className='max-w-75 xl:max-w-sm 3xl:max-w-lg rounded-2xl'
                 />
