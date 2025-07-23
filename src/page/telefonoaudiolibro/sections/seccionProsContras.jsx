@@ -51,24 +51,32 @@ export const SeccionProsContras = () => {
                 </div>
                 <div className="flex flex-col items-center justify-center w-full">                
                     <CardQA 
-                    question="¿Cuando recibiré el teléfono?"
-                    answer="Una vez realizado el pedido, recibirás el teléfono en un plazo de 3 a 5 días laborables. El envío es gratuito y se realiza a través de Correos Express."
+                    question="¿Cuándo recibo el teléfono?"
+                    answer="Os enviamos el teléfono una seman antes de la boda a vuestro domicilio."
                     />
                     <CardQA 
-                    question="¿Cómo se devuelve el teléfono?"
-                    answer="Si no estás satisfecho con el teléfono, puedes devolverlo en un plazo de 14 días naturales desde la recepción. El teléfono debe estar en perfecto estado y con todos los accesorios originales. Los gastos de envío de la devolución corren a tu cargo."
+                    question="¿Hay límite de grabación de audios?"
+                    answer="No hay límite."
                     />
                     <CardQA 
-                    question="¿Cuando recibiré los audios?"
-                    answer="Una vez realizado el pedido, recibirás los audios en un plazo de 24 horas. Los audios se envían por correo electrónico y podrás escucharlos en cualquier dispositivo compatible con archivos de audio."
+                    question="¿Cuánto dura la batería?"
+                    answer="Si el teléfono está cargado, su batería puede durar hasta 2 días."
                     />
                     <CardQA 
-                    question="¿Cuántos audios se pueden grabar en un día?"
-                    answer="Puedes grabar hasta 10 audios al día. Cada audio tiene una duración máxima de 10 minutos. Si necesitas grabar más audios, puedes hacerlo en días sucesivos."
+                    question="¿Enviáis a mi ciudad?"
+                    answer="Hacemos envíos a toda España incluyendo las Islas Baleares y Canarias."
                     />
                     <CardQA 
-                    question="¿El teléfono necesita enchufe o wifi para funcionar?"
-                    answer="No, el teléfono no necesita enchufe ni wifi para funcionar. Es un teléfono autónomo que funciona con batería y no requiere conexión a internet para reproducir los audios."
+                    question="¿Cuándo y cómo hago la devolución?"
+                    answer="Cuando acabe la boda, un repartidor os recogerá el teléfono a vuestro domicilio el lunes o martes siguiente."
+                    />
+                    <CardQA 
+                    question="¿Necesita estar enchufado para que funcione?"
+                    answer="No. Sólo para cargarlo previamente, el teléfono es inalámbrico."
+                    />
+                    <CardQA 
+                    question="¿Cuándo recibiré los audios?"
+                    answer="Conectando el teléfono por USB al ordenador puedes ver los audios. También te los enviaremos al recibir el teléfono."
                     />
                 </div>
             </div>
