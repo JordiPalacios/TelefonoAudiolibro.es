@@ -34,7 +34,7 @@ export const SeccionAudios = () => {
                 <audio className="w-xs my-3" src="/audio/audio.mp4" controls controlsList="nodownload" />
                 <audio className="w-xs my-3" src="/audio/audio.mp4" controls controlsList="nodownload" />       
                 <a 
-                href="https://book.stripe.com/bJebJ3gex0Kx4DjehEgA804"
+                href="https://wa.me/message/2RM67GODIWVUE1"
                 className="button mt-10 uppercase"
                 target="_blank"
                 rel="noopener noreferrer"

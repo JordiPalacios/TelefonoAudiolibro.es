@@ -19,7 +19,7 @@ export const SeccionVideo = () => {
                     ¿Planazo, verdad?
                 </p>
                 <a 
-                href="https://book.stripe.com/bJebJ3gex0Kx4DjehEgA804"
+                href="https://wa.me/message/2RM67GODIWVUE1"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="hidden lg:inline-block button m-10 self-center uppercase"
@@ -38,7 +38,7 @@ export const SeccionVideo = () => {
                 className={`m-5 lg:m-10 rounded-tl-4xl rounded-br-4xl max-w-3/4 md:max-w-xs`}
             />
             <a 
-            href="https://book.stripe.com/bJebJ3gex0Kx4DjehEgA804"
+            href="https://wa.me/message/2RM67GODIWVUE1"
             target="_blank"
             rel="noreferrer noopener"
             className="inline-block lg:hidden button self-center uppercase"
