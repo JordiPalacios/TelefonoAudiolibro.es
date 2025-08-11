@@ -31,8 +31,9 @@ export const SeccionAudios = () => {
                 <p className="mb-5 italic text-xl md:text-2xl text-pink-500 font-semibold underline-offset-4 underline decoration-dashed">
                     DALE AL PLAY
                 </p>                        
-                <audio className="w-xs my-3" src="/audio/audio.mp4" controls controlsList="nodownload" />
-                <audio className="w-xs my-3" src="/audio/audio.mp4" controls controlsList="nodownload" />       
+                <audio className="w-xs my-3" src="/audio/audio01.mp3" controls controlsList="nodownload" />
+                <audio className="w-xs my-3" src="/audio/audio02.mp3" controls controlsList="nodownload" />       
+                <audio className="w-xs my-3" src="/audio/audio03.mp3" controls controlsList="nodownload" />       
                 <a 
                 href="https://wa.me/message/2RM67GODIWVUE1"
                 className="button mt-10 uppercase"
